@@ -1,0 +1,79 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "transport"
+	group: ""
+	id: "1204083BBE4C95EF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0FA41F6EBD6EA3AA"
+			rewards: [{
+				id: "410E72016044663A"
+				item: {
+					count: 1
+					id: "createdieselgenerators:track_layers_bag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 256L
+				id: "5A15761D666A8003"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "simulated:physics_assembler"
+			}
+			id: "75CC1F30D3505992"
+			rewards: [{
+				id: "0E605E047C8200FC"
+				item: {
+					count: 1
+					id: "simulated:contraption_diagram"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7E6670B890EFEF50"
+					item: { count: 1, id: "simulated:physics_assembler" }
+					type: "item"
+				}
+				{
+					id: "14CDEE220365518A"
+					item: { count: 1, id: "aeronautics:aviators_goggles" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "37B8D40E479838C3"
+			tasks: [{
+				advancement: "create:conductor"
+				criterion: ""
+				id: "2D1E25489B2E2CFA"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "3386BA5EF19EED28"
+			tasks: [{
+				id: "3B4EBEBA600D0507"
+				item: { count: 1, id: "create:railway_casing" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+	]
+}

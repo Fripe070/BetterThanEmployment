@@ -1,0 +1,13 @@
+name = "Better Than Employment"
+author = "Fripe"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "33f4bc4e7ca0631687d2f3c20ba67fc80c72321408434ec8802671f268cdea93"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.230"
