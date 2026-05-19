@@ -1,0 +1,1763 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/Advancedperipherals/general.toml"
+
+[[files]]
+file = "config/Advancedperipherals/metaphysics.toml"
+
+[[files]]
+file = "config/Advancedperipherals/peripherals.toml"
+
+[[files]]
+file = "config/Advancedperipherals/world.toml"
+
+[[files]]
+file = "config/DistantHorizons.toml"
+
+[[files]]
+file = "config/MouseTweaks.cfg"
+
+[[files]]
+file = "config/amendments-client.toml"
+
+[[files]]
+file = "config/amendments-common.toml"
+
+[[files]]
+file = "config/appleskin-client.toml"
+
+[[files]]
+file = "config/climbable_ropes-server.toml"
+
+[[files]]
+file = "config/computercraft-server.toml"
+
+[[files]]
+file = "config/copycats-common.toml"
+
+[[files]]
+file = "config/copycats-server.toml"
+
+[[files]]
+file = "config/corpse-server.toml"
+
+[[files]]
+file = "config/crackerslib-client.toml"
+
+[[files]]
+file = "config/craftingtweaks-common.toml"
+
+[[files]]
+file = "config/create-client.toml"
+
+[[files]]
+file = "config/create-common.toml"
+
+[[files]]
+file = "config/create-server.toml"
+
+[[files]]
+file = "config/create_aquatic_ambitions-server.toml"
+
+[[files]]
+file = "config/create_connected-common.toml"
+
+[[files]]
+file = "config/create_connected-server.toml"
+
+[[files]]
+file = "config/create_dragons_plus-client.toml"
+
+[[files]]
+file = "config/create_dragons_plus-common.toml"
+
+[[files]]
+file = "config/create_dragons_plus-server.toml"
+
+[[files]]
+file = "config/create_dragons_plus-simulated-extension-common.toml"
+
+[[files]]
+file = "config/create_dragons_plus-simulated-extension-server.toml"
+
+[[files]]
+file = "config/create_enchantment_industry-client.toml"
+
+[[files]]
+file = "config/create_enchantment_industry-server.toml"
+
+[[files]]
+file = "config/create_factory_logistics-server.toml"
+
+[[files]]
+file = "config/create_integrated_farming-server.toml"
+
+[[files]]
+file = "config/create_mechanical_spawner-server.toml"
+
+[[files]]
+file = "config/create_power_loader-server.toml"
+
+[[files]]
+file = "config/create_simple_generator-server.toml"
+
+[[files]]
+file = "config/createaddition-common.toml"
+
+[[files]]
+file = "config/createcasing-common.toml"
+
+[[files]]
+file = "config/createdieselgenerators-client.toml"
+
+[[files]]
+file = "config/createdieselgenerators-common.toml"
+
+[[files]]
+file = "config/createdieselgenerators-server.toml"
+
+[[files]]
+file = "config/createfood-client.toml"
+
+[[files]]
+file = "config/createfood-server.toml"
+
+[[files]]
+file = "config/createhorsepower-server.toml"
+
+[[files]]
+file = "config/createnuclear-common.toml"
+
+[[files]]
+file = "config/createrailwaysnavigator-client.toml"
+
+[[files]]
+file = "config/createrailwaysnavigator-common.toml"
+
+[[files]]
+file = "config/cubes_without_borders.json"
+
+[[files]]
+file = "config/curios-client.toml"
+
+[[files]]
+file = "config/curios-common.toml"
+
+[[files]]
+file = "config/curios-server.toml"
+
+[[files]]
+file = "config/deeper_oceans.json"
+
+[[files]]
+file = "config/displaydelight-common.toml"
+
+[[files]]
+file = "config/dndecor-server.toml"
+
+[[files]]
+file = "config/dragonlib-common.toml"
+
+[[files]]
+file = "config/dragonlib-server.toml"
+
+[[files]]
+file = "config/emi.css"
+
+[[files]]
+file = "config/emi_loot_config.toml"
+
+[[files]]
+file = "config/emi_ores-client.json"
+
+[[files]]
+file = "config/emojiful-client.toml"
+
+[[files]]
+file = "config/enchdesc.json"
+
+[[files]]
+file = "config/enderscape.json5"
+
+[[files]]
+file = "config/entity_model_features.json"
+
+[[files]]
+file = "config/entity_texture_features.json"
+
+[[files]]
+file = "config/entityculling.json"
+
+[[files]]
+file = "config/envelope-client.toml"
+
+[[files]]
+file = "config/envelope-server.toml"
+
+[[files]]
+file = "config/etf_warnings.json"
+
+[[files]]
+file = "config/exposure-client.toml"
+
+[[files]]
+file = "config/exposure-common.toml"
+
+[[files]]
+file = "config/exposure-server.toml"
+
+[[files]]
+file = "config/exposure_polaroid-client.toml"
+
+[[files]]
+file = "config/exposure_polaroid-server.toml"
+
+[[files]]
+file = "config/farmersdelight-client.toml"
+
+[[files]]
+file = "config/farmersdelight-common.toml"
+
+[[files]]
+file = "config/ferritecore-mixin.toml"
+
+[[files]]
+file = "config/flerovium.json"
+
+[[files]]
+file = "config/flywheel-client.toml"
+
+[[files]]
+file = "config/fml.toml"
+
+[[files]]
+file = "config/ftbbackups2.json"
+
+[[files]]
+file = "config/ftblibrary-client.snbt"
+
+[[files]]
+file = "config/ftbquests-client.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/getting_started.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/industry.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/transport.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+
+[[files]]
+file = "config/ftbteams-server.snbt"
+
+[[files]]
+file = "config/ftbxmodcompat.snbt"
+
+[[files]]
+file = "config/hostilenetworks.cfg"
+
+[[files]]
+file = "config/immediatelyfast.json"
+
+[[files]]
+file = "config/immersive_furniture.json"
+
+[[files]]
+file = "config/iris-excluded.json"
+
+[[files]]
+file = "config/iris.properties"
+
+[[files]]
+file = "config/jei-server.toml"
+
+[[files]]
+file = "config/jeresources-common.toml"
+
+[[files]]
+file = "config/legendarytooltips.toml"
+
+[[files]]
+file = "config/lithostitched.json"
+
+[[files]]
+file = "config/lmft.json"
+
+[[files]]
+file = "config/lootr-client.toml"
+
+[[files]]
+file = "config/lootr-common.toml"
+
+[[files]]
+file = "config/mod_menu-client.toml"
+
+[[files]]
+file = "config/modernfix-common.toml"
+
+[[files]]
+file = "config/modernfix-mixins.properties"
+
+[[files]]
+file = "config/molten_vents-common.toml"
+
+[[files]]
+file = "config/molten_vents/conductive/asurine.json"
+
+[[files]]
+file = "config/molten_vents/conductive/crimsite.json"
+
+[[files]]
+file = "config/molten_vents/conductive/ochrum.json"
+
+[[files]]
+file = "config/molten_vents/conductive/scorchia.json"
+
+[[files]]
+file = "config/molten_vents/conductive/scoria.json"
+
+[[files]]
+file = "config/molten_vents/conductive/veridium.json"
+
+[[files]]
+file = "config/molten_vents/convertible/asurine.json"
+
+[[files]]
+file = "config/molten_vents/convertible/crimsite.json"
+
+[[files]]
+file = "config/molten_vents/convertible/ochrum.json"
+
+[[files]]
+file = "config/molten_vents/convertible/scorchia.json"
+
+[[files]]
+file = "config/molten_vents/convertible/scoria.json"
+
+[[files]]
+file = "config/molten_vents/convertible/veridium.json"
+
+[[files]]
+file = "config/molten_vents/custom_blocks.json"
+
+[[files]]
+file = "config/moonlight-client.toml"
+
+[[files]]
+file = "config/moonlight-common.toml"
+
+[[files]]
+file = "config/moreculling.toml"
+
+[[files]]
+file = "config/neoforge-client.toml"
+
+[[files]]
+file = "config/neoforge-common.toml"
+
+[[files]]
+file = "config/neoforge-server.toml"
+
+[[files]]
+file = "config/northstar-client.toml"
+
+[[files]]
+file = "config/northstar-common.toml"
+
+[[files]]
+file = "config/northstar-server.toml"
+
+[[files]]
+file = "config/nowheel.json"
+
+[[files]]
+file = "config/offroad-server.toml"
+
+[[files]]
+file = "config/particle_core_config.toml"
+
+[[files]]
+file = "config/particle_core_disabled_optimizations_v2.json"
+
+[[files]]
+file = "config/particular-common.toml"
+
+[[files]]
+file = "config/patchouli-client.toml"
+
+[[files]]
+file = "config/placebo.cfg"
+
+[[files]]
+file = "config/polylib.json"
+
+[[files]]
+file = "config/ponder-client.toml"
+
+[[files]]
+file = "config/railways-client.toml"
+
+[[files]]
+file = "config/railways-common.toml"
+
+[[files]]
+file = "config/railways-server.toml"
+
+[[files]]
+file = "config/sable-client-1.toml.bak"
+
+[[files]]
+file = "config/sable-client.toml"
+
+[[files]]
+file = "config/sable-common.toml"
+
+[[files]]
+file = "config/simplebackups-common-experimental.toml"
+
+[[files]]
+file = "config/simplebackups-common.toml"
+
+[[files]]
+file = "config/simplebackups-server.toml"
+
+[[files]]
+file = "config/simpleclouds-client.toml"
+
+[[files]]
+file = "config/simpleclouds-common.toml"
+
+[[files]]
+file = "config/simpleclouds-server.toml"
+
+[[files]]
+file = "config/simulated-client.toml"
+
+[[files]]
+file = "config/simulated-server.toml"
+
+[[files]]
+file = "config/sky_aesthetics.json"
+
+[[files]]
+file = "config/sky_archipelago-common.toml"
+
+[[files]]
+file = "config/sky_archipelago-server.toml"
+
+[[files]]
+file = "config/sodium-extra-options.json"
+
+[[files]]
+file = "config/sodium-extra.properties"
+
+[[files]]
+file = "config/sodium-fingerprint.json"
+
+[[files]]
+file = "config/sodium-mixins.properties"
+
+[[files]]
+file = "config/sodium-options.json"
+
+[[files]]
+file = "config/ssrd-common.toml"
+
+[[files]]
+file = "config/stellaris-config.json"
+
+[[files]]
+file = "config/supplementaries-client.toml"
+
+[[files]]
+file = "config/supplementaries-common.toml"
+
+[[files]]
+file = "config/survivalisland.json"
+
+[[files]]
+file = "config/terrablender.toml"
+
+[[files]]
+file = "config/test-config.json"
+
+[[files]]
+file = "config/transition.json"
+
+[[files]]
+file = "config/trender.json"
+
+[[files]]
+file = "config/vanillabackport-client.toml"
+
+[[files]]
+file = "config/vanillabackport-common.toml"
+
+[[files]]
+file = "config/windy-config.json"
+
+[[files]]
+file = "config/yacl.json5"
+
+[[files]]
+file = "kubejs/assets/computercraft/models/block/wired_modem_off.json"
+
+[[files]]
+file = "kubejs/assets/computercraft/models/block/wired_modem_off_peripheral.json"
+
+[[files]]
+file = "kubejs/assets/computercraft/models/block/wired_modem_on.json"
+
+[[files]]
+file = "kubejs/assets/computercraft/models/block/wired_modem_on_peripheral.json"
+
+[[files]]
+file = "kubejs/assets/computercraft/models/block/wireless_modem_advanced_off.json"
+
+[[files]]
+file = "kubejs/assets/computercraft/models/block/wireless_modem_advanced_on.json"
+
+[[files]]
+file = "kubejs/assets/computercraft/models/block/wireless_modem_normal_off.json"
+
+[[files]]
+file = "kubejs/assets/computercraft/models/block/wireless_modem_normal_on.json"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/cable_core.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/cable_side.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_advanced.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_advanced_front.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_advanced_front_blink.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_advanced_front_blink.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_advanced_front_on.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_advanced_side.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_advanced_top.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_blink.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_blink.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_command.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_command_front.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_command_front_blink.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_command_front_blink.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_command_front_on.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_command_side.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_command_top.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_normal.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_normal_front.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_normal_front_blink.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_normal_front_blink.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_normal_front_on.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_normal_side.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_normal_top.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/computer_on.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/crt_blink.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/crt_blink.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/crt_off.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/crt_on.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/disk_drive_front.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/disk_drive_front_accepted.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/disk_drive_front_rejected.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/disk_drive_side.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/disk_drive_top.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/modem_back.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_0.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_1.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_15.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_16.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_17.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_18.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_19.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_2.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_20.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_21.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_22.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_23.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_24.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_25.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_26.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_27.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_28.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_29.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_3.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_30.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_31.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_32.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_33.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_34.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_35.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_36.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_37.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_38.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_39.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_4.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_40.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_41.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_42.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_43.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_44.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_45.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_46.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_47.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_5.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_6.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_advanced_7.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_0.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_1.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_15.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_16.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_17.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_18.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_19.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_2.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_20.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_21.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_22.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_23.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_24.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_25.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_26.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_27.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_28.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_29.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_3.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_30.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_31.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_32.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_33.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_34.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_35.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_36.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_37.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_38.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_39.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_4.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_40.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_41.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_42.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_43.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_44.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_45.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_46.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_47.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_5.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_6.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/monitor_normal_7.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/printer.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/printer_front_both_trays.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/printer_front_bottom_tray.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/printer_front_empty.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/printer_front_top_tray.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/printer_side.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/printer_status_both.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/printer_status_bottom.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/printer_status_empty.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/printer_status_top.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/printer_top.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/redstone_relay_bottom.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/redstone_relay_front.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/redstone_relay_side.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/redstone_relay_top.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/speaker_front.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/speaker_side.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/speaker_top.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_advanced.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_advanced_back.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_advanced_backpack.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_advanced_bottom.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_advanced_front.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_advanced_left.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_advanced_right.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_advanced_top.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour_body_back.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour_body_backpack.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour_body_bottom.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour_body_front.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour_body_left.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour_body_right.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour_body_top.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour_frame_back.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour_frame_backpack.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour_frame_bottom.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour_frame_front.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour_frame_left.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour_frame_right.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_colour_frame_top.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_crafty_face.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_normal.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_normal_back.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_normal_backpack.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_normal_bottom.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_normal_front.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_normal_left.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_normal_right.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_normal_top.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/turtle_speaker_face.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/wired_modem_face.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/wired_modem_face_on.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/wired_modem_face_peripheral.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/wired_modem_face_peripheral_on.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/wired_modem_off.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/wired_modem_peripheral.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/wireless_modem_advanced_face.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/wireless_modem_advanced_face_on.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/wireless_modem_advanced_off.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/wireless_modem_advanced_on.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/wireless_modem_normal_face.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/wireless_modem_normal_face_on.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/wireless_modem_normal_off.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/block/wireless_modem_normal_on.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/border_advanced.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/border_advanced.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/border_colour.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/border_colour.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/border_command.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/border_command.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/border_normal.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/border_normal.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/disk_drive.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/pocket_bottom_advanced.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/pocket_bottom_advanced.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/pocket_bottom_colour.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/pocket_bottom_colour.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/pocket_bottom_normal.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/pocket_bottom_normal.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/printer.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/sidebar_advanced.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/sidebar_advanced.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/sidebar_command.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/sidebar_command.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/sidebar_normal.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/sidebar_normal.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/sprites/buttons/terminate.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/sprites/buttons/terminate_hover.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/sprites/buttons/turned_off.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/sprites/buttons/turned_off_hover.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/sprites/buttons/turned_on.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/sprites/buttons/turned_on_hover.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/sprites/turtle_advanced_selected_slot.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/sprites/turtle_normal_selected_slot.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/term_background.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/term_font.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/turtle_advanced.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/turtle_normal.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/turtle_upgrade_left.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/gui/turtle_upgrade_right.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/item/disk_colour.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/item/disk_frame.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/item/pocket_computer_advanced.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/item/pocket_computer_blink.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/item/pocket_computer_blink.png.mcmeta"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/item/pocket_computer_colour.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/item/pocket_computer_frame.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/item/pocket_computer_light.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/item/pocket_computer_normal.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/item/pocket_computer_on.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/item/printed_book.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/item/printed_page.png"
+
+[[files]]
+file = "kubejs/assets/computercraft/textures/item/printed_pages.png"
+
+[[files]]
+file = "kubejs/assets/create_enchantment_industry/textures/item/experience_cake.png"
+
+[[files]]
+file = "kubejs/assets/create_enchantment_industry/textures/item/experience_cake_base.png"
+
+[[files]]
+file = "kubejs/assets/create_enchantment_industry/textures/item/experience_cake_slice.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/advanced_circuit.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/basic_circuit.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_advanced_circuit.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/plant_clay.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/plant_clay_pebbles.png"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/empty_slot_lapis_lazuli.png"
+
+[[files]]
+file = "kubejs/assets/northstar/lang/en_us.json"
+
+[[files]]
+file = "kubejs/client_scripts/jsconfig.json"
+
+[[files]]
+file = "kubejs/client_scripts/main.js"
+
+[[files]]
+file = "kubejs/config/client.json"
+
+[[files]]
+file = "kubejs/config/client.properties"
+
+[[files]]
+file = "kubejs/config/common.json"
+
+[[files]]
+file = "kubejs/config/common.properties"
+
+[[files]]
+file = "kubejs/config/dev.properties"
+
+[[files]]
+file = "kubejs/config/packicon.png"
+
+[[files]]
+file = "kubejs/config/probe-settings.json"
+
+[[files]]
+file = "kubejs/config/web_server.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_lapis.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_lapis_buried.json"
+
+[[files]]
+file = "kubejs/package.json"
+
+[[files]]
+file = "kubejs/server_scripts/cc.js"
+
+[[files]]
+file = "kubejs/server_scripts/cc_peripheral.js"
+
+[[files]]
+file = "kubejs/server_scripts/custom_items.js"
+
+[[files]]
+file = "kubejs/server_scripts/jsconfig.json"
+
+[[files]]
+file = "kubejs/server_scripts/main.js"
+
+[[files]]
+file = "kubejs/server_scripts/renewables.js"
+
+[[files]]
+file = "kubejs/startup_scripts/jsconfig.json"
+
+[[files]]
+file = "kubejs/startup_scripts/main.js"
+
+[[files]]
+file = "mods/advanced-peripherals.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/advancements-reloaded.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/alternate-current.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/amendments.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-clouds.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/bookshelf-lib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/c2me-neoforge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/chat-heads.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/clifftree.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/copycats.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/corpse.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-climbable-rope.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-aquatic-ambitions.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-deco.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-design-n-decor.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-diesel-generators.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-dragons-plus.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-food.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-integrated-farming.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-nowheel.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-railways-navigator.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-smart-bounds.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails-1.21.1.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-threaded-trains.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/createbetterfps.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cubes-without-borders.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/defaultworldtype.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/display-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dragonlib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/emi-ores.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/enderscape.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/entity-model-features.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/envelope.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/exposure-polaroid.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/exposure.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-filter-system.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/functional-storage.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ibo.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/immersive-furniture.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/incendium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/interiors.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-resources-jer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lmft.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lukis-ancient-cities.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lukis-crazy-chambers.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lukis-strongholds.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lukis-woodland-mansions.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/moonlight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/particle-rain.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/particular-reforged.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/platform.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/prickle.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/probejs.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sable.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ssrd.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/survival-island.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/titanium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/too-fast.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/trimmed.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/vanillabackport.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yeetus-experimentus.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-end-island.pw.toml"
+metafile = true
+
+[[files]]
+file = "options.txt"
+
+[[files]]
+file = "resourcepacks/fresh-animations-details.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations-objects.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/gentler-weather-sounds.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/tras-fresh-player.pw.toml"
+metafile = true

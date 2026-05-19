@@ -4,8 +4,8 @@ The pack uses [packwiz](https://packwiz.infra.link) for managing mods and config
 
 To set up a development environment, follow these steps:
 
-1. Import [Better Than Employment.zip](./Better%20Than%20Employment.zip) into a MultiMC-derived launcher, like [Prism](https://prismlauncher.org).
-2. Run the development server with `./packwiz serve`
+1. Import [Better Than Employment DEV.zip](./Better%20Than%20Employment%20DEV.zip) into a MultiMC-derived launcher, like [Prism](https://prismlauncher.org).
+2. Run the development server with `../packwiz serve`
 3. Launch the instance.
 
 You can now make changes to the packwiz configuration and relaunch the game to see the changes.
