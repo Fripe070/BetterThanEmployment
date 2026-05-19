@@ -28,7 +28,6 @@ jobs:
 
       - name: Export standalone packs
         run: |
-          mkdir out
           cd out
           packwiz modrinth export --pack-file ../pack/pack.toml
           packwiz curseforge export --pack-file ../pack/pack.toml

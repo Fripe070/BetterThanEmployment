@@ -4,10 +4,7 @@ name: packwiz deploy
 on:
   release:
     types: [published]
-
-permissions:
-  pages: write
-  id-token: write
+  workflow_dispatch:
 
 jobs:
   build:
@@ -32,6 +29,18 @@ jobs:
         with:
           path: pack/
 
+  deploy:
+    needs: build
+    permissions:
+      pages: write   
+      id-token: write  
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
