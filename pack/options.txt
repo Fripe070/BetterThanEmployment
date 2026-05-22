@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","file/-1.21.2 Fresh Moves v3.1 (No Animated Eyes).zip","file/FreshAnimations_v1.10.4.zip","file/FA+Details-v2.2.1.zip","file/FA+Emissive-v1.5.zip","file/FA+Quivers-v2.2.zip","file/FA+Objects-v2.1.zip","file/Gentler Weather Sounds 2.2.0.zip"]
+resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","file/-1.21.2 Fresh Moves v3.1 (No Animated Eyes).zip","file/FreshAnimations_v1.10.4.zip","file/nohatscreate.zip","file/FA+Details-v2.2.1.zip","file/FA+Emissive-v1.5.zip","file/FA+Quivers-v2.2.zip","file/FA+Objects-v2.1.zip","file/Gentler Weather Sounds 2.2.0.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
