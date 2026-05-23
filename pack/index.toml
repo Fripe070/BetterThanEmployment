@@ -1204,6 +1204,11 @@ hash = "3d47b1d933d04934a606be1cbb67481860c3d68c9ed4efc387c7745d23b732a7"
 metafile = true
 
 [[files]]
+file = "mods/immersive-furniture.pw.toml"
+hash = "2c3b11ad8600d216d09491fc05bfd0c378c648d23f7616f23bbb18716778ff6f"
+metafile = true
+
+[[files]]
 file = "mods/iris-veil-compat.pw.toml"
 hash = "f5c14f96386365b1179bb8b6602f8222bc4be73ebcfbda8f8b6856bce6a02b12"
 metafile = true
