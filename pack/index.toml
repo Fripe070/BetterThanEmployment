@@ -1064,6 +1064,11 @@ hash = "209446eb003bb59111833db0e0328657a9ffe7d85d6016ddf3ecfd5a2f7e13c5"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+metafile = true
+
+[[files]]
 file = "mods/colorwheel-patcher.pw.toml"
 hash = "0e18ff0ca533850b1a038085e89f569d497b4917ab8f9ea843005182ca16f75d"
 metafile = true
