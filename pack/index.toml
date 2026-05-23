@@ -1081,7 +1081,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-nowheel.pw.toml"
-hash = "76c600f4b3ab10b3b29781af03907e0a2ad8a188b857763656211ec450d79469"
+hash = "8205f415e163e4e5f70a997d17e68bc8d71758e081307a78837b9d41010846ab"
 metafile = true
 
 [[files]]
@@ -1314,7 +1314,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations-objects.pw.toml"
-hash = "4a2a1d4fb13506f5011fa74e9ca441e766b6727cff54e5672a2cb945b6d3f17c"
+hash = "736223d34e307bc114daf83b7ed42288947e294842a61e60ccf24097739b3b6a"
 metafile = true
 
 [[files]]
