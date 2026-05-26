@@ -13,6 +13,10 @@ file = "config/emi_loot_config.toml"
 hash = "62989650f02c345b38e5ffd9cf5466ef7490d88fb2af6a8014230633c666dcff"
 
 [[files]]
+file = "config/survivalisland.json"
+hash = "7e770709cfe7c90d786fc3eeaaf43e775580daabd3beddea071890988bbb0b7b"
+
+[[files]]
 file = "kubejs/.prettierrc"
 hash = "ba3498506d9c26dfb3f4627ad6cc8a6b4ddce4ba68b33e5f880c977834e61c55"
 
