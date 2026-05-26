@@ -1058,6 +1058,10 @@ hash = "1ccb26017d6a21927cbae76dd0b33e230e75900e0d58b33b3a643b3b15021975"
 metafile = true
 
 [[files]]
+file = "mods/botania-neoforge-1.21.1-454-SNAPSHOT.jar"
+hash = "e61e4c3cd0594776a3c92f1f839fe70d9af562912cdec056bb80cb07023dd929"
+
+[[files]]
 file = "mods/c2me-neoforge.pw.toml"
 hash = "e6b1bb5ed831dbc7136e0375d8fc4bd63f4b9de8af5ccfac0a5b2c7af7ad5300"
 metafile = true
