@@ -1341,6 +1341,11 @@ hash = "7333c29c224d843384e26b2c7d9af1d31dada870d776fb1ad8f3d8c3040b313d"
 metafile = true
 
 [[files]]
+file = "mods/particle-effects.pw.toml"
+hash = "2194528e2a36934e31baa83e3937ec27b60e57cb5d7839cf7574a54b752ddde6"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
 metafile = true
@@ -1348,6 +1353,11 @@ metafile = true
 [[files]]
 file = "mods/probejs.pw.toml"
 hash = "de0d561537704e70ed2abc12bde2d56e45dfdcfacc3e6e56e6eb63636069f047"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "10d7f603799aa8e4185b440595640e35996bc8d9c1cdcc4a645ca394c8fa5d29"
 metafile = true
 
 [[files]]
@@ -1371,6 +1381,11 @@ hash = "e4c43e944439f4941ba1c417ab3ac1ec3dbd9c95a8456a2069641d031317e142"
 metafile = true
 
 [[files]]
+file = "mods/seamless-sleep.pw.toml"
+hash = "2ad800931c3c659fc2b01ee237ac2c0edf0ace3cdb5ff2022ac69505629d99c2"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
@@ -1391,6 +1406,11 @@ hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
 
 [[files]]
+file = "mods/stylish-effects.pw.toml"
+hash = "3aca3ff7c21d644f10a5511fd37c39628b4300e41200710e2a670cc28e1c29f3"
+metafile = true
+
+[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "9cfdabfae56ec49c0c3939640e3149a2deebd33dc342f3585e0c82b9ac326ab6"
 metafile = true
@@ -1408,6 +1428,11 @@ metafile = true
 [[files]]
 file = "mods/voxy-0.2.14-alpha-07349cd1.jar"
 hash = "0b4dacec7cfdc90d49895f7103b2956d1db791ab5d131209540f9d52e6c8b2fe"
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
+metafile = true
 
 [[files]]
 file = "mods/yeetus-experimentus.pw.toml"
