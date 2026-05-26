@@ -1406,6 +1406,11 @@ file = "mods/voxy-0.2.14-alpha-07349cd1.jar"
 hash = "0b4dacec7cfdc90d49895f7103b2956d1db791ab5d131209540f9d52e6c8b2fe"
 
 [[files]]
+file = "mods/yeetus-experimentus.pw.toml"
+hash = "5e25dccab496945a5f19bb82383e0ebf98452ffc14cd25c7e0259cc44312281a"
+metafile = true
+
+[[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "da1f8f50910dadf2108455aea9cb779bb20fd9fa89684e8f5ace24df01d9765c"
 metafile = true
