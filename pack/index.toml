@@ -13,6 +13,10 @@ file = "config/emi_loot_config.toml"
 hash = "62989650f02c345b38e5ffd9cf5466ef7490d88fb2af6a8014230633c666dcff"
 
 [[files]]
+file = "config/supplementaries-common.toml"
+hash = "4057b6ae7c2240892ec940348453bc69973c4bb409ba15a4d26e3736a6076327"
+
+[[files]]
 file = "config/survivalisland.json"
 hash = "7e770709cfe7c90d786fc3eeaaf43e775580daabd3beddea071890988bbb0b7b"
 
@@ -1037,6 +1041,10 @@ file = "kubejs/package.json"
 hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
 
 [[files]]
+file = "kubejs/server_scripts/main.js"
+hash = "a7846b259915b2bd7ecaf15d2054dbb951f942efc312503d3601fc0a0d38a14f"
+
+[[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "7e03652d2003566873ab5103454f7c537471d6c2fea1c2f614507b33ef4434f7"
 metafile = true
@@ -1123,6 +1131,11 @@ metafile = true
 [[files]]
 file = "mods/corpse.pw.toml"
 hash = "8e671fbd3a5460a61073cced391ec08efc6b67d765e49015eea45a1f1db159a0"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-climbable-rope.pw.toml"
+hash = "8fe5d200e7be3288c15ff8ff3298f592212bfc689b4e702cbd6df523ea2dc361"
 metafile = true
 
 [[files]]
@@ -1351,6 +1364,11 @@ hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
 metafile = true
 
 [[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
+metafile = true
+
+[[files]]
 file = "mods/probejs.pw.toml"
 hash = "de0d561537704e70ed2abc12bde2d56e45dfdcfacc3e6e56e6eb63636069f047"
 metafile = true
@@ -1378,6 +1396,11 @@ metafile = true
 [[files]]
 file = "mods/sable.pw.toml"
 hash = "e4c43e944439f4941ba1c417ab3ac1ec3dbd9c95a8456a2069641d031317e142"
+metafile = true
+
+[[files]]
+file = "mods/scholar.pw.toml"
+hash = "c6f5b8095215f4af965c15608799a096310592b59e9baabb59af86d4a8dbd641"
 metafile = true
 
 [[files]]
@@ -1446,7 +1469,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "cc3f51da231dd7e0e0c572eca9ded9f0b86951ffa10299ddeea3090446854418"
+hash = "fff41d926ec1236eabcf68e8320b12fe74497fa5669e81b83d9f9fca73352caf"
 
 [[files]]
 file = "resourcepacks/fresh-animations-details.pw.toml"
