@@ -1,0 +1,13 @@
+name = "Backported Spears"
+filename = "spear-backport-fabric-1.4.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rVUtrHuM/versions/vdpN0o1O/spear-backport-fabric-1.4.2.jar"
+hash-format = "sha512"
+hash = "439de11f29a0887854eb7c090b87a955e6818654c241428a8939d554e9b2f729f6d05d5cfbf534936c380f36d40d236234321ba17760bf8974e9df3938f8f1ae"
+
+[update]
+[update.modrinth]
+mod-id = "rVUtrHuM"
+version = "vdpN0o1O"

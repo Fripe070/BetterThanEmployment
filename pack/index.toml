@@ -1078,6 +1078,11 @@ hash = "1ccb26017d6a21927cbae76dd0b33e230e75900e0d58b33b3a643b3b15021975"
 metafile = true
 
 [[files]]
+file = "mods/backported-spears.pw.toml"
+hash = "c5bf41cb79a10ff112afbdf1bd5a046a771906a36b937e27749574d791cef81b"
+metafile = true
+
+[[files]]
 file = "mods/baguettelib.pw.toml"
 hash = "762fcd212e5049e6e8dcece301c4f33a17d3fc9b00744301c52c4695d7015523"
 metafile = true
