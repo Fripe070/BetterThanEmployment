@@ -1177,6 +1177,11 @@ hash = "bc4ef8bd7d32506703dcc175a62a12766addc393434ddbe8d17f01b071701943"
 metafile = true
 
 [[files]]
+file = "mods/create-horse-power.pw.toml"
+hash = "a12996b593450756ebe5b374f8d7ce8969d5460d5141a4ed956c44b3387c584d"
+metafile = true
+
+[[files]]
 file = "mods/create-nowheel.pw.toml"
 hash = "8205f415e163e4e5f70a997d17e68bc8d71758e081307a78837b9d41010846ab"
 metafile = true
