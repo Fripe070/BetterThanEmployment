@@ -1462,6 +1462,11 @@ hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
 
 [[files]]
+file = "mods/squaremap.pw.toml"
+hash = "e13f7564c66d7cd8fcad6e7c973cec01c51298445385f65a995d2d469e08497d"
+metafile = true
+
+[[files]]
 file = "mods/stylish-effects.pw.toml"
 hash = "3aca3ff7c21d644f10a5511fd37c39628b4300e41200710e2a670cc28e1c29f3"
 metafile = true
