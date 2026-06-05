@@ -3,8 +3,8 @@ filename = "ftb-quests-neoforge-2101.1.25.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c51f43029930cce87e86366b6629a27e4876a03d"
+hash-format = "sha512"
+hash = "8baf3edc666981ce14bea88e29bfb23fb18a1d325d60dc101bd0805c613016efd07240201a5e71cd22c9e9454d5751572f84383502b4b6aa016e7af3422f38f9"
 mode = "metadata:curseforge"
 
 [update]
