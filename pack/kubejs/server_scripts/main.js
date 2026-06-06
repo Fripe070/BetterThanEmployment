@@ -34,6 +34,30 @@ ServerEvents.recipes((event) => {
 
     // same as seed oil
     event.remove({ output: Fluid.of("createdieselgenerators:plant_oil") });
+
+    // Hacky jetpack removal
+    event.remove({ output: /.*jetpack.*/ });
+
+    event.forEachRecipe({ type: "cataclysm:weapon_fusion" }, (recipe) => {
+        const jsonRecipe = JSON.parse(recipe.json.toString());
+        const transitional = jsonRecipe.base.item;
+        event.recipes.create
+            .sequenced_assembly(jsonRecipe.result.id, jsonRecipe.base.item, [
+                event.recipes.create.deploying(transitional, [
+                    transitional,
+                    jsonRecipe.addition.item,
+                ]),
+                event.recipes.create.pressing(transitional, transitional),
+            ])
+            .transitionalItem(transitional);
+        event.remove({
+            type: "cataclysm:weapon_fusion",
+            output: jsonRecipe.result.id,
+            mod: "cataclysm",
+        });
+    });
+    event.remove({ output: "cataclysm:mechanical_fusion_anvil" });
+
 });
 ServerEvents.tags("item", (event) => {
     event.removeAllTagsFrom("mekanism:bio_fuel");

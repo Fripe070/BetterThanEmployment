@@ -17,6 +17,10 @@ file = "config/Advancedperipherals/world.toml"
 hash = "d486fb0f8fcff4f5f8fdf9fecd145ca664f342a3f0510cf0944afdf0d2a8ec0c"
 
 [[files]]
+file = "config/create_dragons_plus-common.toml"
+hash = "8beedf927f526ce11b0189cd6d339726a599055211090170655ae08a0fed8c5d"
+
+[[files]]
 file = "config/defaultworldtype/client-config.toml"
 hash = "2f2d463f9225e12f91692eddf51b14e8f812382479d6418fe4b4320cc274e2af"
 
@@ -35,6 +39,10 @@ hash = "dd39df410147cc05fe9a7239ebbeeb21d1730914e5ab8d227dca8d25616f5110"
 [[files]]
 file = "config/ftbquests-client.snbt"
 hash = "2b998a92ffa40c1d7667b1d7ccfb014f5d1172d8e48c21414525bde051c985a2"
+
+[[files]]
+file = "config/jaopca/modules/storage_blocks.toml"
+hash = "d9de830208284eaa5f60dd794b80b80752835b232f17bc1b838a656b9f853f46"
 
 [[files]]
 file = "config/supplementaries-common.toml"
@@ -1069,8 +1077,28 @@ file = "kubejs/package.json"
 hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
 
 [[files]]
+file = "kubejs/server_scripts/cc.js"
+hash = "36bbe105e6c727c3c1ff6772a82d172fee34ed64157097c8a01cc8cd2f54c52e"
+
+[[files]]
+file = "kubejs/server_scripts/cc_peripheral.js"
+hash = "97ebea5c03c5a70fa19a0a8c94860a17d96a6745f655c04d4536f1517e825453"
+
+[[files]]
+file = "kubejs/server_scripts/custom_items.js"
+hash = "d4440e213c8ceb0381044c3991fede86d5b6f5eb2358cf1466bd2632f432d96c"
+
+[[files]]
+file = "kubejs/server_scripts/jsconfig.json"
+hash = "76baa3d2717a253e959bff6e1468592ebd9ec417e44e7f46846e57a4ca636c79"
+
+[[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "e8e231f5ce1d4cf3bd8692c9bc3a23ce962c5bb408260a63adcc717964b86603"
+hash = "51ac98b945c51ae17f5b38258fbc0ebe26546ce7e54fae5e137ef11f22b89d24"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism.js"
+hash = "671b9706886bd5e79e99af4c7721a3e38a819307ae7db6a9b04837d09e45bef2"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
@@ -1192,6 +1220,11 @@ hash = "0f67083a39e4b9aa80b1830257086f16734091f9ecb24e64dd208c19be2c4923"
 metafile = true
 
 [[files]]
+file = "mods/create-central-kitchen.pw.toml"
+hash = "c8b2e60b789885854508c674ba0630cdc8dc2a880302d8475cdc5ae06c44f64a"
+metafile = true
+
+[[files]]
 file = "mods/create-connected.pw.toml"
 hash = "57e8ff6c2bf41c7556f727251fda72946ebd8d849e5e83c141a679387a559dbc"
 metafile = true
@@ -1212,8 +1245,23 @@ hash = "a29ffaf830f4ac94a8a867f2bd05b453d7f60e38e58c3fe5e05ec8946c5e854a"
 metafile = true
 
 [[files]]
+file = "mods/create-dragons-plus.pw.toml"
+hash = "8537630bc53bd3ffaa1539e0ea0c4c1569609e0a1430166c2178b532ba507226"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "166d312672116bc62648572337c66018be6e794eb12e25fb2b508f686fdd58e5"
+metafile = true
+
+[[files]]
 file = "mods/create-horse-power.pw.toml"
 hash = "a12996b593450756ebe5b374f8d7ce8969d5460d5141a4ed956c44b3387c584d"
+metafile = true
+
+[[files]]
+file = "mods/create-integrated-farming.pw.toml"
+hash = "fc49d6cf786feaabbb26ae0109498f5dab7c20fc939bdd650a38d46a31803e7c"
 metafile = true
 
 [[files]]
@@ -1643,7 +1691,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "f0cec39c9aa1169645d1c1fbdb6430b8c0dcab044ee5e52e6ad4fcdaff97ed56"
+hash = "9c9f9d2267fc538b37a8f729d5b6978cd395308e76a1236dc2e611f0c9fb72f2"
 
 [[files]]
 file = "resourcepacks/fresh-animations-details.pw.toml"
