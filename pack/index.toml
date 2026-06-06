@@ -17,6 +17,22 @@ file = "config/Advancedperipherals/world.toml"
 hash = "d486fb0f8fcff4f5f8fdf9fecd145ca664f342a3f0510cf0944afdf0d2a8ec0c"
 
 [[files]]
+file = "config/almostunified/duplicates.json"
+hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
+
+[[files]]
+file = "config/almostunified/placeholders.json"
+hash = "1215e332441591264b211ac4af80c9ace41e6070afdd1837b21d06ab21ac1ab0"
+
+[[files]]
+file = "config/almostunified/tags.json"
+hash = "2512b9c947342813ee667013941f07c3be8323ac4cb8d3d1686dd8530c7c66b1"
+
+[[files]]
+file = "config/almostunified/unification/materials.json"
+hash = "4ea1c3dfd7f509f2c9c1c36cc84a5f3d4e04b1ebf4bcb9d961771d740e7175c6"
+
+[[files]]
 file = "config/create_dragons_plus-common.toml"
 hash = "8beedf927f526ce11b0189cd6d339726a599055211090170655ae08a0fed8c5d"
 
@@ -39,6 +55,10 @@ hash = "dd39df410147cc05fe9a7239ebbeeb21d1730914e5ab8d227dca8d25616f5110"
 [[files]]
 file = "config/ftbquests-client.snbt"
 hash = "2b998a92ffa40c1d7667b1d7ccfb014f5d1172d8e48c21414525bde051c985a2"
+
+[[files]]
+file = "config/jaopca/materials/platinum.toml"
+hash = "52f4ac477f0389c8abb3d1ee82be3e8723367a986d5c6587f9c0be6f95e1b01d"
 
 [[files]]
 file = "config/jaopca/modules/storage_blocks.toml"
@@ -1033,6 +1053,10 @@ file = "kubejs/assets/createcasing/lang/en_us.json"
 hash = "6d0104507483a44ec2258011ec43b642c365d163243e0716424a441f8bb74a4a"
 
 [[files]]
+file = "kubejs/assets/createpropulsion/lang/en_us.json"
+hash = "d566c6276327f4a0661b9ef5e272e7bbb75c91793b1faa509d2d5979c0b370ef"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/advanced_circuit.png"
 hash = "6f8311cc84eeb85e367704b7dbe36ac7f626afc9b4f921540b90522e3793e255"
 
@@ -1043,6 +1067,10 @@ hash = "dc970cb82bb9b5bc4e2dd01bcb520a22b526d089a2c37ad7da804de7b5349a2d"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_advanced_circuit.png"
 hash = "b49cf2b34a708634acdca4ce2b0b8b1df8e1cec0649ad6b9b8e02702e896f061"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/lead_sheet.png"
+hash = "9179ed777a737a8d6d1dcbc08d724105a7bce743723447beec7b4664b2fe38e2"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/plant_clay.png"
@@ -1063,6 +1091,22 @@ hash = "9918c841d2410a73270a316026929a74b1c50106f1bb3d0db23bf952bf2996b4"
 [[files]]
 file = "kubejs/config/packicon.png"
 hash = "227e9dba5647d13f930e65160dff34121f29982976298aa3ef871288b69c668b"
+
+[[files]]
+file = "kubejs/data/createpropulsion/worldgen/placed_feature/ore_platinum.json"
+hash = "1678bbc3e4b0ecded7168a65ef73a0f77b4199ca1509a4f376d0493ce31af122"
+
+[[files]]
+file = "kubejs/data/createpropulsion/worldgen/placed_feature/ore_platinum_buried.json"
+hash = "607aa415fd122dc24df2ccb3dbb41608c391034be4328294e1076ccba1dfdfab"
+
+[[files]]
+file = "kubejs/data/createpropulsion/worldgen/placed_feature/ore_platinum_large.json"
+hash = "506e6e3ff4aa51129119941791162feca467c3804574d49acf7ce20b01785cc2"
+
+[[files]]
+file = "kubejs/data/createpropulsion/worldgen/placed_feature/ore_platinum_medium.json"
+hash = "e9f4bdc521748b34716850864b6db9f818dc1d69f17eccfc4f5b3432d0f6816e"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/ore_lapis.json"
@@ -1089,16 +1133,16 @@ file = "kubejs/server_scripts/custom_items.js"
 hash = "d4440e213c8ceb0381044c3991fede86d5b6f5eb2358cf1466bd2632f432d96c"
 
 [[files]]
-file = "kubejs/server_scripts/jsconfig.json"
-hash = "76baa3d2717a253e959bff6e1468592ebd9ec417e44e7f46846e57a4ca636c79"
-
-[[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "51ac98b945c51ae17f5b38258fbc0ebe26546ce7e54fae5e137ef11f22b89d24"
+hash = "402e797c11ec06e7514cd0c89bd3bb3e1aef3c3b176bd8735b885f294bba25d8"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism.js"
 hash = "671b9706886bd5e79e99af4c7721a3e38a819307ae7db6a9b04837d09e45bef2"
+
+[[files]]
+file = "kubejs/startup_scripts/main.js"
+hash = "5b12ebaa9cb9c78b45d64a7ff4695cefb66f2396ddda7cae3806d2b80df16fd3"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
@@ -1691,7 +1735,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "9c9f9d2267fc538b37a8f729d5b6978cd395308e76a1236dc2e611f0c9fb72f2"
+hash = "210624c7a509dd4f4efc95aec4e7f6fd612337c0212988ca0e67aaf5330d6318"
 
 [[files]]
 file = "resourcepacks/fresh-animations-details.pw.toml"
