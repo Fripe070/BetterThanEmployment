@@ -34,17 +34,6 @@ ServerEvents.recipes((event) => {
 
     // same as seed oil
     event.remove({ output: Fluid.of("createdieselgenerators:plant_oil") });
-
-    // event.forEachRecipe({ type: "mekanism:crushing" }, (recipe) => {
-    //     const jsonRecipe = JSON.parse(recipe.json.toString());
-    //     event.custom({
-    //         type: "create:crushing",
-    //         ingredients: [jsonRecipe.input],
-    //         processing_time: 100.0,
-    //         results: [recipe.originalRecipeResult],
-    //     });
-    //     event.remove({ id: recipe.id });
-    // });
 });
 ServerEvents.tags("item", (event) => {
     event.removeAllTagsFrom("mekanism:bio_fuel");
