@@ -36,6 +36,11 @@ ServerEvents.recipes((event) => {
     event.remove({ type: "mekanism:crushing" });
     event.remove({ mod: "mekanism", output: "mekanism:crusher" });
     event.remove({ mod: "mekanism", output: /_crushing_factory$/ });
+
+    // Use create belts
+    event.remove({ id: /mekanism:transmitter\/mechanical_pipe\// });
+    // Use create pipes
+    event.remove({ mod: "mekanism", output: /_transporter$/ });
 });
 
 ServerEvents.recipes((event) => {});
