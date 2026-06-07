@@ -1176,7 +1176,7 @@ metafile = true
 
 [[files]]
 file = "mods/backported-spears.pw.toml"
-hash = "bbf619420066db3e8abc9af5256d695e635ff60e22f84796bb3d2d37e10c3a69"
+hash = "67fd1a06369d0e223e82912e66a3fecbd8ab506b58078fb72847dfbe83e25317"
 metafile = true
 
 [[files]]
@@ -1255,7 +1255,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-big-cannons.pw.toml"
-hash = "a76b3b07c25a8ea8c2797328d0d531f64dfbce5a662f343f833bd9857285286f"
+hash = "f7b20a7e5ae4678c0e74e7e6945f48c402636f8887d65b0cdab0357dd5c08856"
 metafile = true
 
 [[files]]
@@ -1290,7 +1290,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "8537630bc53bd3ffaa1539e0ea0c4c1569609e0a1430166c2178b532ba507226"
+hash = "616a0a7fc051382574b73276c74e60ae7c40d9cf1bbb9113375da164278ae94f"
 metafile = true
 
 [[files]]
@@ -1305,7 +1305,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-integrated-farming.pw.toml"
-hash = "fc49d6cf786feaabbb26ae0109498f5dab7c20fc939bdd650a38d46a31803e7c"
+hash = "71c83d540fd85deaaee9301e76d2b0bbf940167f1ed29212f38f544792b6077a"
 metafile = true
 
 [[files]]
@@ -1475,7 +1475,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-furniture.pw.toml"
-hash = "dccba14b27c1fef3ad0b37cf0b288bea8ca367cf4bd904a81f98dc5e02fcf0f7"
+hash = "e6dee59bb58bffe74e503c5b37fe0623c11a761022f3ee77cb9a6fc1b71cf2b2"
 metafile = true
 
 [[files]]
@@ -1675,7 +1675,7 @@ metafile = true
 
 [[files]]
 file = "mods/ssrd.pw.toml"
-hash = "ffaa11cd58e879d8309976f670f82d156ef5286cef6daad2e76b0fc3902fb4e0"
+hash = "1a8c3d6ea5da99e223a66c521362cc4c5d39c6f3987981fc3b47c50b39631015"
 metafile = true
 
 [[files]]

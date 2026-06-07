@@ -1,6 +1,7 @@
 name = "Backported Spears"
 filename = "spear-backport-neoforge-1.8.0-1.21.1.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/rVUtrHuM/versions/FROwtXRs/spear-backport-neoforge-1.8.0-1.21.1.jar"
