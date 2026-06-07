@@ -53,10 +53,6 @@ file = "config/ftblibrary-client.snbt"
 hash = "dd39df410147cc05fe9a7239ebbeeb21d1730914e5ab8d227dca8d25616f5110"
 
 [[files]]
-file = "config/ftbquests-client.snbt"
-hash = "2b998a92ffa40c1d7667b1d7ccfb014f5d1172d8e48c21414525bde051c985a2"
-
-[[files]]
 file = "config/jaopca/materials/platinum.toml"
 hash = "52f4ac477f0389c8abb3d1ee82be3e8723367a986d5c6587f9c0be6f95e1b01d"
 
@@ -1057,18 +1053,6 @@ file = "kubejs/assets/createpropulsion/lang/en_us.json"
 hash = "d566c6276327f4a0661b9ef5e272e7bbb75c91793b1faa509d2d5979c0b370ef"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/advanced_circuit.png"
-hash = "6f8311cc84eeb85e367704b7dbe36ac7f626afc9b4f921540b90522e3793e255"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/basic_circuit.png"
-hash = "dc970cb82bb9b5bc4e2dd01bcb520a22b526d089a2c37ad7da804de7b5349a2d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/incomplete_advanced_circuit.png"
-hash = "b49cf2b34a708634acdca4ce2b0b8b1df8e1cec0649ad6b9b8e02702e896f061"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/lead_sheet.png"
 hash = "9179ed777a737a8d6d1dcbc08d724105a7bce743723447beec7b4664b2fe38e2"
 
@@ -1121,16 +1105,16 @@ file = "kubejs/package.json"
 hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
 
 [[files]]
+file = "kubejs/server_scripts/andesite_alloy.js"
+hash = "cc7907fe50aeaccd3d9c3b107e26cfdec51ac0a14b7d8e1f2948b01c7daa02f4"
+
+[[files]]
 file = "kubejs/server_scripts/cc.js"
-hash = "36bbe105e6c727c3c1ff6772a82d172fee34ed64157097c8a01cc8cd2f54c52e"
+hash = "8444ac3c945ec1f800dc030070549a660673aad8700bfe9c8c03b457b02bb9e6"
 
 [[files]]
 file = "kubejs/server_scripts/cc_peripheral.js"
-hash = "97ebea5c03c5a70fa19a0a8c94860a17d96a6745f655c04d4536f1517e825453"
-
-[[files]]
-file = "kubejs/server_scripts/custom_items.js"
-hash = "d4440e213c8ceb0381044c3991fede86d5b6f5eb2358cf1466bd2632f432d96c"
+hash = "3259781655baf5cccf283ddd922bd39d6c89d29e56d809807932d64c27813d1e"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -1138,11 +1122,11 @@ hash = "402e797c11ec06e7514cd0c89bd3bb3e1aef3c3b176bd8735b885f294bba25d8"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism.js"
-hash = "671b9706886bd5e79e99af4c7721a3e38a819307ae7db6a9b04837d09e45bef2"
+hash = "96bf6d9a6b9fc6d9758b8568aef31de6acb442083cd94dffed200cfd0bc0c36a"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "5b12ebaa9cb9c78b45d64a7ff4695cefb66f2396ddda7cae3806d2b80df16fd3"
+hash = "fb42afbabc255caade359921e704615aab959611ff43190fa8b4612ddffcdd85"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
@@ -1444,6 +1428,11 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
+file = "mods/ftb-filter-system.pw.toml"
+hash = "ed5eb5ac937d63f550ae2f9c841e1faaed9feef65e21f4b0c4f78b7b2228161f"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "4b59f9a6e4c26576c8d0b44da337ad82f8d2a66f02a45118261be1436bf6d0af"
 metafile = true
@@ -1456,6 +1445,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "5a2a5dd3b8b1d2d884ca2eefd3dcbd7c50b8c2d16652d95eaa921ba03b003393"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "c4089165b4a5f7d38cd3f0569a3f3c7d25152781856718a53350c28f964259cf"
 metafile = true
 
 [[files]]
