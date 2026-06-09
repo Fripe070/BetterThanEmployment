@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
 
         const jsonRecipe = JSON.parse(recipe.json.toString());
         event.custom({
-            type: "create:crushing",
+            type: "create:milling",
             ingredients: [jsonRecipe.input],
             processing_time: 100.0,
             results: [recipe.originalRecipeResult],

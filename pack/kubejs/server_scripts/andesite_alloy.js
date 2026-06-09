@@ -37,3 +37,8 @@ ServerEvents.recipes((event) => {
         "minecraft:andesite",
     ]);
 });
+
+ServerEvents.tags("item", (event) => {
+    event.add("create:pulpifiable", "#createaddition:plants");
+    event.remove("create:pulpifiable", "#minecraft:saplings");
+});
