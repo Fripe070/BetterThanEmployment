@@ -1,18 +1,12 @@
 ServerEvents.recipes((event) => {
     // Manual recipe for pre-automation andesite crafting
-    event.shaped(
-        "create:pulp",
-        // prettier-ignore
-        [
-            "PPP",
-            "PWP",
-            "PPP"
-        ],
-        {
-            P: "#create:pulpifiable",
-            W: "minecraft:water_bucket",
-        },
-    );
+    event.shapeless("create:pulp", ["6x #create:pulpifiable", "minecraft:water_bucket"]);
+    event
+        .shapeless("create:pulp", [
+            "6x #create:pulpifiable",
+            "minecraft:potion[potion_contents={potion:'minecraft:water'}]",
+        ])
+        .replaceIngredient("minecraft:potion", "minecraft:glass_bottle");
     event.shaped("2x kubejs:plant_clay", ["CP", "PC"], {
         P: "create:pulp",
         C: "minecraft:clay_ball",

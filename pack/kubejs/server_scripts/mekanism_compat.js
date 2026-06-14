@@ -1,4 +1,3 @@
-// Crusher
 ServerEvents.recipes((event) => {
     event.forEachRecipe({ type: "mekanism:crushing" }, (recipe) => {
         if (
@@ -42,5 +41,3 @@ ServerEvents.recipes((event) => {
     // Use create pipes
     event.remove({ mod: "mekanism", output: /_transporter$/ });
 });
-
-ServerEvents.recipes((event) => {});

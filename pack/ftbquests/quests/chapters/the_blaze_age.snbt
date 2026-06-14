@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_blaze_age"
+	group: ""
+	icon: {
+		id: "create:blaze_burner"
+	}
+	id: "2309AA292D584074"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:blaze_burner"
+			}
+			id: "461B1BA18BB92FA8"
+			size: 1.25d
+			tasks: [{
+				id: "685F8658A00C5C08"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["461B1BA18BB92FA8"]
+			id: "67706EEE47206868"
+			tasks: [{
+				id: "19F3D560F4A21E6F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/brass)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3200A6EF7F7C34B3"]
+			id: "285BE000ABA190EE"
+			tasks: [{
+				id: "3A8DB392AAB9F7DE"
+				item: { count: 1, id: "create:rose_quartz" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"285BE000ABA190EE"
+				"67706EEE47206868"
+			]
+			icon: {
+				id: "create:brass_hand"
+			}
+			id: "7790F13FF73D036B"
+			tasks: [{
+				id: "1F3239AF47410CC3"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"67706EEE47206868"
+				"285BE000ABA190EE"
+			]
+			icon: {
+				id: "create:mechanical_crafter"
+			}
+			id: "6B1010F5F689BE54"
+			tasks: [{
+				count: 21L
+				id: "5C85A0C3DD8D9BDC"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B1010F5F689BE54"]
+			id: "21A4158F6D7217F7"
+			tasks: [{
+				count: 2L
+				id: "12CC6711A6A3D873"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "create:hose_pulley"
+			}
+			id: "275E2C3F23DBF1C5"
+			optional: true
+			tasks: [{
+				advancement: "create:hose_pulley_lava"
+				criterion: ""
+				id: "0125B9518635ECE8"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"275E2C3F23DBF1C5"
+				"463E663F68F2EDEB"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/nether_portal"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "412CB939A59C35F7"
+			tasks: [{
+				advancement: "create:train_portal"
+				criterion: ""
+				icon: {
+					id: "create:controls"
+				}
+				id: "2ED234EBFF627522"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7790F13FF73D036B"]
+			id: "3A5333D0259EE43A"
+			tasks: [{
+				id: "05F8C519BD99F015"
+				item: { count: 1, id: "simulated:gyroscopic_mechanism" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"285BE000ABA190EE"
+				"05F0E2D9D4BCA5AB"
+			]
+			icon: {
+				id: "create:controls"
+			}
+			id: "463E663F68F2EDEB"
+			tasks: [
+				{
+					id: "0C16879B223129CE"
+					item: { count: 1, id: "create:track_station" }
+					type: "item"
+				}
+				{
+					id: "55D1E37CB24F1872"
+					item: { count: 1, id: "create:controls" }
+					type: "item"
+				}
+				{
+					advancement: "create:train"
+					criterion: ""
+					icon: {
+						id: "create:wrench"
+					}
+					id: "77E46C52F4BEDD17"
+					type: "advancement"
+				}
+			]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7790F13FF73D036B"]
+			id: "05F0E2D9D4BCA5AB"
+			tasks: [{
+				count: 64L
+				icon: {
+					id: "create:track"
+				}
+				id: "2E4BD674B9BD6A75"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(create:tracks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["05F0E2D9D4BCA5AB"]
+			icon: {
+				id: "create:track"
+			}
+			id: "3CB1EB938A942FC1"
+			rewards: [{
+				id: "3F2BEB33C20D6533"
+				item: {
+					count: 1
+					id: "createdieselgenerators:track_layers_bag"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					icon: {
+						id: "create:track"
+					}
+					id: "3FDC144879052ECD"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(create:tracks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "0064614E99DE2CE7"
+					type: "checkmark"
+				}
+			]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7790F13FF73D036B"]
+			id: "3B0D1BA891E44F6C"
+			size: 1.25d
+			tasks: [{
+				id: "385EAC2C9A449FA0"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "minecraft:quartz"
+			}
+			id: "3AFD6A592BA09D0D"
+			optional: true
+			shape: "gear"
+			tasks: [
+				{
+					id: "2895DD0F180FBF1D"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:gems/quartz)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "146C53EBAA4F720E"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"461B1BA18BB92FA8"
+				"6653B2B611770F38"
+			]
+			id: "3200A6EF7F7C34B3"
+			tasks: [{
+				id: "4184513844F480D6"
+				item: { count: 1, id: "productivemetalworks:molten_redstone_bucket" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["67706EEE47206868"]
+			icon: {
+				id: "create:brass_tunnel"
+			}
+			id: "2F46B27319D4E6EB"
+			optional: true
+			tasks: [{
+				id: "3D371E72506BD045"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6B1010F5F689BE54"
+				"3B0D1BA891E44F6C"
+			]
+			icon: {
+				id: "create:extendo_grip"
+			}
+			id: "0D9F5CCE1BA6B838"
+			tasks: [
+				{
+					id: "190896ACD6E7CB8A"
+					item: { count: 1, id: "create:extendo_grip" }
+					type: "item"
+				}
+				{
+					id: "339C6755F0A75700"
+					item: { components: { "create:banktank_air": 900 }, count: 1, id: "create:copper_backtank" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B0D1BA891E44F6C"]
+			icon: {
+				id: "minecraft:oak_door"
+			}
+			id: "3237A9607BCB96B1"
+			optional: true
+			tasks: [{
+				id: "57AB06C718BE3C5A"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+	]
+}

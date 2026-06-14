@@ -1,0 +1,13 @@
+name = "Unusual End"
+filename = "unusualend-2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WKsNOKFh/versions/aY6qjJ3S/unusualend-2.3.jar"
+hash-format = "sha512"
+hash = "1bba524d6b0c329c69d5e196ac5ff13c0c35e0e20707b03f454ecbac7bdfcac885cdf1d0af7dd4984c2afa9f3ee4b739559e76caa41350835430f96060785a11"
+
+[update]
+[update.modrinth]
+mod-id = "WKsNOKFh"
+version = "aY6qjJ3S"

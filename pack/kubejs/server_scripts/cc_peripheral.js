@@ -6,13 +6,13 @@ ServerEvents.recipes((event) => {
         S: "create:iron_sheet",
         B: "minecraft:iron_bars",
         C: "create:andesite_casing",
-        I: "#c:circuits/advanced",
+        I: "create_connected:control_chip",
         R: "minecraft:redstone_block",
     });
     event.remove("advancedperipherals:environment_detector");
     event.shaped("advancedperipherals:environment_detector", ["SDS", "LCL", "WIW"], {
         C: "advancedperipherals:peripheral_casing",
-        I: "#c:circuits/advanced",
+        I: "create_connected:control_chip",
         D: "minecraft:daylight_detector",
         W: "#minecraft:wool",
         L: "#minecraft:leaves",
@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
     event.remove("advancedperipherals:chat_box");
     event.shaped("advancedperipherals:chat_box", ["SLS", "SCS", "RIR"], {
         C: "advancedperipherals:peripheral_casing",
-        I: "#c:circuits/elite",
+        I: "#c:circuits/advanced",
         S: "#minecraft:hanging_signs",
         L: "minecraft:lectern",
         R: "#c:dusts/redstone",
@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
     event.remove("advancedperipherals:player_detector");
     event.shaped("advancedperipherals:player_detector", ["TST", "ECE", "RIR"], {
         C: "advancedperipherals:peripheral_casing",
-        I: "#c:circuits/elite",
+        I: "#c:circuits/advanced",
         S: "minecraft:sculk_sensor",
         T: "minecraft:tripwire_hook",
         R: "minecraft:redstone_block",
@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
     event.remove("advancedperipherals:energy_detector");
     event.shaped("advancedperipherals:energy_detector", ["RTR", "KCK", "BIB"], {
         C: "advancedperipherals:peripheral_casing",
-        I: "#c:circuits/advanced",
+        I: "create_connected:control_chip",
         R: "#c:dusts/redstone",
         B: "minecraft:redstone_block",
         T: "minecraft:redstone_torch",
@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
     event.remove("advancedperipherals:inventory_manager");
     event.shaped("advancedperipherals:inventory_manager", ["KPK", "ECE", "RIR"], {
         C: "advancedperipherals:peripheral_casing",
-        I: "#c:circuits/elite",
+        I: "#c:circuits/advanced",
         R: "#c:dusts/redstone",
         K: "#c:chests",
         E: "minecraft:ender_chest",
@@ -56,7 +56,7 @@ ServerEvents.recipes((event) => {
     event.remove("advancedperipherals:block_reader");
     event.shaped("advancedperipherals:block_reader", ["SMS", "OCO", "RIR"], {
         C: "advancedperipherals:peripheral_casing",
-        I: "#c:circuits/advanced",
+        I: "create_connected:control_chip",
         R: "#c:dusts/redstone",
         O: "minecraft:observer",
         M: "#computercraft:wired_modem",
@@ -65,7 +65,7 @@ ServerEvents.recipes((event) => {
     event.remove("advancedperipherals:block_reader");
     event.shaped("advancedperipherals:block_reader", ["SMS", "OCO", "RIR"], {
         C: "advancedperipherals:peripheral_casing",
-        I: "#c:circuits/advanced",
+        I: "create_connected:control_chip",
         R: "#c:dusts/redstone",
         O: "minecraft:observer",
         M: "#computercraft:wired_modem",
@@ -74,7 +74,7 @@ ServerEvents.recipes((event) => {
     event.remove("advancedperipherals:nbt_storage");
     event.shaped("advancedperipherals:nbt_storage", ["SKS", "KCK", "RIR"], {
         C: "advancedperipherals:peripheral_casing",
-        I: "#c:circuits/advanced",
+        I: "create_connected:control_chip",
         R: "#c:dusts/redstone",
         K: "#c:chests",
         S: "create:iron_sheet",
@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
     event.remove("advancedperipherals:geo_scanner");
     event.shaped("advancedperipherals:geo_scanner", ["DMD", "ECE", "RIR"], {
         C: "advancedperipherals:peripheral_casing",
-        I: "#c:circuits/elite",
+        I: "#c:circuits/advanced",
         R: "minecraft:redstone_block",
         E: "minecraft:ender_eye",
         M: "#computercraft:wired_modem",

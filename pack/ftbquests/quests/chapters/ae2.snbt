@@ -1,0 +1,580 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: ""
+	icon: {
+		id: "create:refined_radiance"
+	}
+	id: "6E88C8AFA9C89929"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["42D829BD749FD1CD"]
+			id: "31B9604A9093AC21"
+			shape: "gear"
+			tasks: [{
+				id: "27A653F1C9FB6D08"
+				item: { count: 1, id: "ae2:matter_ball" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31B9604A9093AC21"]
+			id: "39112D2CA1D87C66"
+			shape: "gear"
+			tasks: [{
+				id: "06B195E9C760D9FF"
+				item: { count: 1, id: "ae2:red_paint_ball" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31B9604A9093AC21"]
+			id: "4F35B5A4D974F35E"
+			shape: "gear"
+			tasks: [{
+				id: "0EBE05B70A4EE023"
+				item: { count: 1, id: "ae2:orange_paint_ball" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31B9604A9093AC21"]
+			id: "016895FE32EA7267"
+			shape: "gear"
+			tasks: [{
+				id: "5908AE99DE932865"
+				item: { count: 1, id: "ae2:yellow_paint_ball" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31B9604A9093AC21"]
+			id: "6DDEDE350E28F14C"
+			shape: "gear"
+			tasks: [{
+				id: "7EF5442A0171DC93"
+				item: { count: 1, id: "ae2:green_paint_ball" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31B9604A9093AC21"]
+			id: "4964888F8B8260B2"
+			shape: "gear"
+			tasks: [{
+				id: "40BBFE13B6A82556"
+				item: { count: 1, id: "ae2:cyan_paint_ball" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31B9604A9093AC21"]
+			id: "3745B4D76ED88BE0"
+			shape: "gear"
+			tasks: [{
+				id: "01FB0F62FF780678"
+				item: { count: 1, id: "ae2:blue_paint_ball" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31B9604A9093AC21"]
+			id: "4AED1F9C7CD7F586"
+			shape: "gear"
+			tasks: [{
+				id: "343AFAD8CB35D2C0"
+				item: { count: 1, id: "ae2:purple_paint_ball" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"39112D2CA1D87C66"
+				"4F35B5A4D974F35E"
+				"016895FE32EA7267"
+				"6DDEDE350E28F14C"
+				"4964888F8B8260B2"
+				"3745B4D76ED88BE0"
+				"4AED1F9C7CD7F586"
+			]
+			id: "2A51EF528EB3E8A4"
+			shape: "gear"
+			tasks: [{
+				id: "60B50D49FEC9A0EA"
+				item: { count: 1, id: "kubejs:chromatic_compound" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A51EF528EB3E8A4"]
+			id: "381090D3D8108A22"
+			shape: "gear"
+			tasks: [{
+				id: "5BBFBD86D8A5E64C"
+				item: { count: 1, id: "ae2:red_lumen_paint_ball" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A51EF528EB3E8A4"]
+			id: "393BC967D2CE214C"
+			shape: "gear"
+			tasks: [{
+				id: "364158FECBB808C3"
+				item: { count: 1, id: "ae2:orange_lumen_paint_ball" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A51EF528EB3E8A4"]
+			id: "0B623AF48AE6000B"
+			shape: "gear"
+			tasks: [{
+				id: "58F26E9073489ADE"
+				item: { count: 1, id: "ae2:yellow_lumen_paint_ball" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A51EF528EB3E8A4"]
+			id: "599B960312B96F75"
+			shape: "gear"
+			tasks: [{
+				id: "7E64F5CC77B36E28"
+				item: { count: 1, id: "ae2:green_lumen_paint_ball" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A51EF528EB3E8A4"]
+			id: "3100F148BEB740FD"
+			shape: "gear"
+			tasks: [{
+				id: "3816DF82559FFEBB"
+				item: { count: 1, id: "ae2:cyan_lumen_paint_ball" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A51EF528EB3E8A4"]
+			id: "4CE30489005A597E"
+			shape: "gear"
+			tasks: [{
+				id: "24C69377811F3D67"
+				item: { count: 1, id: "ae2:blue_lumen_paint_ball" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A51EF528EB3E8A4"]
+			id: "317B3546ACEB2066"
+			shape: "gear"
+			tasks: [{
+				id: "0B58777B195451BA"
+				item: { count: 1, id: "ae2:purple_lumen_paint_ball" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"381090D3D8108A22"
+				"393BC967D2CE214C"
+				"0B623AF48AE6000B"
+				"599B960312B96F75"
+				"3100F148BEB740FD"
+				"4CE30489005A597E"
+				"317B3546ACEB2066"
+			]
+			id: "4FAC7C28FD5ED3D5"
+			shape: "gear"
+			tasks: [{
+				id: "43A2EFF7CCB1EB96"
+				item: { count: 1, id: "kubejs:concentrated_chroma_bucket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4FAC7C28FD5ED3D5"
+				"68CE8D4F4EB7DE6A"
+			]
+			id: "73E0C371D9E0B665"
+			size: 1.25d
+			tasks: [{
+				id: "739E3F371A6F129D"
+				item: { count: 1, id: "create:refined_radiance" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "68CE8D4F4EB7DE6A"
+			tasks: [{
+				id: "25C385B68C8FF02B"
+				item: { count: 1, id: "create_aquatic_ambitions:prismarine_alloy" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"73E0C371D9E0B665"
+				"12D68566975B84C6"
+				"77AFC4787C9432D7"
+			]
+			id: "411EE7FF74980CC0"
+			size: 1.25d
+			tasks: [{
+				id: "0CFD4788A9D9CF29"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["411EE7FF74980CC0"]
+			id: "4F7AC02F0C0C1245"
+			tasks: [{
+				id: "3309FA458DABF11B"
+				item: { count: 1, id: "ae2:cell_component_1k" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4F7AC02F0C0C1245"]
+			id: "15A80900351B804A"
+			tasks: [{
+				id: "72BC88FE0B8EFB2F"
+				item: { count: 1, id: "ae2:cell_component_4k" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["15A80900351B804A"]
+			id: "5D4AA3DEF9DBF00E"
+			tasks: [{
+				id: "0FF3D53BDA1D138A"
+				item: { count: 1, id: "ae2:cell_component_16k" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["73BD8D2DB1B0A6C5"]
+			id: "679FE08181F40838"
+			tasks: [{
+				id: "253F09532160CEBB"
+				item: { count: 1, id: "ae2:cell_component_256k" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5D4AA3DEF9DBF00E"]
+			id: "73BD8D2DB1B0A6C5"
+			tasks: [{
+				id: "283C4673553EF1C1"
+				item: { count: 1, id: "ae2:cell_component_64k" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			id: "42D829BD749FD1CD"
+			tasks: [{
+				id: "3699EFFA3966FC66"
+				item: { count: 1, id: "ae2:condenser" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"31B1A90609AE0273"
+				"0661E231FD9CF81E"
+			]
+			id: "610961E4D997A1BB"
+			tasks: [{
+				id: "033E76A313F11BE7"
+				item: { count: 1, id: "ae2:logic_processor" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"31B1A90609AE0273"
+				"3D06AF54D4EBE493"
+			]
+			id: "6B73F25EC999CB25"
+			tasks: [{
+				id: "0A80698A86427BFC"
+				item: { count: 1, id: "ae2:calculation_processor" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"31B1A90609AE0273"
+				"277823DC16B447D7"
+			]
+			id: "77AFC4787C9432D7"
+			tasks: [{
+				id: "558C366F49E225C3"
+				item: { count: 1, id: "ae2:engineering_processor" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["411EE7FF74980CC0"]
+			id: "35B9CE5AE69C2FBB"
+			tasks: [{
+				id: "64A4CF456D32AD58"
+				item: { count: 1, id: "ae2:spatial_cell_component_2" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["35B9CE5AE69C2FBB"]
+			id: "6F7D26A627A25940"
+			tasks: [{
+				id: "5E127CB801DB8E53"
+				item: { count: 1, id: "ae2:spatial_cell_component_16" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6F7D26A627A25940"]
+			id: "79DE32D4DD062CD6"
+			tasks: [{
+				id: "092FB74FAA3DD977"
+				item: { count: 1, id: "ae2:spatial_cell_component_128" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EBD942AE9608A39"]
+			id: "31B1A90609AE0273"
+			tasks: [{
+				id: "688773E217935C3C"
+				item: { count: 1, id: "ae2:printed_silicon" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3F62D458A4FE21C0"]
+			id: "0661E231FD9CF81E"
+			tasks: [{
+				id: "35CA01940733182A"
+				item: { count: 1, id: "ae2:logic_processor_press" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3F62D458A4FE21C0"]
+			id: "0EBD942AE9608A39"
+			tasks: [{
+				id: "20CA1A5EE65A1693"
+				item: { count: 1, id: "ae2:silicon_press" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3F62D458A4FE21C0"]
+			id: "3D06AF54D4EBE493"
+			tasks: [{
+				id: "01DDBF12B8D37948"
+				item: { count: 1, id: "ae2:calculation_processor_press" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3F62D458A4FE21C0"]
+			id: "277823DC16B447D7"
+			tasks: [{
+				id: "4DA1381954A21154"
+				item: { count: 1, id: "ae2:engineering_processor_press" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			icon: {
+				id: "ae2:meteorite_compass"
+			}
+			id: "3F62D458A4FE21C0"
+			tasks: [
+				{
+					id: "0D0FFD546FE4641E"
+					item: { count: 1, id: "ae2:meteorite_compass" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					icon: {
+						id: "ae2:mysterious_cube"
+					}
+					id: "6D4E6C05579912DC"
+					structure: "ae2:meteorite"
+					type: "structure"
+				}
+			]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3F62D458A4FE21C0"]
+			icon: {
+				id: "ae2:flawless_budding_quartz"
+			}
+			id: "741DBFBD42A4A5A9"
+			tasks: [{
+				count: 8L
+				id: "1E1B4B83D3F0AECE"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"610961E4D997A1BB"
+				"6B73F25EC999CB25"
+				"77AFC4787C9432D7"
+			]
+			icon: {
+				id: "create:brass_hand"
+			}
+			id: "0012F7023146AD48"
+			shape: "gear"
+			tasks: [
+				{
+					count: 16L
+					id: "2B3DA0127B4BD2EF"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1E6266934591BA8D"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2CD869DA0C882B4B"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+				{
+					id: "151D80D15AC3B4A7"
+					type: "checkmark"
+				}
+			]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12D68566975B84C6"]
+			id: "12FFE687B6376CA7"
+			tasks: [{
+				id: "0EE9528991F1E99A"
+				item: { count: 1, id: "ae2:growth_accelerator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5D9A3416C757D0B6"]
+			id: "12D68566975B84C6"
+			tasks: [{
+				id: "0894FDD97D515E9D"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["741DBFBD42A4A5A9"]
+			id: "5D9A3416C757D0B6"
+			tasks: [{
+				id: "6A8967266BFDFBC1"
+				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+	]
+}

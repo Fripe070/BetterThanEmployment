@@ -1,0 +1,27 @@
+{
+    "item.ae2.black_lumen_paint_ball": "Charged Black Paint Ball",
+    "item.ae2.blue_lumen_paint_ball": "Charged Blue Paint Ball",
+    "item.ae2.brown_lumen_paint_ball": "Charged Brown Paint Ball",
+    "item.ae2.cyan_lumen_paint_ball": "Charged Cyan Paint Ball",
+    "item.ae2.gray_lumen_paint_ball": "Charged Gray Paint Ball",
+    "item.ae2.green_lumen_paint_ball": "Charged Green Paint Ball",
+    "item.ae2.light_blue_lumen_paint_ball": "Charged Light Blue Paint Ball",
+    "item.ae2.light_gray_lumen_paint_ball": "Charged Light Gray Paint Ball",
+    "item.ae2.lime_lumen_paint_ball": "Charged Lime Paint Ball",
+    "item.ae2.magenta_lumen_paint_ball": "Charged Magenta Paint Ball",
+    "item.ae2.orange_lumen_paint_ball": "Charged Orange Paint Ball",
+    "item.ae2.pink_lumen_paint_ball": "Charged Pink Paint Ball",
+    "item.ae2.purple_lumen_paint_ball": "Charged Purple Paint Ball",
+    "item.ae2.red_lumen_paint_ball": "Charged Red Paint Ball",
+    "item.ae2.white_lumen_paint_ball": "Charged White Paint Ball",
+    "item.ae2.yellow_lumen_paint_ball": "Charged Yellow Paint Ball",
+
+    "item.ae2.silicon_press": "Silicon Press",
+    "item.ae2.calculation_processor_press": "Calculation Processor Press",
+    "item.ae2.engineering_processor_press": "Engineering Processor Press",
+    "item.ae2.logic_processor_press": "Logic Processor Press",
+
+    "item.ae2.printed_calculation_processor": "Incomplete Calculation Processor",
+    "item.ae2.printed_engineering_processor": "Incomplete Engineering Processor",
+    "item.ae2.printed_logic_processor": "Incomplete Logic Processor"
+}

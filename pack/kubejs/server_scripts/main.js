@@ -32,6 +32,50 @@ ServerEvents.recipes((event) => {
         "createaddition:biomass_pellet_block",
     );
 
+    event.remove({ type: "create:mixing", output: "createaddition:biomass" });
+    event.recipes.create
+        .mixing("createaddition:biomass", [
+            Ingredient.of("#create:pulpifiable", 12),
+            Fluid.of("createaddition:seed_oil", 100),
+        ])
+        .heated();
+    event.recipes.create
+        .mixing("createaddition:biomass", [
+            Ingredient.of("#minecraft:saplings", 9),
+            Fluid.of("createaddition:seed_oil", 100),
+        ])
+        .heated();
+    event.recipes.create
+        .mixing("createaddition:biomass", [
+            Ingredient.of("#minecraft:leaves", 12),
+            Fluid.of("createaddition:seed_oil", 100),
+        ])
+        .heated();
+    event.recipes.create
+        .mixing("createaddition:biomass", [
+            Ingredient.of("#minecraft:flowers", 9),
+            Fluid.of("createaddition:seed_oil", 100),
+        ])
+        .heated();
+    event.recipes.create
+        .mixing("createaddition:biomass", [
+            Ingredient.of("minecraft:honeycomb", 4),
+            Fluid.of("createaddition:seed_oil", 100),
+        ])
+        .heated();
+    event.recipes.create
+        .mixing("createaddition:biomass", [
+            Ingredient.of("#c:crops", 6),
+            Fluid.of("createaddition:seed_oil", 100),
+        ])
+        .heated();
+    event.recipes.create
+        .mixing("createaddition:biomass", [
+            Ingredient.of("#createaddition:plant_foods", 6),
+            Fluid.of("createaddition:seed_oil", 100),
+        ])
+        .heated();
+
     // same as seed oil
     event.remove({ output: Fluid.of("createdieselgenerators:plant_oil") });
 
@@ -60,49 +104,11 @@ ServerEvents.recipes((event) => {
 
     event.remove({ output: "mekanism:cardboard_box" });
 
-    event.replaceInput(
-        { input: "createpropulsion:platinum_sheet" },
-        "createpropulsion:platinum_sheet",
-        "#c:plates/lead",
-    );
-    ["nuggets", "ingots", "storage_blocks", "plates"].forEach((type) => {
-        event.replaceInput(
-            {
-                input: `#c:${type}/platinum`,
-                not: {
-                    id: /.*platinum.*/,
-                },
-            },
-            `#c:${type}/platinum`,
-            `#c:${type}/lead`,
-        );
-    });
-    event.remove({ output: "createpropulsion:platinum_fluid_tank" });
-    event.remove({ output: "createpropulsion:platinum_casing" });
-    event.remove({ output: "createpropulsion:cable" });
-    event.remove({ output: "createpropulsion:cable_relay" });
-
     event.remove({ mod: "ftbfiltersystem" });
-
-    event.recipes.create
-        .mixing([Fluid.of("kubejs:molten_redstone", 100)], [Ingredient.of("#c:dusts/redstone")])
-        .heated();
-    event.recipes.create
-        .mixing(
-            [Fluid.of("kubejs:molten_redstone", 900)],
-            [Ingredient.of("#c:storage_blocks/redstone")],
-        )
-        .heated();
-    event.recipes.create
-        .mixing(
-            [Fluid.of("kubejs:molten_redstone", 800)],
-            [Ingredient.of("#mekanism:enriched/redstone")],
-        )
-        .heated();
 
     event.remove({ output: "create:rose_quartz" });
     event.recipes.create.filling("create:rose_quartz", [
-        Fluid.of("kubejs:molten_redstone", 400),
+        Fluid.of("productivemetalworks:molten_redstone", 400),
         Ingredient.of("#c:dusts/quartz"),
     ]);
 
@@ -111,8 +117,8 @@ ServerEvents.recipes((event) => {
     event.remove({ output: "create:precision_mechanism" });
     const trans_mech = "create:incomplete_precision_mechanism";
     event.recipes.create
-        .sequenced_assembly("create:precision_mechanism", "create:brass_sheet", [
-            event.recipes.create.deploying("create:incomplete_precision_mechanism", [
+        .sequenced_assembly("create:precision_mechanism", "#c:plates/brass", [
+            event.recipes.create.deploying(trans_mech, [
                 "create:incomplete_precision_mechanism",
                 "create:electron_tube",
             ]),
@@ -134,7 +140,7 @@ ServerEvents.recipes((event) => {
             event.recipes.create.deploying(trans_circ, [trans_circ, "create:copper_nugget"]),
             event.recipes.create.filling(trans_circ, [
                 trans_circ,
-                Fluid.of("kubejs:molten_redstone", 50),
+                Fluid.of("productivemetalworks:molten_redstone", 50),
             ]),
             event.recipes.create.deploying(trans_circ, [trans_circ, "createdeco:andesite_sheet"]),
             event.recipes.create.pressing(trans_circ, trans_circ),
@@ -160,8 +166,9 @@ ServerEvents.recipes((event) => {
     event.remove({ output: "mekanism:alloy_reinforced" });
     event.recipes.create
         .mixing("2x mekanism:alloy_reinforced", [
-            "mekanism:alloy_infused",
+            "2x mekanism:alloy_infused",
             "mekanism:enriched_diamond",
+            Fluid.of("create_enchantment_industry:experience", 100),
         ])
         .superheated();
     event.remove({ output: "mekanism:alloy_atomic" });
@@ -205,8 +212,31 @@ ServerEvents.recipes((event) => {
     });
 
     event.remove({ output: "mekanism:teleporter" });
+    event.remove({ output: "mekanism:portable_teleporter" });
     event.remove({ output: "mekanism:quantum_entangloporter" });
     event.remove({ output: "mekanism:quantum_entangloporter" });
+    event.remove({ output: /^mekanism:qio.+/ });
+    event.remove({ output: "mekanism:portable_qio_dashboard" });
+
+    event.remove({ output: Fluid.of("createaddition:bioethanol") });
+
+    event.remove({ output: "ae2:quantum_link" });
+    event.remove({ output: "ae2:quantum_ring" });
+    event.remove({ output: "ae2:quantum_entangled_singularity" });
+
+    event.remove({ output: "minecraft:ender_eye" });
+    event.shapeless("minecraft:ender_eye", ["minecraft:ender_pearl", "botania:pixie_dust"]);
+
+    event.recipes.create.filling("minecraft:redstone", [
+        Fluid.of("createdieselgenerators:gasoline", 25),
+        Ingredient.of("create:cinder_flour"),
+    ]);
+
+    event.replaceInput(
+        { output: "aeinfinitybooster:infinity_card" },
+        "minecraft:netherite_ingot",
+        "sgearmetalworks:uru_metal_ingot",
+    );
 });
 ServerEvents.tags("item", (event) => {
     event.removeAllTagsFrom("mekanism:bio_fuel");
@@ -215,4 +245,10 @@ ServerEvents.tags("item", (event) => {
 
 LootJS.lootTables((event) => {
     event.modifyLootTables().replaceItem("farmersdelight:rope", "simulated:rope_coupling");
+    event.modifyLootTables().replaceItem("minecraft:ender_eye", "minecraft:ender_pearl");
+});
+
+ServerEvents.tags("block", (event) => {
+    // Use spatial storage instead!
+    event.add("create:non_movable", ["ae2:flawless_budding_quartz"]);
 });
