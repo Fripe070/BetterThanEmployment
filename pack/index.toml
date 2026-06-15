@@ -73,6 +73,10 @@ file = "config/jaopca/modules/storage_blocks.toml"
 hash = "d9de830208284eaa5f60dd794b80b80752835b232f17bc1b838a656b9f853f46"
 
 [[files]]
+file = "config/silentgear-common.toml"
+hash = "57de68c611717a9d80a8483af5dfc8248c77a21a712929fa02d79b903933a848"
+
+[[files]]
 file = "config/supplementaries-common.toml"
 hash = "4057b6ae7c2240892ec940348453bc69973c4bb409ba15a4d26e3736a6076327"
 
@@ -1502,11 +1506,6 @@ hash = "6886c6cc7d4d43e2b9792af5c91fe381be0b33b1aea5f0decc465a5c17bc7004"
 metafile = true
 
 [[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "a98dd7f86518a0de7bb3451bee7c8e1d7cec1b7fe00d97504ce7afd7e715ae2d"
-metafile = true
-
-[[files]]
 file = "mods/dungeons-and-taverns-end-castle-standalone.pw.toml"
 hash = "d94d9d6b8fcd656ed65e886c3b895dade1130661e0eaeb6b22162060a8dbf331"
 metafile = true
@@ -1798,7 +1797,7 @@ metafile = true
 
 [[files]]
 file = "mods/scholar.pw.toml"
-hash = "c6f5b8095215f4af965c15608799a096310592b59e9baabb59af86d4a8dbd641"
+hash = "d4203b8c55087cdc2ccf310d83b6d598ba85308a18a3efa44cbec375dd06ab55"
 metafile = true
 
 [[files]]
