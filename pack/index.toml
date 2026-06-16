@@ -1307,7 +1307,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "209446eb003bb59111833db0e0328657a9ffe7d85d6016ddf3ecfd5a2f7e13c5"
+hash = "14f862ceab11545e0a446df8c91c95ae7434ca4975db1357ad2001b6ec321e45"
 metafile = true
 
 [[files]]
@@ -1522,7 +1522,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi-ores.pw.toml"
-hash = "0b921f73d5b1ad6615740956567d6cb06950f5520f094dbb7a045bb4bd5ba309"
+hash = "f2cbcb3d01017133313e1594cb89f052923592b7fa0c78eb9b6d09fb6e03bfb5"
 metafile = true
 
 [[files]]
@@ -1577,7 +1577,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "ef558f026320380275ea41c72e17fe616ede352f239a5f63cd43132f0aa88c11"
+hash = "69245a4bb8ba421709dc8eb386b27bf920519cbf312031ba0e5f1e6a1d396776"
 metafile = true
 
 [[files]]
@@ -1712,7 +1712,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "c8ac0bf19049381f3f05aa46bfea8f2a742d340a3285ecfb7118eab6327cff99"
+hash = "983d6ab9d9a7d40031f1789f5ae018cccb889832ac8ce741df60a9d8e5f42817"
 metafile = true
 
 [[files]]
@@ -1792,12 +1792,12 @@ metafile = true
 
 [[files]]
 file = "mods/sable.pw.toml"
-hash = "07c1d1a846572a60bf88dc54977d9a65d20f74c19209cb82e8d7dfe0d3cdfadf"
+hash = "2b4fb5e3d16d30b59be78c4efc3dd7b7c3066e6486ef0c99fb32af510ffc308a"
 metafile = true
 
 [[files]]
 file = "mods/scholar.pw.toml"
-hash = "d4203b8c55087cdc2ccf310d83b6d598ba85308a18a3efa44cbec375dd06ab55"
+hash = "ce0e68d65baacfe8ae0631e5ce9dfdedbb18b12ad44000c5168a222f18a9d11e"
 metafile = true
 
 [[files]]
