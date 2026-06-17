@@ -9,7 +9,7 @@ ServerEvents.recipes((event) => {
     event.shaped("computercraft:computer_normal", ["###", "#R#", "#G#"], {
         "#": "create:andesite_alloy",
         G: "#c:glass_panes",
-        R: "create_connected:control_chip",
+        R: "mekanism:basic_control_circuit",
     });
     event.remove("computercraft:computer_advanced");
     event.shaped("computercraft:computer_advanced", ["###", "#R#", "#G#"], {
@@ -42,13 +42,13 @@ ServerEvents.recipes((event) => {
         "#": "create:andesite_alloy",
         D: "#c:dyes",
         P: "minecraft:paper",
-        R: "create_connected:control_chip",
+        R: "mekanism:basic_control_circuit",
     });
     event.remove("computercraft:speaker");
     event.shaped("computercraft:speaker", ["###", "#N#", "#R#"], {
         "#": "create:andesite_alloy",
         N: "minecraft:note_block",
-        R: "create_connected:control_chip",
+        R: "mekanism:basic_control_circuit",
     });
     event.remove("computercraft:redstone_relay");
     event.shaped("computercraft:redstone_relay", ["SRS", "RCR", "SRS"], {
@@ -60,19 +60,19 @@ ServerEvents.recipes((event) => {
     event.shaped("computercraft:disk_drive", ["###", "#C#", "#R#"], {
         "#": "create:andesite_alloy",
         R: "#c:dusts/redstone",
-        C: "create_connected:control_chip",
+        C: "mekanism:basic_control_circuit",
     });
 
     event.remove("computercraft:wired_modem");
     event.shaped("computercraft:wired_modem", ["###", "#R#", "###"], {
         "#": "create:andesite_alloy",
-        R: "create_connected:control_chip",
+        R: "mekanism:basic_control_circuit",
     });
     event.remove("computercraft:wireless_modem_normal");
     event.shaped("computercraft:wireless_modem_normal", ["#T#", "#R#", "#E#"], {
         "#": "create:andesite_alloy",
         E: "#c:ender_pearls",
-        R: "create_connected:control_chip",
+        R: "mekanism:basic_control_circuit",
         T: "create:transmitter",
     });
     event.remove("computercraft:wireless_modem_advanced");
@@ -88,7 +88,7 @@ ServerEvents.recipes((event) => {
         "#": "create:andesite_alloy",
         A: "minecraft:golden_apple",
         G: "#c:glass_panes",
-        R: "create_connected:control_chip",
+        R: "mekanism:basic_control_circuit",
     });
     event.remove("computercraft:pocket_computer_advanced");
     event.shaped("computercraft:pocket_computer_advanced", ["#A#", "#R#", "#G#"], {

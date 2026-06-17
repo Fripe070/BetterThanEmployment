@@ -134,34 +134,41 @@ ServerEvents.recipes((event) => {
     );
 
     event.remove({ output: "mekanism:basic_control_circuit" });
-    const trans_circ = "kubejs:incomplete_basic_control_circuit";
+    const trans_bas_circ = "kubejs:incomplete_basic_control_circuit";
     event.recipes.create
-        .sequenced_assembly("mekanism:basic_control_circuit", "mekanism:hdpe_sheet", [
-            event.recipes.create.deploying(trans_circ, [trans_circ, "create:copper_nugget"]),
-            event.recipes.create.filling(trans_circ, [
-                trans_circ,
+        .sequenced_assembly("mekanism:basic_control_circuit", "create:golden_sheet", [
+            event.recipes.create.deploying(trans_bas_circ, [
+                trans_bas_circ,
+                "create:copper_nugget",
+            ]),
+            event.recipes.create.filling(trans_bas_circ, [
+                trans_bas_circ,
                 Fluid.of("productivemetalworks:molten_redstone", 50),
             ]),
-            event.recipes.create.deploying(trans_circ, [trans_circ, "createdeco:andesite_sheet"]),
-            event.recipes.create.pressing(trans_circ, trans_circ),
+            event.recipes.create.deploying(trans_bas_circ, [
+                trans_bas_circ,
+                "createdeco:andesite_sheet",
+            ]),
+            event.recipes.create.pressing(trans_bas_circ, trans_bas_circ),
         ])
-        .transitionalItem(trans_circ);
+        .transitionalItem(trans_bas_circ);
 
     event.remove({ output: "mekanism:advanced_control_circuit" });
-    event.recipes.create.deploying("mekanism:advanced_control_circuit", [
-        "mekanism:basic_control_circuit",
-        "mekanism:alloy_infused",
-    ]);
-    event.remove({ output: "mekanism:elite_control_circuit" });
-    event.recipes.create.deploying("mekanism:elite_control_circuit", [
-        "mekanism:advanced_control_circuit",
-        "mekanism:alloy_reinforced",
-    ]);
-    event.remove({ output: "mekanism:ultimate_control_circuit" });
-    event.recipes.create.deploying("mekanism:ultimate_control_circuit", [
-        "mekanism:elite_control_circuit",
-        "mekanism:alloy_atomic",
-    ]);
+    const trans_adv_circ = "kubejs:incomplete_advanced_control_circuit";
+    event.recipes.create
+        .sequenced_assembly("mekanism:advanced_control_circuit", "mekanism:alloy_infused", [
+            event.recipes.create.deploying(trans_adv_circ, [
+                trans_adv_circ,
+                "mekanism:basic_control_circuit",
+            ]),
+            event.recipes.create.filling(trans_adv_circ, [
+                trans_adv_circ,
+                Fluid.of("productivemetalworks:molten_redstone", 100),
+            ]),
+            event.recipes.create.deploying(trans_adv_circ, [trans_adv_circ, "mekanism:hdpe_sheet"]),
+            event.recipes.create.pressing(trans_adv_circ, trans_adv_circ),
+        ])
+        .transitionalItem(trans_adv_circ);
 
     event.remove({ output: "mekanism:alloy_reinforced" });
     event.recipes.create
@@ -171,13 +178,47 @@ ServerEvents.recipes((event) => {
             Fluid.of("create_enchantment_industry:experience", 100),
         ])
         .superheated();
+    event.remove({ output: "mekanism:elite_control_circuit" });
+    const trans_eli_circ = "kubejs:incomplete_elite_control_circuit";
+    event.recipes.create
+        .sequenced_assembly("mekanism:elite_control_circuit", "mekanism:alloy_reinforced", [
+            event.recipes.create.deploying(trans_eli_circ, [
+                trans_eli_circ,
+                "mekanism:advanced_control_circuit",
+            ]),
+            event.recipes.create.filling(trans_eli_circ, [
+                trans_eli_circ,
+                Fluid.of("productivemetalworks:molten_redstone", 150),
+            ]),
+            event.recipes.create.deploying(trans_eli_circ, [trans_eli_circ, "mekanism:hdpe_sheet"]),
+            event.recipes.create.pressing(trans_eli_circ, trans_eli_circ),
+        ])
+        .transitionalItem(trans_eli_circ);
+
     event.remove({ output: "mekanism:alloy_atomic" });
     event.recipes.create
         .mixing("mekanism:alloy_atomic", [
-            "mekanism:alloy_reinforced",
-            "mekanism:enriched_refined_obsidian",
+            Ingredient.of("mekanism:alloy_reinforced"),
+            Ingredient.of("mekanism:enriched_refined_obsidian"),
+            Fluid.of("createdieselgenerators:crude_oil", 1000),
         ])
         .superheated();
+    event.remove({ output: "mekanism:ultimate_control_circuit" });
+    const trans_ult_circ = "kubejs:incomplete_ultimate_control_circuit";
+    event.recipes.create
+        .sequenced_assembly("mekanism:ultimate_control_circuit", "mekanism:alloy_atomic", [
+            event.recipes.create.deploying(trans_ult_circ, [
+                trans_ult_circ,
+                "mekanism:elite_control_circuit",
+            ]),
+            event.recipes.create.filling(trans_ult_circ, [
+                trans_ult_circ,
+                Fluid.of("productivemetalworks:molten_redstone", 200),
+            ]),
+            event.recipes.create.deploying(trans_ult_circ, [trans_ult_circ, "mekanism:hdpe_sheet"]),
+            event.recipes.create.pressing(trans_ult_circ, trans_ult_circ),
+        ])
+        .transitionalItem(trans_ult_circ);
 
     event.remove({ output: "mekanism:metallurgic_infuser" });
     event.shaped("mekanism:metallurgic_infuser", ["IFI", "RPR", "IFI"], {
@@ -225,19 +266,89 @@ ServerEvents.recipes((event) => {
     event.remove({ output: "ae2:quantum_entangled_singularity" });
 
     event.remove({ output: "minecraft:ender_eye" });
-    event.shapeless("minecraft:ender_eye", ["minecraft:ender_pearl", "botania:pixie_dust"]);
+    event.shapeless("minecraft:ender_eye", ["botania:mana_pearl", "minecraft:blaze_powder"]);
+
+    event.remove({ output: "createdeco:zinc_sheet" }); // prefer crafts and additions zinc sheet
 
     event.recipes.create.filling("minecraft:redstone", [
         Fluid.of("createdieselgenerators:gasoline", 25),
         Ingredient.of("create:cinder_flour"),
     ]);
 
+    event.remove({ output: "aeinfinitybooster:infinity_card" });
+    event.shaped("aeinfinitybooster:infinity_card", ["PIP", "GWG", "UEU"], {
+        W: "ae2:wireless_booster",
+        U: "sgearmetalworks:uru_metal_ingot",
+        G: "botania:gaia_ingot",
+        P: "mekanism:pellet_polonium",
+        I: "cataclysm:ignitium_ingot",
+        E: "minecraft:ender_chest",
+    });
+
+    event.remove({ output: "aeinfinitybooster:dimension_card" });
+
+    const trans_dim_card = "kubejs:incomplete_dimension_card";
+    event.recipes.create
+        .sequenced_assembly(
+            "aeinfinitybooster:dimension_card",
+            "mekanism:ultimate_control_circuit",
+            [
+                event.recipes.create.filling(trans_dim_card, [
+                    trans_dim_card,
+                    Fluid.of("kubejs:concentrated_chroma", 2000),
+                ]),
+                event.recipes.create.deploying(trans_dim_card, [
+                    trans_dim_card,
+                    "minecraft:nether_star",
+                ]),
+                event.recipes.create.deploying(trans_dim_card, [
+                    trans_dim_card,
+                    "aeinfinitybooster:infinity_card",
+                ]),
+                event.recipes.create.pressing(trans_dim_card, trans_dim_card),
+            ],
+        )
+        .loops(4)
+        .transitionalItem(trans_dim_card);
+
     event.replaceInput(
-        { output: "aeinfinitybooster:infinity_card" },
-        "minecraft:netherite_ingot",
-        "sgearmetalworks:uru_metal_ingot",
+        { output: "ae2:wireless_receiver" },
+        "ae2:quartz_fiber",
+        "mekanism:teleportation_core",
     );
+
+    // Remove all movement units I do not want
+    event.remove({ output: "mekanism:module_teleportation_unit" });
+    event.remove({ output: "mekanism:module_jetpack_unit" });
+    event.remove({ output: "mekanism:module_gravitational_modulating_unit" });
+
+    event.replaceInput(
+        { output: "mekanism:personal_chest" },
+        "#c:glass_blocks/cheap",
+        "minecraft:shulker_shell",
+    );
+    event.replaceInput(
+        { output: "mekanism:personal_barrel" },
+        "#c:glass_blocks/cheap",
+        "minecraft:shulker_shell",
+    );
+
+    event.replaceInput(
+        { output: "createdieselgenerators:huge_diesel_engine" },
+        "create:brass_block",
+        "createdieselgenerators:large_diesel_engine",
+    );
+
+    event.replaceInput(
+        { output: "mechtrowel:wand_capacity_template" },
+        "minecraft:netherite_ingot",
+        "botania:astrolabe",
+    );
+
+    event.remove({ mod: "silentgear", output: /.*flax.*/ });
+    event.shapeless("silentgear:flax_string", "2x supplementaries:flax");
 });
+
 ServerEvents.tags("item", (event) => {
     event.removeAllTagsFrom("mekanism:bio_fuel");
     event.add("c:plates/lead", "kubejs:lead_sheet");
@@ -251,4 +362,17 @@ LootJS.lootTables((event) => {
 ServerEvents.tags("block", (event) => {
     // Use spatial storage instead!
     event.add("create:non_movable", ["ae2:flawless_budding_quartz"]);
+});
+
+ItemEvents.modifyTooltips((event) => {
+    event.modify(/.+elytra.*/, (tooltip) => {
+        tooltip.insert(
+            1,
+            Text.of("§l§cNOTE:§r Boosting while flying is disabled. You are only able to glide"),
+        );
+        tooltip.insert(2, Text.of("§7Exploits that bypass this will be fixed"));
+    });
+});
+ItemEvents.rightClicked((event) => {
+    if (event.player.isFallFlying()) event.cancel();
 });

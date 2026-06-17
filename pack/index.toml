@@ -37,10 +37,6 @@ file = "config/create-server.toml"
 hash = "342415d7f6f7e4a6fec572a2fe1ade187c94df266f38ab055506ba087455b4b4"
 
 [[files]]
-file = "config/create_connected-common.toml"
-hash = "f9a84fbd12855cf8b6a8ec2207b7264f52686294c50147df860f301c7de96eee"
-
-[[files]]
 file = "config/create_dragons_plus-common.toml"
 hash = "8beedf927f526ce11b0189cd6d339726a599055211090170655ae08a0fed8c5d"
 
@@ -1105,8 +1101,24 @@ file = "kubejs/assets/kubejs/textures/item/chromatic_compound.png"
 hash = "4c0be52acf2739b3021b5b1acea7b12431ddaa75f80c478ffb11040fc000a4ee"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_advanced_control_circuit.png"
+hash = "887bc54d4313f2886cda9ec1afa2080d88b0cb1e672c20c4362759c5b823ff1b"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_basic_control_circuit.png"
 hash = "33764ff605c5872e69ff238c86797a8beadd6bb0ba49055fe9fed5367f101c3b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_dimension_card.png"
+hash = "c59109bdd56048fc162ad5111ab2230c1fcb03b55ce0f1842cba0c5e761bcc30"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_elite_control_circuit.png"
+hash = "b0d63c8d70823e5506652916effc243bc95b87be0afaf638726a8bb73d0643a6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_ultimate_control_circuit.png"
+hash = "f34857cdd98620a944904bbde9d5c36c4de081e96d9a98daaca4c8f1ece535cc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/lead_sheet.png"
@@ -1178,11 +1190,11 @@ hash = "55d4dbd0652804db3cf8efacdd45c349b8361dc7ee99f7e31022528f8815a6e9"
 
 [[files]]
 file = "kubejs/server_scripts/cc.js"
-hash = "854026cd5360ecc3ac493d3de5037cface96254e43e219f3f4981b1de1d7ba3a"
+hash = "f326dd212b29455d9a605583a5ae8c967bb083fbde6d448dfd62d6f7876362eb"
 
 [[files]]
 file = "kubejs/server_scripts/cc_peripheral.js"
-hash = "98a18524cc745c7fdc067f7fb234cb1def646887a67f5c5cb45f6279c924ffb6"
+hash = "6ef7587a6936485b5cdd977be13e849c86cd0cc5ee786d8e9feaa8b25e86f382"
 
 [[files]]
 file = "kubejs/server_scripts/chroma.js"
@@ -1194,7 +1206,7 @@ hash = "76baa3d2717a253e959bff6e1468592ebd9ec417e44e7f46846e57a4ca636c79"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "ae4d277f7a9463f616787116559dc72ec97372786482e2e644946b974cc6bdda"
+hash = "1558c64751a91fecc563514d01741a87838f0ab0f69f21bf4e84f1f5827de91f"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism_compat.js"
@@ -1214,7 +1226,7 @@ hash = "c598d8f9710af7a23f92cdd9061894afa84b2380377a66e15d293e769c998f97"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "aabb99a5eb12b88776c5f00926471c235355c1bf32b4362e0b3d396d2e438442"
+hash = "f9945a2f6d8eeb7bc735a2ebdf98f39d59c1d1785b034945537467ae9069e537"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
@@ -1249,6 +1261,11 @@ metafile = true
 [[files]]
 file = "mods/almostunified.pw.toml"
 hash = "3805fe2877cffdae5e7bf74d85069a2535daa39a0f3ed766755be49294a07680"
+metafile = true
+
+[[files]]
+file = "mods/amendments.pw.toml"
+hash = "ca7ccbfc12a2103e8a155731eb03f94b243cc07fe9fae2f22c9ab04656109544"
 metafile = true
 
 [[files]]
@@ -1308,6 +1325,11 @@ metafile = true
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "14f862ceab11545e0a446df8c91c95ae7434ca4975db1357ad2001b6ec321e45"
+metafile = true
+
+[[files]]
+file = "mods/chat-heads.pw.toml"
+hash = "3c58cdbfe61c7ecec7068fd066b4c375457631e370a64c032c9f8a8666d4f27b"
 metafile = true
 
 [[files]]
@@ -1396,11 +1418,6 @@ hash = "125fa69ac8e6e85c9d27a0ec13e575c09312c6e5fd2f97613fbcc85a19775a13"
 metafile = true
 
 [[files]]
-file = "mods/create-connected.pw.toml"
-hash = "19f3a244bf8ffca1aa53621524681f98c680e8395323e7fa50c93169a6851a74"
-metafile = true
-
-[[files]]
 file = "mods/create-deco.pw.toml"
 hash = "67a405e6307f900d168deaa954a4309c3b44a6025e4efd7b8e774b6f9d3a69cd"
 metafile = true
@@ -1433,6 +1450,11 @@ metafile = true
 [[files]]
 file = "mods/create-nowheel.pw.toml"
 hash = "8205f415e163e4e5f70a997d17e68bc8d71758e081307a78837b9d41010846ab"
+metafile = true
+
+[[files]]
+file = "mods/create-pattern-schematics.pw.toml"
+hash = "faddfa6807d11014c93bbfd8e543e8843e6d44e53f70d54e0b7e3e95766d2021"
 metafile = true
 
 [[files]]
@@ -1716,6 +1738,11 @@ hash = "983d6ab9d9a7d40031f1789f5ae018cccb889832ac8ce741df60a9d8e5f42817"
 metafile = true
 
 [[files]]
+file = "mods/moonlight.pw.toml"
+hash = "ebca20d77b200ff48f7e431ccffac2c2db6844ef4f9304452a0201f5c0307008"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
 metafile = true
@@ -1848,6 +1875,11 @@ metafile = true
 [[files]]
 file = "mods/squaremap.pw.toml"
 hash = "e13f7564c66d7cd8fcad6e7c973cec01c51298445385f65a995d2d469e08497d"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "e4ced1c70be45fd8e734418769c36f8af66b62d46c5171e931b7195cd84de434"
 metafile = true
 
 [[files]]

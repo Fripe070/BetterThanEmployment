@@ -5,7 +5,10 @@ StartupEvents.registry("item", (event) => {
     event.create("plant_clay_pebbles");
     event.create("lead_sheet");
     event.create("incomplete_basic_control_circuit");
-
+    event.create("incomplete_advanced_control_circuit");
+    event.create("incomplete_elite_control_circuit");
+    event.create("incomplete_ultimate_control_circuit");
+    event.create("incomplete_dimension_card");
     event.create("chromatic_compound");
     event.create("charged_chromatic_compound").glow(true).texture("kubejs:item/chromatic_compound");
     event.create("unrefined_radiance");

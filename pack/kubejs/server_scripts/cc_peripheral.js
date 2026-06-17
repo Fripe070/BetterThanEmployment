@@ -6,13 +6,13 @@ ServerEvents.recipes((event) => {
         S: "create:iron_sheet",
         B: "minecraft:iron_bars",
         C: "create:andesite_casing",
-        I: "create_connected:control_chip",
+        I: "mekanism:basic_control_circuit",
         R: "minecraft:redstone_block",
     });
     event.remove("advancedperipherals:environment_detector");
     event.shaped("advancedperipherals:environment_detector", ["SDS", "LCL", "WIW"], {
         C: "advancedperipherals:peripheral_casing",
-        I: "create_connected:control_chip",
+        I: "mekanism:basic_control_circuit",
         D: "minecraft:daylight_detector",
         W: "#minecraft:wool",
         L: "#minecraft:leaves",
@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
     event.remove("advancedperipherals:energy_detector");
     event.shaped("advancedperipherals:energy_detector", ["RTR", "KCK", "BIB"], {
         C: "advancedperipherals:peripheral_casing",
-        I: "create_connected:control_chip",
+        I: "mekanism:basic_control_circuit",
         R: "#c:dusts/redstone",
         B: "minecraft:redstone_block",
         T: "minecraft:redstone_torch",
@@ -56,7 +56,7 @@ ServerEvents.recipes((event) => {
     event.remove("advancedperipherals:block_reader");
     event.shaped("advancedperipherals:block_reader", ["SMS", "OCO", "RIR"], {
         C: "advancedperipherals:peripheral_casing",
-        I: "create_connected:control_chip",
+        I: "mekanism:basic_control_circuit",
         R: "#c:dusts/redstone",
         O: "minecraft:observer",
         M: "#computercraft:wired_modem",
@@ -65,7 +65,7 @@ ServerEvents.recipes((event) => {
     event.remove("advancedperipherals:block_reader");
     event.shaped("advancedperipherals:block_reader", ["SMS", "OCO", "RIR"], {
         C: "advancedperipherals:peripheral_casing",
-        I: "create_connected:control_chip",
+        I: "mekanism:basic_control_circuit",
         R: "#c:dusts/redstone",
         O: "minecraft:observer",
         M: "#computercraft:wired_modem",
@@ -74,7 +74,7 @@ ServerEvents.recipes((event) => {
     event.remove("advancedperipherals:nbt_storage");
     event.shaped("advancedperipherals:nbt_storage", ["SKS", "KCK", "RIR"], {
         C: "advancedperipherals:peripheral_casing",
-        I: "create_connected:control_chip",
+        I: "mekanism:basic_control_circuit",
         R: "#c:dusts/redstone",
         K: "#c:chests",
         S: "create:iron_sheet",
