@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ae2"
-	group: ""
+	group: "5C5C643ECEAB57EA"
 	icon: {
 		id: "create:refined_radiance"
 	}
 	id: "6E88C8AFA9C89929"
-	order_index: 6
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -348,7 +348,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -362,7 +362,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -376,7 +376,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["411EE7FF74980CC0"]
@@ -420,7 +420,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3F62D458A4FE21C0"]
@@ -431,7 +431,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3F62D458A4FE21C0"]
@@ -442,7 +442,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3F62D458A4FE21C0"]
@@ -453,7 +453,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3F62D458A4FE21C0"]
@@ -464,7 +464,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			icon: {
@@ -488,7 +488,7 @@
 				}
 			]
 			x: -1.0d
-			y: 9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3F62D458A4FE21C0"]
@@ -503,7 +503,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -541,7 +541,7 @@
 				}
 			]
 			x: -0.5d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["12D68566975B84C6"]
@@ -552,7 +552,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5D9A3416C757D0B6"]
@@ -563,7 +563,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 10.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["741DBFBD42A4A5A9"]
@@ -574,7 +574,84 @@
 				type: "item"
 			}]
 			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "28DF1D8B93EF4769"
+			tasks: [{
+				id: "2B9BDA593A9E418D"
+				item: { count: 1, id: "ae2:drive" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["74CA793F253E6AD7"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ae2:item/wireless_terminal"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "411AF2A8F8F9B75B"
+			tasks: [
+				{
+					id: "501EB4AA4EC66D7C"
+					item: { count: 1, id: "ae2:wireless_access_point" }
+					type: "item"
+				}
+				{
+					id: "20CD1B0F38C90473"
+					item: { count: 1, id: "ae2:wireless_crafting_terminal" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			id: "74CA793F253E6AD7"
+			tasks: [{
+				id: "312732505470C364"
+				item: { count: 1, id: "ae2:terminal" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["411AF2A8F8F9B75B"]
+			id: "24A1B528715F197D"
+			tasks: [{
+				id: "4B7A2BB457EE871E"
+				item: { count: 1, id: "ae2:wireless_booster" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["24A1B528715F197D"]
+			id: "0346FDF131366A18"
+			tasks: [{
+				id: "76594D69FB0063FA"
+				item: { count: 1, id: "aeinfinitybooster:infinity_card" }
+				type: "item"
+			}]
+			x: 6.5d
 			y: 10.5d
+		}
+		{
+			dependencies: ["0346FDF131366A18"]
+			id: "469F1DAC1A6E6E21"
+			tasks: [{
+				id: "6E64F8BF1AB8C6B7"
+				item: { count: 1, id: "aeinfinitybooster:dimension_card" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.5d
 		}
 	]
 }

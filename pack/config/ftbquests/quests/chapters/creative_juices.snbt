@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "creative_juices"
-	group: ""
+	group: "5C5C643ECEAB57EA"
 	icon: {
 		id: "create:andesite_alloy"
 	}
 	id: "6F8EEE618470B339"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -642,7 +642,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			id: "73A0CE6DB64F60FA"
@@ -732,6 +732,26 @@
 			]
 			x: 5.0d
 			y: 2.5d
+		}
+		{
+			icon: {
+				id: "silentgear:pickaxe_blueprint"
+			}
+			id: "18D4B95F7D0319BE"
+			rewards: [{
+				id: "762C36170CC0F6A6"
+				item: {
+					count: 1
+					id: "silentgear:blueprint_package"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58EBA19B2973C3B4"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 4.0d
 		}
 	]
 }

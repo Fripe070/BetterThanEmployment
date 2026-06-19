@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_blaze_age"
-	group: ""
+	group: "5C5C643ECEAB57EA"
 	icon: {
 		id: "create:blaze_burner"
 	}
 	id: "2309AA292D584074"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -133,7 +133,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7790F13FF73D036B"]
+			dependencies: [
+				"7790F13FF73D036B"
+				"3273E2AA5FB681F7"
+			]
 			id: "3A5333D0259EE43A"
 			tasks: [{
 				id: "05F8C519BD99F015"
@@ -232,7 +235,7 @@
 				item: { count: 1, id: "create:precision_mechanism" }
 				type: "item"
 			}]
-			x: 3.75d
+			x: 3.5d
 			y: 5.0d
 		}
 		{
@@ -319,8 +322,149 @@
 				id: "57AB06C718BE3C5A"
 				type: "checkmark"
 			}]
-			x: 5.0d
+			x: 3.0d
 			y: 6.0d
+		}
+		{
+			icon: {
+				id: "createdieselgenerators:crude_oil_bucket"
+			}
+			id: "47BB0C8B2A32972B"
+			tasks: [
+				{
+					id: "2B0612EA8943B8EC"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_head" }
+					type: "item"
+				}
+				{
+					id: "23889E0F059C5B21"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_crank" }
+					type: "item"
+				}
+				{
+					id: "3190F453E9975F81"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }
+					type: "item"
+				}
+				{
+					id: "3276FDAD36B200A6"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_hole" }
+					type: "item"
+				}
+				{
+					id: "154BB19809F489E7"
+					item: { count: 1, id: "createdieselgenerators:oil_scanner" }
+					type: "item"
+				}
+				{
+					id: "5DBE266BF7B4B8D4"
+					item: { count: 1, id: "createdieselgenerators:crude_oil_bucket" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47BB0C8B2A32972B"]
+			id: "73ED37AF7BF8A70E"
+			tasks: [{
+				id: "04DBF5A7A6F642B9"
+				item: { count: 1, id: "createdieselgenerators:asphalt_block" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "0FC0EBBA38DD84E6"
+			tasks: [{
+				id: "204BCBE80D5D1898"
+				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0FC0EBBA38DD84E6"]
+			id: "6391CA06CF265F9A"
+			tasks: [{
+				id: "677F586AB3F15ACE"
+				item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6391CA06CF265F9A"]
+			id: "7770093A03790D93"
+			tasks: [{
+				id: "20BF5940BBFE19C9"
+				item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["47BB0C8B2A32972B"]
+			icon: {
+				id: "createdieselgenerators:diesel_bucket"
+			}
+			id: "7B149341FB1169AC"
+			tasks: [
+				{
+					id: "55E97417AFBF1799"
+					item: { count: 1, id: "createdieselgenerators:distillation_controller" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "createdieselgenerators:diesel_bucket"
+					}
+					id: "158BCA35468E1E3C"
+					item: { components: { "ftbfiltersystem:filter": "or(item(createdieselgenerators:diesel_bucket)item(createdieselgenerators:gasoline_bucket))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B149341FB1169AC"]
+			icon: {
+				id: "minecraft:redstone"
+			}
+			id: "151B5D3C62111053"
+			optional: true
+			shape: "gear"
+			tasks: [
+				{
+					id: "795338AB2B0A0218"
+					item: { count: 1, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "2EEF9075C21019E9"
+					type: "checkmark"
+				}
+			]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["461B1BA18BB92FA8"]
+			hide_dependency_lines: true
+			id: "5E705C45B959BF47"
+			tasks: [{
+				id: "355B571F79A064CE"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
 		}
 	]
 }

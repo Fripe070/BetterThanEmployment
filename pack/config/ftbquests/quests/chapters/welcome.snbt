@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "744F7C8448D1669C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "minecraft:writable_book"
+		}
+		id: "40DA014E227FEB4A"
+		tasks: [{
+			id: "01A342AF529D7623"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

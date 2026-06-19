@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mekanism"
-	group: ""
+	group: "5C5C643ECEAB57EA"
 	icon: {
 		id: "mekanism:basic_universal_cable"
 	}
 	id: "535874FFE0A9BBB7"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -141,19 +141,17 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["5020B613A738F710"]
 			icon: {
 				id: "mekanism:basic_control_circuit"
 			}
 			id: "1E3B870492343D71"
-			size: 1.25d
 			tasks: [{
 				id: "1DDFAB50611D98AA"
 				item: { count: 1, id: "mekanism:basic_control_circuit" }
 				type: "item"
 			}]
 			x: 2.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["726399C22A156D46"]
@@ -193,13 +191,14 @@
 				item: { count: 1, id: "mekanism:basic_tier_installer" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.5d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
 				"1E3B870492343D71"
 				"2B17044B169077FA"
+				"5020B613A738F710"
 			]
 			icon: {
 				id: "mekanism:advanced_control_circuit"
@@ -217,8 +216,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 3.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -242,8 +241,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 2.0d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["13DBF0A852AA8DE2"]
@@ -255,7 +254,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["74D44361603A5A24"]
@@ -266,8 +265,8 @@
 				item: { count: 1, id: "mekanism:elite_tier_installer" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.5d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -291,7 +290,7 @@
 				}
 			]
 			x: 5.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["61B678F849C25926"]
@@ -303,7 +302,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1E3B870492343D71"]
@@ -313,8 +312,8 @@
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["13DBF0A852AA8DE2"]
@@ -327,8 +326,8 @@
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.5d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			id: "55FA016C9B6E066A"
@@ -400,7 +399,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			icon: {
@@ -409,9 +408,8 @@
 			id: "4104165D671C12D7"
 			tasks: [
 				{
-					count: 128L
-					id: "1DA2416C1CF89C4A"
-					item: { count: 1, id: "create:experience_nugget" }
+					id: "761EF538413A3D17"
+					item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
 					type: "item"
 				}
 				{
@@ -419,8 +417,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 7.0d
-			y: 2.0d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -435,7 +433,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4C2568F985230CF4"]
@@ -446,7 +444,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0F40CE6F299C89AA"]
@@ -457,7 +455,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2605D73389921AE5"]
@@ -468,7 +466,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["140BE5B4DD5CAD9A"]
@@ -479,7 +477,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1559AE0AA740339C"]
@@ -490,7 +488,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6D32BF490B337DA2"]
@@ -501,7 +499,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1443CF03D944FA83"]
@@ -512,7 +510,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -527,7 +525,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6646DBF38906B0C1"]
@@ -538,7 +536,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["180DBDF3A9C13D43"]
@@ -549,7 +547,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["33C74725F00F650E"]
@@ -560,7 +558,17 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "33DFE244F6E50A19"
+			tasks: [{
+				id: "7136712A359EF1C2"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:personal_barrel)item(mekanism:personal_chest))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
 		}
 	]
 }

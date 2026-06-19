@@ -61,6 +61,46 @@ file = "config/ftblibrary-client.snbt"
 hash = "dd39df410147cc05fe9a7239ebbeeb21d1730914e5ab8d227dca8d25616f5110"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "b3e94f64da4ce42644268ea290502c6d759f6638d203ba76998415817e491c57"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/ae2.snbt"
+hash = "d515d5f7d3f82f25683f3baea682ae27654d970ea96aa1ab7d1830266e42dfef"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/bosses.snbt"
+hash = "fb963926e45fe74a74295dfae69b12306845824daa3991941886fa78c9c64c84"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/botania.snbt"
+hash = "8158858f769499826372a6c0fe91bd6aed7cb3b28fd5dbba2a468eb4f1f72f3d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/creative_juices.snbt"
+hash = "7e59683ca321ce62a040f155c5033805557938ef13b42e5cf375e082cb125ec6"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/mekanism.snbt"
+hash = "2aa4b58801eb3bf16981d9d726164f00a2a88fa03d99744cd0dc6d4bcc2b3899"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/the_blaze_age.snbt"
+hash = "dfde365ffee65596818add8ca1bd16ef1de2164097a066c1fcf8a9b8f46576f1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/welcome.snbt"
+hash = "9ea2b98375b7956afe04c81da5cd0dfe509d5b7c0685eefdad13c51c09a9dae8"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "feb159b9bf06de4bf557ae1ba2728ad49da4fbd06b8cb73f9a0d548ae5976498"
+
+[[files]]
 file = "config/jaopca/materials/platinum.toml"
 hash = "52f4ac477f0389c8abb3d1ee82be3e8723367a986d5c6587f9c0be6f95e1b01d"
 
@@ -81,48 +121,8 @@ file = "config/survivalisland.json"
 hash = "69712229f9f4723c12b204e730397a3cff11c947a0f6fb2a79dd485e7a287e13"
 
 [[files]]
-file = "ftbquests/quests/chapter_groups.snbt"
-hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
-
-[[files]]
-file = "ftbquests/quests/chapters/ae2.snbt"
-hash = "80b9426fc417bbb8037b6aa4b1ba44365421018ea7cbe2099d24d8a52c2e413c"
-
-[[files]]
-file = "ftbquests/quests/chapters/botania.snbt"
-hash = "5b082924c8babef4bb4351a2b1b897d1beb03f84b8ca1d2d7db6924d1e064d48"
-
-[[files]]
-file = "ftbquests/quests/chapters/creative_juices.snbt"
-hash = "6b6b2e3260ccc7642ba6d22f9196ffd433f240281553641889eb1ef3f8105e14"
-
-[[files]]
-file = "ftbquests/quests/chapters/foreword.snbt"
-hash = "2311b266a6500ba43a928a7db7a40f8070dc9f3ea4f27daaf1e96b85c7a9b86c"
-
-[[files]]
-file = "ftbquests/quests/chapters/mekanism.snbt"
-hash = "20a597253359ac2c9b412bcf783ee66c861827d45e42dd3ccd9748712dcc7cd9"
-
-[[files]]
-file = "ftbquests/quests/chapters/the_blaze_age.snbt"
-hash = "8104c73cf934c6ab2c11cab3e24e59a71567414b013e686383cf4272bb6e708d"
-
-[[files]]
-file = "ftbquests/quests/chapters/voyage.snbt"
-hash = "68b149e5db225f42a4e6de647af713e84aeb7ff7c19e33e7dfeec93d362b585c"
-
-[[files]]
-file = "ftbquests/quests/data.snbt"
-hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
-
-[[files]]
-file = "ftbquests/quests/lang/en_us.snbt"
-hash = "d77137662419d846a217cbaa9f21bcf1e5daeb5b61931254b575c679e64f66c2"
-
-[[files]]
-file = "kubejs/.prettierrc"
-hash = "ba3498506d9c26dfb3f4627ad6cc8a6b4ddce4ba68b33e5f880c977834e61c55"
+file = "config/tide.json"
+hash = "a6448ac0dd83fb449d5e0d1e8840000341178169bf3d844a61471e1b2db0d46e"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/en_us.json"
@@ -1785,11 +1785,6 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
-metafile = true
-
-[[files]]
-file = "mods/probejs.pw.toml"
-hash = "979b086077f19d83b04990fd348fc5ebb9f8b61c413e05206539dc15562a4195"
 metafile = true
 
 [[files]]

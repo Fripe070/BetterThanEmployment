@@ -1,0 +1,318 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses"
+	group: "731529B1A7B3D14C"
+	icon: {
+		id: "cataclysm:abyssal_sacrifice"
+	}
+	id: "67DDA22D1F6FC0DC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7486B3FACCE39C11"]
+			icon: {
+				id: "cataclysm:abyss_eye"
+			}
+			id: "054F63EAD8DA66EB"
+			tasks: [
+				{
+					id: "322DEFB5214687BA"
+					item: { count: 1, id: "cataclysm:abyss_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "656FB5DB68086730"
+					structure: "cataclysm:sunken_city"
+					type: "structure"
+				}
+			]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7486B3FACCE39C11"]
+			icon: {
+				id: "cataclysm:mech_eye"
+			}
+			id: "0CF028305B82B057"
+			tasks: [
+				{
+					id: "319084193B66E0AC"
+					item: { count: 1, id: "cataclysm:mech_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7B60709B9BE49904"
+					structure: "cataclysm:ancient_factory"
+					type: "structure"
+				}
+			]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6876793387A25AFB"]
+			icon: {
+				id: "cataclysm:flame_eye"
+			}
+			id: "788254C9FC2BBFED"
+			tasks: [
+				{
+					id: "2BDBB67181006063"
+					item: { count: 1, id: "cataclysm:flame_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "616D8D9DD66D5274"
+					structure: "cataclysm:burning_arena"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2CE4E743A6C62BAE"]
+			icon: {
+				id: "cataclysm:void_eye"
+			}
+			id: "3B762ABAB4B15578"
+			tasks: [
+				{
+					id: "63425B6D950B1544"
+					item: { count: 1, id: "cataclysm:void_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "38F87923FEA8A520"
+					structure: "cataclysm:ruined_citadel"
+					type: "structure"
+				}
+			]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6876793387A25AFB"]
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "2B562E2FDB60DACA"
+			tasks: [
+				{
+					id: "3A08D8039AE842E3"
+					item: { count: 1, id: "cataclysm:monstrous_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F6C849ED6611F6F"
+					structure: "cataclysm:soul_black_smith"
+					type: "structure"
+				}
+			]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7486B3FACCE39C11"]
+			icon: {
+				id: "cataclysm:desert_eye"
+			}
+			id: "3858B4C6509C2174"
+			tasks: [
+				{
+					id: "404493893B046940"
+					item: { count: 1, id: "cataclysm:desert_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "55F4A4A7C2C83717"
+					structure: "cataclysm:cursed_pyramid"
+					type: "structure"
+				}
+			]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7486B3FACCE39C11"]
+			icon: {
+				id: "cataclysm:cursed_eye"
+			}
+			id: "43ECB974213B6286"
+			tasks: [
+				{
+					id: "22D618339F70574D"
+					item: { count: 1, id: "cataclysm:cursed_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "419A7CC8FDD72575"
+					structure: "cataclysm:frosted_prison"
+					type: "structure"
+				}
+			]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7486B3FACCE39C11"]
+			icon: {
+				id: "cataclysm:storm_eye"
+			}
+			id: "32841A16B88F7067"
+			tasks: [
+				{
+					id: "3DDC890CDF9F076B"
+					item: { count: 1, id: "cataclysm:storm_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3867748ACC4521C1"
+					structure: "cataclysm:acropolis"
+					type: "structure"
+				}
+			]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7486B3FACCE39C11"]
+			icon: {
+				id: "botania:life_essence"
+			}
+			id: "7416BDAF9D9725BE"
+			tasks: [
+				{
+					id: "30F091AE487955E6"
+					item: { count: 1, id: "minecraft:beacon" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "308F4E445AAA8412"
+					item: { count: 1, id: "botania:gaia_pylon" }
+					type: "item"
+				}
+				{
+					id: "2B6BBDB5149FEA76"
+					item: { count: 1, id: "botania:terrasteel_ingot" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "7486B3FACCE39C11"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "61B25C6DD0BEFA9C"
+				type: "dimension"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			disable_toast: true
+			id: "6876793387A25AFB"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					id: "minecraft:netherrack"
+				}
+				id: "1440F43DB2CC069D"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			disable_toast: true
+			id: "2CE4E743A6C62BAE"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:end_stone"
+				}
+				id: "7B8F65D6B6D2EE88"
+				type: "dimension"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2CE4E743A6C62BAE"]
+			id: "29CD16D466B3049D"
+			tasks: [{
+				id: "4D8A3A4A603BDCB0"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6876793387A25AFB"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "3EE84D5898C7D93C"
+			tasks: [
+				{
+					count: 3L
+					id: "7BFBC38ECF92D5FF"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "08E57ADC545569F7"
+					item: { count: 1, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7486B3FACCE39C11"]
+			icon: {
+				id: "minecraft:prismarine_bricks"
+			}
+			id: "68EBC48CB81E6F06"
+			tasks: [{
+				id: "7C2BBC8CDBDC012E"
+				structure: "minecraft:monument"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7416BDAF9D9725BE"]
+			id: "6C0E3230481E3EEC"
+			tasks: [{
+				id: "2DBF8B0C7F8021C0"
+				item: { count: 1, id: "botania:gaia_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+	]
+}
