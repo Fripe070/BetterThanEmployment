@@ -109,6 +109,10 @@ file = "config/jaopca/modules/storage_blocks.toml"
 hash = "d9de830208284eaa5f60dd794b80b80752835b232f17bc1b838a656b9f853f46"
 
 [[files]]
+file = "config/lmft.json"
+hash = "69909f181405a8f73e6f1ee5d2e44c90983a1eb864989bcdd3b2907285af888e"
+
+[[files]]
 file = "config/silentgear-common.toml"
 hash = "57de68c611717a9d80a8483af5dfc8248c77a21a712929fa02d79b903933a848"
 
@@ -1373,16 +1377,6 @@ hash = "e002fab16a9b9ef0a35844030339612a38d3c58b0b93e97a34eb43ddc9108be7"
 metafile = true
 
 [[files]]
-file = "mods/corpse-x-curios-api-compat.pw.toml"
-hash = "0f24d3112418b31cf86b84d0ded37decc9dbd50cc229cec632547458c01ffdca"
-metafile = true
-
-[[files]]
-file = "mods/corpse.pw.toml"
-hash = "8e671fbd3a5460a61073cced391ec08efc6b67d765e49015eea45a1f1db159a0"
-metafile = true
-
-[[files]]
 file = "mods/create-aeronautics-climbable-rope.pw.toml"
 hash = "4826787724dabb396681358d97bce2e5649a4fbad2f210588231d8e7293740e8"
 metafile = true
@@ -1810,6 +1804,16 @@ metafile = true
 [[files]]
 file = "mods/rsls.pw.toml"
 hash = "230ae32b073840a8138adcc41ec5055250dc53654075b6a60e7cf20e1e39c1e6"
+metafile = true
+
+[[files]]
+file = "mods/sable-ragdoll-corpse.pw.toml"
+hash = "f8bb82037ef26bbe3c36ac94167bfd2b6573b43bc35e723247868a8efabe2a30"
+metafile = true
+
+[[files]]
+file = "mods/sable-ragdolls.pw.toml"
+hash = "c7f63754531853759926cb872225c8face64f6c21eeed1e63d6c33bff7563567"
 metafile = true
 
 [[files]]
