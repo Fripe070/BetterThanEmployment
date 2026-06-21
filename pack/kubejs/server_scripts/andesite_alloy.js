@@ -7,11 +7,11 @@ ServerEvents.recipes((event) => {
             "minecraft:potion[potion_contents={potion:'minecraft:water'}]",
         ])
         .replaceIngredient("minecraft:potion", "minecraft:glass_bottle");
-    event.shaped("2x kubejs:plant_clay", ["CP", "PC"], {
+    event.shaped("4x kubejs:plant_clay", ["CP", "PC"], {
         P: "create:pulp",
         C: "minecraft:clay_ball",
     });
-    event.shaped("2x kubejs:plant_clay", ["PC", "CP"], {
+    event.shaped("4x kubejs:plant_clay", ["PC", "CP"], {
         P: "create:pulp",
         C: "minecraft:clay_ball",
     });

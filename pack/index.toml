@@ -1210,7 +1210,7 @@ hash = "5e5e7b68af87e3e597fb8a5aaaeb32bd981f8fd532388e3f2f6576f6ceb864c0"
 
 [[files]]
 file = "kubejs/server_scripts/andesite_alloy.js"
-hash = "54afd86ec9b3eced4e1fc0fa9a5b08c44d21f4b91bc0f813391964dc93019f0c"
+hash = "4a46f4a4f9298c84559501dd677b4a7ab34b6188102ce9ccf6caa99c4e299804"
 
 [[files]]
 file = "kubejs/server_scripts/botania.js"
