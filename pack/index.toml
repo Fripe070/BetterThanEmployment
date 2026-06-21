@@ -125,26 +125,6 @@ file = "config/lmft.json"
 hash = "69909f181405a8f73e6f1ee5d2e44c90983a1eb864989bcdd3b2907285af888e"
 
 [[files]]
-file = "config/maplink/friends.json5"
-hash = "b1a7457b9b3cf2ca24b13ee9ce31476d7e4c53b3207f2eed8c6849192c5dec95"
-
-[[files]]
-file = "config/maplink/general.json5"
-hash = "86fb34d0c4a6e8c6f83c355cb64a128f243e33447ce26ef549d7311f0f156027"
-
-[[files]]
-file = "config/maplink/hud.json5"
-hash = "01032bed5a917ac77d6bdabb4eb13da33042420fa2a4a16c5c878ebb4056c8f2"
-
-[[files]]
-file = "config/maplink/minimap.json5"
-hash = "f7c9a52e9c5a0cdfe88f90d9e004b3f73d12ac1928781e3d2352f6d1bbf96142"
-
-[[files]]
-file = "config/maplink/worldmap.json5"
-hash = "dc15bba984e69a7c9464ff7e304a7f0c321b6cccd1490ea6f8118e604a29d4b4"
-
-[[files]]
 file = "config/silentgear-common.toml"
 hash = "57de68c611717a9d80a8483af5dfc8248c77a21a712929fa02d79b903933a848"
 
@@ -161,28 +141,8 @@ file = "config/tide.json"
 hash = "a6448ac0dd83fb449d5e0d1e8840000341178169bf3d844a61471e1b2db0d46e"
 
 [[files]]
-file = "config/xaero/lib/client.cfg"
-hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
-
-[[files]]
-file = "config/xaero/lib/common.cfg"
-hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
-
-[[files]]
-file = "config/xaero/minimap/client.cfg"
-hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
-
-[[files]]
-file = "config/xaero/minimap/common.cfg"
-hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
-
-[[files]]
-file = "config/xaero/minimap/default_radar_categories_client.json"
-hash = "3c888b22cba252e8f0a974f8c1604bc05109affbf4354ad3b16e71778c4b9774"
-
-[[files]]
-file = "config/xaero/minimap/default_radar_categories_server.json"
-hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "43d7b01a8710687554de4935be83bb6f412a0e1b74638c945d5f2eb67dfb20c5"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/en_us.json"
@@ -1388,7 +1348,7 @@ metafile = true
 
 [[files]]
 file = "mods/botania-neoforge-1.21.1-454-SNAPSHOT.jar"
-hash = "112d568afbb3153df7e3cec266fcdc59196badb41dcef297378950e723c496c0"
+hash = "7669861a2d6b038d9ec36f2a0c07bdb8fd5d6318ba39006c182b78f28e097dcb"
 
 [[files]]
 file = "mods/bte_tweaks-1.0.jar"
@@ -1777,11 +1737,6 @@ metafile = true
 [[files]]
 file = "mods/lukis-woodland-mansions.pw.toml"
 hash = "0024e497d2569c6e0b20ea51593cefb785c35edf2f2a40a1aae7f6ed96b655b3"
-metafile = true
-
-[[files]]
-file = "mods/maplink.pw.toml"
-hash = "cde0265f751c5ad8ab34f759462a358dd8d45472a480651f143a1024781d0bcb"
 metafile = true
 
 [[files]]

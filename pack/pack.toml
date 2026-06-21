@@ -1,12 +1,12 @@
 name = "Better Than Employment"
 author = "Fripe"
-version = "1.0.1"
+version = "1.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "dad1cd44327fe22eed2983b863688f5771fe88befbb489263eeb41a8c9d38f02"
+hash = "d539d255c675582148c70398454c3eca9ba8d10e82a0b2457c7a4bd512645f3e"
 
 [versions]
 minecraft = "1.21.1"
