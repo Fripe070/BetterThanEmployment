@@ -45,6 +45,18 @@ file = "config/createappliedkinetics-common.toml"
 hash = "12ee20005bb46399a7b7e8246869d9556c9e1f0039e72f79f4b8064b2e252605"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "b81cdf8ebe524068f9b73bfa78e89374c69f588fa2402b2fbf0e72cc48dc0e6f"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "4bbcc9fe2954c795d1d05038ca65e7d48fc088eec2cc0eef877bdc41ce2af4e8"
+
+[[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "4b354a0bcb1c0e1f80917910c9ed04d79d6e3b2f0e4a5c34d7770dc50f5546e9"
+
+[[files]]
 file = "config/defaultworldtype/client-config.toml"
 hash = "2f2d463f9225e12f91692eddf51b14e8f812382479d6418fe4b4320cc274e2af"
 
@@ -1177,6 +1189,14 @@ file = "kubejs/data/createpropulsion/worldgen/placed_feature/ore_platinum_medium
 hash = "e9f4bdc521748b34716850864b6db9f818dc1d69f17eccfc4f5b3432d0f6816e"
 
 [[files]]
+file = "kubejs/data/silentgear/worldgen/configured_feature/wild_flax.json"
+hash = "28c8760315f2754ed302efae37f7f441c5180813d0bcd9edeb28636e130a5bd1"
+
+[[files]]
+file = "kubejs/data/silentgear/worldgen/placed_feature/wild_flax.json"
+hash = "f4217c7365ad5721d33ae8ef581e3c23673831b2d829cf2abf578de576842ab6"
+
+[[files]]
 file = "kubejs/package.json"
 hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
 
@@ -1300,6 +1320,11 @@ metafile = true
 [[files]]
 file = "mods/baguettelib.pw.toml"
 hash = "cc360d86f76e729d3ebb7384cfbc933d8ffba694ba91360edeb846d61d14e561"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "76122ac2bb341daceebb19cd69e1f3bf19efea88fa59010865c1b8f02ea1d759"
 metafile = true
 
 [[files]]
@@ -1514,6 +1539,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "16aa04ea994ad4259363094b8aabbe069435ae4ab666c27e1b11a0f20dd90c9c"
 metafile = true
 
 [[files]]
@@ -1935,10 +1965,6 @@ metafile = true
 file = "mods/zfastnoise.pw.toml"
 hash = "55787604723463cb816fcce5c15b0618bfcb2f495b3ceebe454b29fe5fd6ab99"
 metafile = true
-
-[[files]]
-file = "options.txt"
-hash = "210624c7a509dd4f4efc95aec4e7f6fd612337c0212988ca0e67aaf5330d6318"
 
 [[files]]
 file = "resourcepacks/fresh-animations-details.pw.toml"
