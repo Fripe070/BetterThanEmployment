@@ -125,6 +125,26 @@ file = "config/lmft.json"
 hash = "69909f181405a8f73e6f1ee5d2e44c90983a1eb864989bcdd3b2907285af888e"
 
 [[files]]
+file = "config/maplink/friends.json5"
+hash = "b1a7457b9b3cf2ca24b13ee9ce31476d7e4c53b3207f2eed8c6849192c5dec95"
+
+[[files]]
+file = "config/maplink/general.json5"
+hash = "86fb34d0c4a6e8c6f83c355cb64a128f243e33447ce26ef549d7311f0f156027"
+
+[[files]]
+file = "config/maplink/hud.json5"
+hash = "01032bed5a917ac77d6bdabb4eb13da33042420fa2a4a16c5c878ebb4056c8f2"
+
+[[files]]
+file = "config/maplink/minimap.json5"
+hash = "f7c9a52e9c5a0cdfe88f90d9e004b3f73d12ac1928781e3d2352f6d1bbf96142"
+
+[[files]]
+file = "config/maplink/worldmap.json5"
+hash = "dc15bba984e69a7c9464ff7e304a7f0c321b6cccd1490ea6f8118e604a29d4b4"
+
+[[files]]
 file = "config/silentgear-common.toml"
 hash = "57de68c611717a9d80a8483af5dfc8248c77a21a712929fa02d79b903933a848"
 
@@ -139,6 +159,30 @@ hash = "69712229f9f4723c12b204e730397a3cff11c947a0f6fb2a79dd485e7a287e13"
 [[files]]
 file = "config/tide.json"
 hash = "a6448ac0dd83fb449d5e0d1e8840000341178169bf3d844a61471e1b2db0d46e"
+
+[[files]]
+file = "config/xaero/lib/client.cfg"
+hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+
+[[files]]
+file = "config/xaero/lib/common.cfg"
+hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+
+[[files]]
+file = "config/xaero/minimap/client.cfg"
+hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+
+[[files]]
+file = "config/xaero/minimap/common.cfg"
+hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_client.json"
+hash = "3c888b22cba252e8f0a974f8c1604bc05109affbf4354ad3b16e71778c4b9774"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_server.json"
+hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/en_us.json"
@@ -1458,7 +1502,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "f452886436b77cb69d8df754ec66743a94197ab1ed98bb849f4f7822ea6a3e02"
+hash = "fb604f59e155e17ce4f193e043038789b29234f02be651b3d84d988fb938f64f"
 metafile = true
 
 [[files]]
@@ -1732,6 +1776,11 @@ hash = "0024e497d2569c6e0b20ea51593cefb785c35edf2f2a40a1aae7f6ed96b655b3"
 metafile = true
 
 [[files]]
+file = "mods/maplink.pw.toml"
+hash = "cde0265f751c5ad8ab34f759462a358dd8d45472a480651f143a1024781d0bcb"
+metafile = true
+
+[[files]]
 file = "mods/mech-trowel.pw.toml"
 hash = "2c31453e756e64c0f9edcad1f716900ddd07b1ea4c8c955a2d001725c65366c1"
 metafile = true
@@ -1882,6 +1931,11 @@ hash = "d692170020a2e8b1dd1d0af610a14c25553bae66bb3f7372123115b5c7bc6157"
 metafile = true
 
 [[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "369617869e9c8224e9c5e875d70677c491bc4282919b32705d096d253e2ffecd"
+metafile = true
+
+[[files]]
 file = "mods/smooth-skies.pw.toml"
 hash = "a118ed58955f9bc6a9367690818520e96f11b94b2067440bed55300139fc0988"
 metafile = true
@@ -1939,6 +1993,11 @@ metafile = true
 [[files]]
 file = "mods/vs-hose-connectors.pw.toml"
 hash = "c3c017673463b8f0826966d657956821df911dd46964bd2ad062e00fad6e5028"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "3f9e51bfceabca41c537e58b8767bdb4273fdafe9f08bc472ebc255554617ad2"
 metafile = true
 
 [[files]]
