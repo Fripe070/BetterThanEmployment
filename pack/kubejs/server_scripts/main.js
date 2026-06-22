@@ -347,6 +347,11 @@ ServerEvents.recipes((event) => {
 
     event.remove({ mod: "silentgear", output: /.*flax.*/ });
     event.shapeless("silentgear:flax_string", "2x supplementaries:flax");
+
+    event.shaped("createhorsepower:horse_crank", ["C", "G"], {
+        C: "create:hand_crank",
+        G: "create:millstone",
+    });
 });
 
 ServerEvents.tags("item", (event) => {

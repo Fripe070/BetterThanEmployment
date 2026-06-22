@@ -1234,7 +1234,7 @@ hash = "76baa3d2717a253e959bff6e1468592ebd9ec417e44e7f46846e57a4ca636c79"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "1558c64751a91fecc563514d01741a87838f0ab0f69f21bf4e84f1f5827de91f"
+hash = "d32afeb610d87873ddde9b8b8d4520b7dce127b4a94770f02b69f4f1042198db"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism_compat.js"
@@ -1356,7 +1356,7 @@ hash = "7eb90ab6b7e5f1558458633cd616695b931af7e7d3ffb0e5fc7a7bacf1ace646"
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
-hash = "f47c7b159c6533141dc2fefe2ce2e836a3f7e6a7d90dd4e3f4a5fc1d24479a43"
+hash = "c7d3f229dcfbbfcd2dbd15b2c2ff7dc0710c4a66a36d9bfd7dc4878d0b2bee8a"
 metafile = true
 
 [[files]]
