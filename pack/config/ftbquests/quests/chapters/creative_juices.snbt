@@ -173,6 +173,14 @@
 				id: "create:andesite_alloy"
 			}
 			id: "2A3F2815DB261ED2"
+			rewards: [{
+				id: "58FA5C7E00BCE171"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.25d
 			tasks: [
@@ -391,6 +399,14 @@
 				id: "minecraft:oak_log"
 			}
 			id: "411481AFF6816143"
+			rewards: [{
+				id: "37C0E5BCA956AAC3"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [
 				{

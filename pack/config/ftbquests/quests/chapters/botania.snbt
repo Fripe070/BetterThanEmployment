@@ -36,11 +36,22 @@
 		}
 		{
 			dependencies: ["53ABD016971C3644"]
+			icon: {
+				id: "botania:elven_gateway_core"
+			}
 			id: "30C6DBEDF8809D83"
+			rewards: [{
+				id: "387E2CC6FDD93E4C"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
-					id: "56346124FD87F589"
-					item: { count: 1, id: "botania:alfheim_portal" }
+					id: "0D04D0A4D43DB499"
+					item: { count: 1, id: "botania:elven_gateway_core" }
 					type: "item"
 				}
 				{
@@ -122,12 +133,12 @@
 		}
 		{
 			icon: {
-				id: "botania:apothecary_default"
+				id: "botania:petal_apothecary"
 			}
 			id: "332DC4FE32D224DE"
 			tasks: [{
 				icon: {
-					id: "botania:apothecary_default"
+					id: "botania:petal_apothecary"
 				}
 				id: "4B534BE4250C2BBB"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(botania:petal_apothecaries)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -386,8 +397,8 @@
 			id: "53ABD016971C3644"
 			tasks: [
 				{
-					id: "0CA8172B91610CC9"
-					item: { count: 1, id: "botania:terra_plate" }
+					id: "0E8FA6DB98E1FD73"
+					item: { count: 1, id: "botania:terrestrial_agglomeration_plate" }
 					type: "item"
 				}
 				{
@@ -492,8 +503,8 @@
 			id: "67CDF9CCB84DC3A4"
 			tasks: [{
 				count: 2L
-				id: "41BF1FC30996A8EE"
-				item: { count: 1, id: "botania:light_relay" }
+				id: "7687B95BA5B25670"
+				item: { count: 1, id: "botania:luminizer" }
 				type: "item"
 			}]
 			x: -0.5d

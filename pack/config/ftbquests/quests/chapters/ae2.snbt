@@ -236,6 +236,14 @@
 				"68CE8D4F4EB7DE6A"
 			]
 			id: "73E0C371D9E0B665"
+			rewards: [{
+				id: "601A61BD3BCB2D8B"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "739E3F371A6F129D"
