@@ -111,6 +111,13 @@ ServerEvents.recipes((event) => {
         Fluid.of("productivemetalworks:molten_redstone", 400),
         Ingredient.of("#c:dusts/quartz"),
     ]);
+    event.custom({
+        type: "productivemetalworks:item_casting",
+        cast: { tag: "c:dusts/quartz" },
+        consume_cast: true,
+        fluid: { amount: 400, fluid: "productivemetalworks:molten_redstone" },
+        result: { count: 1, id: "create:rose_quartz" },
+    });
 
     event.remove({ output: "#c:ingots/steel", type: "create:mixing" });
 
@@ -360,8 +367,12 @@ ServerEvents.tags("item", (event) => {
 });
 
 LootJS.lootTables((event) => {
-    event.modifyLootTables().replaceItem("farmersdelight:rope", "simulated:rope_coupling");
-    event.modifyLootTables().replaceItem("minecraft:ender_eye", "minecraft:ender_pearl");
+    event
+        .modifyLootTables(LootType.CHEST)
+        .replaceItem("farmersdelight:rope", "simulated:rope_coupling");
+    event
+        .modifyLootTables(LootType.CHEST)
+        .replaceItem("minecraft:ender_eye", "minecraft:ender_pearl");
 });
 
 ServerEvents.tags("block", (event) => {
