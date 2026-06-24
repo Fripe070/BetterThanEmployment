@@ -90,7 +90,7 @@ hash = "b8b56b95aadb72bda30a3216c12e3bb7c0c6bb329512c8886c117aef9104a17b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/creative_juices.snbt"
-hash = "dddd0567e71702cfcd64efa5dbf641948af925ec6429bdb7169e224425b58bb0"
+hash = "71b3b70f16ef388dff762ff0bb87df31aa80c53ea1f00d471f609c1116cf5660"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"

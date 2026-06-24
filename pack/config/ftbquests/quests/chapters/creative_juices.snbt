@@ -688,69 +688,6 @@
 		}
 		{
 			icon: {
-				id: "chipped:saw"
-			}
-			id: "268337A282E34347"
-			tasks: [
-				{
-					icon: {
-						id: "chipped:botanist_workbench"
-					}
-					id: "637EF16EF437D540"
-					item: { components: { "ftbfiltersystem:filter": "or(item(chipped:botanist_workbench)item(chipped:watering_can))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "442F4D692D20A384"
-					item: { count: 1, id: "chipped:glassblower" }
-					type: "item"
-				}
-				{
-					icon: {
-						id: "chipped:carpenters_table"
-					}
-					id: "2AF823C2B57B5D9F"
-					item: { components: { "ftbfiltersystem:filter": "or(item(chipped:carpenters_table)item(chipped:saw))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					icon: {
-						id: "chipped:loom_table"
-					}
-					id: "012DC6C671BBA5EC"
-					item: { components: { "ftbfiltersystem:filter": "or(item(chipped:loom_table)item(chipped:needles))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					icon: {
-						id: "chipped:mason_table"
-					}
-					id: "3A59CF0696976B27"
-					item: { components: { "ftbfiltersystem:filter": "or(item(chipped:mason_table)item(chipped:chisel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					icon: {
-						id: "chipped:alchemy_bench"
-					}
-					id: "31B79E962384C193"
-					item: { components: { "ftbfiltersystem:filter": "or(item(chipped:alchemy_bench)item(chipped:alchemy_book))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					icon: {
-						id: "chipped:tinkering_table"
-					}
-					id: "51E17F8A2C7C11E4"
-					item: { components: { "ftbfiltersystem:filter": "or(item(chipped:tinkering_table)item(chipped:multimeter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 2.5d
-		}
-		{
-			icon: {
 				id: "silentgear:pickaxe_blueprint"
 			}
 			id: "18D4B95F7D0319BE"
