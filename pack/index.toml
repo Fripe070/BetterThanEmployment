@@ -78,7 +78,7 @@ hash = "b3e94f64da4ce42644268ea290502c6d759f6638d203ba76998415817e491c57"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "d515d5f7d3f82f25683f3baea682ae27654d970ea96aa1ab7d1830266e42dfef"
+hash = "8c92a57514febd74c1015785b1593f7e69f23267a66b1d1dcd0e48203ccb08a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bosses.snbt"
@@ -86,11 +86,11 @@ hash = "fb963926e45fe74a74295dfae69b12306845824daa3991941886fa78c9c64c84"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/botania.snbt"
-hash = "8158858f769499826372a6c0fe91bd6aed7cb3b28fd5dbba2a468eb4f1f72f3d"
+hash = "b8b56b95aadb72bda30a3216c12e3bb7c0c6bb329512c8886c117aef9104a17b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/creative_juices.snbt"
-hash = "7e59683ca321ce62a040f155c5033805557938ef13b42e5cf375e082cb125ec6"
+hash = "dddd0567e71702cfcd64efa5dbf641948af925ec6429bdb7169e224425b58bb0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
@@ -1234,7 +1234,7 @@ hash = "76baa3d2717a253e959bff6e1468592ebd9ec417e44e7f46846e57a4ca636c79"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "d32afeb610d87873ddde9b8b8d4520b7dce127b4a94770f02b69f4f1042198db"
+hash = "7ddab82c4e4ec34dafccc934c23878829342321f42723c29aa677a96a67a165a"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism_compat.js"
@@ -1662,6 +1662,16 @@ metafile = true
 [[files]]
 file = "mods/immersive-furniture.pw.toml"
 hash = "e6dee59bb58bffe74e503c5b37fe0623c11a761022f3ee77cb9a6fc1b71cf2b2"
+metafile = true
+
+[[files]]
+file = "mods/jade-addons-forge.pw.toml"
+hash = "8cd8400cb4e2c5ba60c8a359a7b6ff501078d2056eab0aba7f6b0ac77b7a0694"
+metafile = true
+
+[[files]]
+file = "mods/jade-sable-compat.pw.toml"
+hash = "9728776375b66d2b4a450238373072873ed0e50596e95fca857368726f38ecb3"
 metafile = true
 
 [[files]]

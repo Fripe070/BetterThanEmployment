@@ -11,7 +11,9 @@ ServerEvents.recipes((event) => {
         input: "farmersdelight:straw",
         output: "simulated:rope_coupling",
     });
-    event.shapeless("1x simulated:rope_coupling", "4x farmersdelight:straw");
+    event.shaped("simulated:rope_coupling", ["SSS"], {
+        S: "farmersdelight:straw",
+    });
 
     // Unify bio fuel (prefer crafts and additions)
     event.remove({ type: "mekanism:crushing", output: "mekanism:bio_fuel" });
