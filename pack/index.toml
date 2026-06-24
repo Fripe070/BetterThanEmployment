@@ -1485,6 +1485,11 @@ hash = "a12996b593450756ebe5b374f8d7ce8969d5460d5141a4ed956c44b3387c584d"
 metafile = true
 
 [[files]]
+file = "mods/create-integrated-farming.pw.toml"
+hash = "a9b61f02176f8e0e1da5354fba2e17228b4f2d622d0f23faf195785af3fda018"
+metafile = true
+
+[[files]]
 file = "mods/create-nowheel.pw.toml"
 hash = "8205f415e163e4e5f70a997d17e68bc8d71758e081307a78837b9d41010846ab"
 metafile = true
@@ -1567,6 +1572,11 @@ metafile = true
 [[files]]
 file = "mods/defaultworldtype.pw.toml"
 hash = "6886c6cc7d4d43e2b9792af5c91fe381be0b33b1aea5f0decc465a5c17bc7004"
+metafile = true
+
+[[files]]
+file = "mods/display-delight.pw.toml"
+hash = "18219006cd971209a7630c5704c2ca92d5631f3d6ee6cb1c43975656c249ba0f"
 metafile = true
 
 [[files]]
