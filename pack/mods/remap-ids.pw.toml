@@ -1,0 +1,13 @@
+name = "Remap IDs"
+filename = "remapids-neoforge-1.21.1-1.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LS9KUmOO/versions/8yrUjwOA/remapids-neoforge-1.21.1-1.3.1.jar"
+hash-format = "sha512"
+hash = "5160d3c2b3e02bb4963666f9381f128c24c54799f61520bf17ddfc9da50f87bead5f9ebd1f57a4b348fb5edcf378d20cf04180a4b428c36a2659139fb6e1d42d"
+
+[update]
+[update.modrinth]
+mod-id = "LS9KUmOO"
+version = "8yrUjwOA"

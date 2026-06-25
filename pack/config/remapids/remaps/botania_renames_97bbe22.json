@@ -1,0 +1,944 @@
+{
+  "remaps": [
+    {
+      "source": "botania:livingrock_bricks_stairs",
+      "target": "botania:livingrock_brick_stairs"
+    },
+    {
+      "source": "botania:livingrock_bricks_slab",
+      "target": "botania:livingrock_brick_slab"
+    },
+    {
+      "source": "botania:livingrock_bricks_wall",
+      "target": "botania:livingrock_brick_wall"
+    },
+    {
+      "source": "botania:mossy_livingrock_bricks_stairs",
+      "target": "botania:mossy_livingrock_brick_stairs"
+    },
+    {
+      "source": "botania:mossy_livingrock_bricks_slab",
+      "target": "botania:mossy_livingrock_brick_slab"
+    },
+    {
+      "source": "botania:mossy_livingrock_bricks_wall",
+      "target": "botania:mossy_livingrock_brick_wall"
+    },
+    {
+      "source": "botania:livingwood_planks_stairs",
+      "target": "botania:livingwood_plank_stairs"
+    },
+    {
+      "source": "botania:livingwood_planks_slab",
+      "target": "botania:livingwood_plank_slab"
+    },
+    {
+      "source": "botania:dreamwood_planks_stairs",
+      "target": "botania:dreamwood_plank_stairs"
+    },
+    {
+      "source": "botania:dreamwood_planks_slab",
+      "target": "botania:dreamwood_plank_slab"
+    },
+    {
+      "source": "botania:avatar",
+      "target": "botania:livingwood_avatar"
+    },
+    {
+      "source": "botania:blaze_block",
+      "target": "botania:blaze_mesh"
+    },
+    {
+      "source": "botania:shimmerwood_planks_stairs",
+      "target": "botania:shimmerwood_plank_stairs"
+    },
+    {
+      "source": "botania:shimmerwood_planks_slab",
+      "target": "botania:shimmerwood_plank_slab"
+    },
+    {
+      "source": "botania:dark_quartz",
+      "target": "botania:smokey_quartz_block"
+    },
+    {
+      "source": "botania:dark_quartz_stairs",
+      "target": "botania:smokey_quartz_stairs"
+    },
+    {
+      "source": "botania:dark_quartz_slab",
+      "target": "botania:smokey_quartz_slab"
+    },
+    {
+      "source": "botania:chiseled_dark_quartz",
+      "target": "botania:chiseled_smokey_quartz_block"
+    },
+    {
+      "source": "botania:dark_quartz_bricks",
+      "target": "botania:smokey_quartz_bricks"
+    },
+    {
+      "source": "botania:dark_quartz_pillar",
+      "target": "botania:smokey_quartz_pillar"
+    },
+    {
+      "source": "botania:smooth_dark_quartz",
+      "target": "botania:smooth_smokey_quartz_block"
+    },
+    {
+      "source": "botania:smooth_dark_quartz_stairs",
+      "target": "botania:smooth_smokey_quartz_stairs"
+    },
+    {
+      "source": "botania:smooth_dark_quartz_slab",
+      "target": "botania:smooth_smokey_quartz_slab"
+    },
+    {
+      "source": "botania:mana_quartz",
+      "target": "botania:mana_quartz_block"
+    },
+    {
+      "source": "botania:chiseled_mana_quartz",
+      "target": "botania:chiseled_mana_quartz_block"
+    },
+    {
+      "source": "botania:smooth_mana_quartz",
+      "target": "botania:smooth_mana_quartz_block"
+    },
+    {
+      "source": "botania:blaze_quartz",
+      "target": "botania:blaze_quartz_block"
+    },
+    {
+      "source": "botania:chiseled_blaze_quartz",
+      "target": "botania:chiseled_blaze_quartz_block"
+    },
+    {
+      "source": "botania:smooth_blaze_quartz",
+      "target": "botania:smooth_blaze_quartz_block"
+    },
+    {
+      "source": "botania:lavender_quartz",
+      "target": "botania:lavender_quartz_block"
+    },
+    {
+      "source": "botania:chiseled_lavender_quartz",
+      "target": "botania:chiseled_lavender_quartz_block"
+    },
+    {
+      "source": "botania:smooth_lavender_quartz",
+      "target": "botania:smooth_lavender_quartz_block"
+    },
+    {
+      "source": "botania:red_quartz",
+      "target": "botania:red_quartz_block"
+    },
+    {
+      "source": "botania:chiseled_red_quartz",
+      "target": "botania:chiseled_red_quartz_block"
+    },
+    {
+      "source": "botania:smooth_red_quartz",
+      "target": "botania:smooth_red_quartz_block"
+    },
+    {
+      "source": "botania:elf_quartz",
+      "target": "botania:elven_quartz_block"
+    },
+    {
+      "source": "botania:elf_quartz_stairs",
+      "target": "botania:elven_quartz_stairs"
+    },
+    {
+      "source": "botania:elf_quartz_slab",
+      "target": "botania:elven_quartz_slab"
+    },
+    {
+      "source": "botania:chiseled_elf_quartz",
+      "target": "botania:chiseled_elven_quartz_block"
+    },
+    {
+      "source": "botania:elf_quartz_bricks",
+      "target": "botania:elven_quartz_bricks"
+    },
+    {
+      "source": "botania:elf_quartz_pillar",
+      "target": "botania:elven_quartz_pillar"
+    },
+    {
+      "source": "botania:smooth_elf_quartz",
+      "target": "botania:smooth_elven_quartz_block"
+    },
+    {
+      "source": "botania:smooth_elf_quartz_stairs",
+      "target": "botania:smooth_elven_quartz_stairs"
+    },
+    {
+      "source": "botania:smooth_elf_quartz_slab",
+      "target": "botania:smooth_elven_quartz_slab"
+    },
+    {
+      "source": "botania:sunny_quartz",
+      "target": "botania:sunny_quartz_block"
+    },
+    {
+      "source": "botania:chiseled_sunny_quartz",
+      "target": "botania:chiseled_sunny_quartz_block"
+    },
+    {
+      "source": "botania:smooth_sunny_quartz",
+      "target": "botania:smooth_sunny_quartz_block"
+    },
+    {
+      "source": "botania:lexicon",
+      "target": "botania:lexica_botania"
+    },
+    {
+      "source": "botania:twig_wand",
+      "target": "botania:wand_of_the_forest"
+    },
+    {
+      "source": "botania:dreamwood_wand",
+      "target": "botania:wand_of_the_elven_forest"
+    },
+    {
+      "source": "botania:obedience_stick",
+      "target": "botania:floral_obedience_stick"
+    },
+    {
+      "source": "botania:fertilizer",
+      "target": "botania:floral_fertilizer"
+    },
+    {
+      "source": "botania:white_petal",
+      "target": "botania:white_mystical_petal"
+    },
+    {
+      "source": "botania:light_gray_petal",
+      "target": "botania:light_gray_mystical_petal"
+    },
+    {
+      "source": "botania:gray_petal",
+      "target": "botania:gray_mystical_petal"
+    },
+    {
+      "source": "botania:black_petal",
+      "target": "botania:black_mystical_petal"
+    },
+    {
+      "source": "botania:brown_petal",
+      "target": "botania:brown_mystical_petal"
+    },
+    {
+      "source": "botania:red_petal",
+      "target": "botania:red_mystical_petal"
+    },
+    {
+      "source": "botania:orange_petal",
+      "target": "botania:orange_mystical_petal"
+    },
+    {
+      "source": "botania:yellow_petal",
+      "target": "botania:yellow_mystical_petal"
+    },
+    {
+      "source": "botania:lime_petal",
+      "target": "botania:lime_mystical_petal"
+    },
+    {
+      "source": "botania:green_petal",
+      "target": "botania:green_mystical_petal"
+    },
+    {
+      "source": "botania:cyan_petal",
+      "target": "botania:cyan_mystical_petal"
+    },
+    {
+      "source": "botania:light_blue_petal",
+      "target": "botania:light_blue_mystical_petal"
+    },
+    {
+      "source": "botania:blue_petal",
+      "target": "botania:blue_mystical_petal"
+    },
+    {
+      "source": "botania:purple_petal",
+      "target": "botania:purple_mystical_petal"
+    },
+    {
+      "source": "botania:magenta_petal",
+      "target": "botania:magenta_mystical_petal"
+    },
+    {
+      "source": "botania:pink_petal",
+      "target": "botania:pink_mystical_petal"
+    },
+    {
+      "source": "botania:life_essence",
+      "target": "botania:gaia_spirit"
+    },
+    {
+      "source": "botania:quartz_dark",
+      "target": "botania:smokey_quartz"
+    },
+    {
+      "source": "botania:quartz_mana",
+      "target": "botania:mana_quartz"
+    },
+    {
+      "source": "botania:quartz_blaze",
+      "target": "botania:blaze_quartz"
+    },
+    {
+      "source": "botania:quartz_lavender",
+      "target": "botania:lavender_quartz"
+    },
+    {
+      "source": "botania:quartz_red",
+      "target": "botania:red_quartz"
+    },
+    {
+      "source": "botania:quartz_elven",
+      "target": "botania:elven_quartz"
+    },
+    {
+      "source": "botania:quartz_sunny",
+      "target": "botania:sunny_quartz"
+    },
+    {
+      "source": "botania:lens_normal",
+      "target": "botania:mana_lens"
+    },
+    {
+      "source": "botania:lens_speed",
+      "target": "botania:velocity_lens"
+    },
+    {
+      "source": "botania:lens_power",
+      "target": "botania:potency_lens"
+    },
+    {
+      "source": "botania:lens_time",
+      "target": "botania:resistance_lens"
+    },
+    {
+      "source": "botania:lens_efficiency",
+      "target": "botania:efficiency_lens"
+    },
+    {
+      "source": "botania:lens_bounce",
+      "target": "botania:bounce_lens"
+    },
+    {
+      "source": "botania:lens_gravity",
+      "target": "botania:gravity_lens"
+    },
+    {
+      "source": "botania:lens_mine",
+      "target": "botania:bore_lens"
+    },
+    {
+      "source": "botania:lens_damage",
+      "target": "botania:damaging_lens"
+    },
+    {
+      "source": "botania:lens_phantom",
+      "target": "botania:phantom_lens"
+    },
+    {
+      "source": "botania:lens_magnet",
+      "target": "botania:magnetizing_lens"
+    },
+    {
+      "source": "botania:lens_explosive",
+      "target": "botania:entropic_lens"
+    },
+    {
+      "source": "botania:lens_influence",
+      "target": "botania:influence_lens"
+    },
+    {
+      "source": "botania:lens_weight",
+      "target": "botania:weight_lens"
+    },
+    {
+      "source": "botania:lens_paint",
+      "target": "botania:paintslinger_lens"
+    },
+    {
+      "source": "botania:lens_fire",
+      "target": "botania:kindle_lens"
+    },
+    {
+      "source": "botania:lens_piston",
+      "target": "botania:force_lens"
+    },
+    {
+      "source": "botania:lens_light",
+      "target": "botania:flash_lens"
+    },
+    {
+      "source": "botania:lens_warp",
+      "target": "botania:warp_lens"
+    },
+    {
+      "source": "botania:lens_redirect",
+      "target": "botania:redirective_lens"
+    },
+    {
+      "source": "botania:lens_firework",
+      "target": "botania:celebratory_lens"
+    },
+    {
+      "source": "botania:lens_flare",
+      "target": "botania:flare_lens"
+    },
+    {
+      "source": "botania:lens_messenger",
+      "target": "botania:messenger_lens"
+    },
+    {
+      "source": "botania:lens_tripwire",
+      "target": "botania:tripwire_lens"
+    },
+    {
+      "source": "botania:lens_storm",
+      "target": "botania:storm_lens"
+    },
+    {
+      "source": "botania:rune_water",
+      "target": "botania:rune_of_water"
+    },
+    {
+      "source": "botania:rune_fire",
+      "target": "botania:rune_of_fire"
+    },
+    {
+      "source": "botania:rune_earth",
+      "target": "botania:rune_of_earth"
+    },
+    {
+      "source": "botania:rune_air",
+      "target": "botania:rune_of_air"
+    },
+    {
+      "source": "botania:rune_spring",
+      "target": "botania:rune_of_spring"
+    },
+    {
+      "source": "botania:rune_summer",
+      "target": "botania:rune_of_summer"
+    },
+    {
+      "source": "botania:rune_autumn",
+      "target": "botania:rune_of_autumn"
+    },
+    {
+      "source": "botania:rune_winter",
+      "target": "botania:rune_of_winter"
+    },
+    {
+      "source": "botania:rune_mana",
+      "target": "botania:rune_of_mana"
+    },
+    {
+      "source": "botania:rune_lust",
+      "target": "botania:rune_of_lust"
+    },
+    {
+      "source": "botania:rune_gluttony",
+      "target": "botania:rune_of_gluttony"
+    },
+    {
+      "source": "botania:rune_greed",
+      "target": "botania:rune_of_greed"
+    },
+    {
+      "source": "botania:rune_sloth",
+      "target": "botania:rune_of_sloth"
+    },
+    {
+      "source": "botania:rune_wrath",
+      "target": "botania:rune_of_wrath"
+    },
+    {
+      "source": "botania:rune_envy",
+      "target": "botania:rune_of_envy"
+    },
+    {
+      "source": "botania:rune_pride",
+      "target": "botania:rune_of_pride"
+    },
+    {
+      "source": "botania:grass_seeds",
+      "target": "botania:pasture_seeds"
+    },
+    {
+      "source": "botania:podzol_seeds",
+      "target": "botania:boreal_seeds"
+    },
+    {
+      "source": "botania:mycelium_seeds",
+      "target": "botania:infestation_spores"
+    },
+    {
+      "source": "botania:dry_seeds",
+      "target": "botania:dry_pasture_seeds"
+    },
+    {
+      "source": "botania:golden_seeds",
+      "target": "botania:golden_pasture_seeds"
+    },
+    {
+      "source": "botania:vivid_seeds",
+      "target": "botania:vivid_pasture_seeds"
+    },
+    {
+      "source": "botania:scorched_seeds",
+      "target": "botania:scorched_pasture_seeds"
+    },
+    {
+      "source": "botania:infused_seeds",
+      "target": "botania:infused_pasture_seeds"
+    },
+    {
+      "source": "botania:mutated_seeds",
+      "target": "botania:mutated_pasture_seeds"
+    },
+    {
+      "source": "botania:dirt_rod",
+      "target": "botania:rod_of_the_lands"
+    },
+    {
+      "source": "botania:skydirt_rod",
+      "target": "botania:rod_of_the_highlands"
+    },
+    {
+      "source": "botania:terraform_rod",
+      "target": "botania:rod_of_the_terra_firma"
+    },
+    {
+      "source": "botania:cobble_rod",
+      "target": "botania:rod_of_the_depths"
+    },
+    {
+      "source": "botania:water_rod",
+      "target": "botania:rod_of_the_seas"
+    },
+    {
+      "source": "botania:tornado_rod",
+      "target": "botania:rod_of_the_skies"
+    },
+    {
+      "source": "botania:fire_rod",
+      "target": "botania:rod_of_the_hells"
+    },
+    {
+      "source": "botania:divining_rod",
+      "target": "botania:rod_of_the_plentiful_mantle"
+    },
+    {
+      "source": "botania:smelt_rod",
+      "target": "botania:rod_of_the_molten_core"
+    },
+    {
+      "source": "botania:exchange_rod",
+      "target": "botania:rod_of_the_shifting_crust"
+    },
+    {
+      "source": "botania:rainbow_rod",
+      "target": "botania:rod_of_the_bifrost"
+    },
+    {
+      "source": "botania:gravity_rod",
+      "target": "botania:rod_of_the_shaded_mesa"
+    },
+    {
+      "source": "botania:missile_rod",
+      "target": "botania:rod_of_the_unstable_reservior"
+    },
+    {
+      "source": "botania:manasteel_pick",
+      "target": "botania:manasteel_pickaxe"
+    },
+    {
+      "source": "botania:terra_pick",
+      "target": "botania:terra_shatterer"
+    },
+    {
+      "source": "botania:terra_axe",
+      "target": "botania:terra_truncator"
+    },
+    {
+      "source": "botania:terra_sword",
+      "target": "botania:terra_blade"
+    },
+    {
+      "source": "botania:star_sword",
+      "target": "botania:starcaller"
+    },
+    {
+      "source": "botania:thunder_sword",
+      "target": "botania:thundercaller"
+    },
+    {
+      "source": "botania:ender_dagger",
+      "target": "botania:soulscribe"
+    },
+    {
+      "source": "botania:glass_pickaxe",
+      "target": "botania:vitreous_pickaxe"
+    },
+    {
+      "source": "botania:mana_gun",
+      "target": "botania:mana_blaster"
+    },
+    {
+      "source": "botania:clip",
+      "target": "botania:lens_clip"
+    },
+    {
+      "source": "botania:horn_grass",
+      "target": "botania:horn_of_the_wild"
+    },
+    {
+      "source": "botania:horn_leaves",
+      "target": "botania:horn_of_the_canopy"
+    },
+    {
+      "source": "botania:horn_snow",
+      "target": "botania:horn_of_the_covering"
+    },
+    {
+      "source": "botania:slingshot",
+      "target": "botania:livingwood_slingshot"
+    },
+    {
+      "source": "botania:open_bucket",
+      "target": "botania:extrapolated_bucket"
+    },
+    {
+      "source": "botania:spawner_mover",
+      "target": "botania:life_aggregator"
+    },
+    {
+      "source": "botania:ender_hand",
+      "target": "botania:hand_of_ender"
+    },
+    {
+      "source": "botania:crafting_halo",
+      "target": "botania:assembly_halo"
+    },
+    {
+      "source": "botania:auto_crafting_halo",
+      "target": "botania:manufactory_halo"
+    },
+    {
+      "source": "botania:spell_cloth",
+      "target": "botania:spellbinding_cloth"
+    },
+    {
+      "source": "botania:flower_bag",
+      "target": "botania:flower_pouch"
+    },
+    {
+      "source": "botania:temperance_stone",
+      "target": "botania:stone_of_temperance"
+    },
+    {
+      "source": "botania:slime_bottle",
+      "target": "botania:slime_in_a_bottle"
+    },
+    {
+      "source": "botania:sextant",
+      "target": "botania:worldshapers_sextant"
+    },
+    {
+      "source": "botania:astrolabe",
+      "target": "botania:worldshapers_astrolabe"
+    },
+    {
+      "source": "botania:bauble_box",
+      "target": "botania:trinket_case"
+    },
+    {
+      "source": "botania:mana_ring",
+      "target": "botania:band_of_mana"
+    },
+    {
+      "source": "botania:mana_ring_greater",
+      "target": "botania:greater_band_of_mana"
+    },
+    {
+      "source": "botania:aura_ring",
+      "target": "botania:band_of_aura"
+    },
+    {
+      "source": "botania:aura_ring_greater",
+      "target": "botania:greater_band_of_aura"
+    },
+    {
+      "source": "botania:magnet_ring",
+      "target": "botania:ring_of_magnetization"
+    },
+    {
+      "source": "botania:magnet_ring_greater",
+      "target": "botania:greater_ring_of_magnetization"
+    },
+    {
+      "source": "botania:water_ring",
+      "target": "botania:ring_of_chordata"
+    },
+    {
+      "source": "botania:swap_ring",
+      "target": "botania:ring_of_correction"
+    },
+    {
+      "source": "botania:dodge_ring",
+      "target": "botania:ring_of_dexterous_motion"
+    },
+    {
+      "source": "botania:mining_ring",
+      "target": "botania:ring_of_the_mantle"
+    },
+    {
+      "source": "botania:pixie_ring",
+      "target": "botania:great_fairy_ring"
+    },
+    {
+      "source": "botania:reach_ring",
+      "target": "botania:ring_of_far_reach"
+    },
+    {
+      "source": "botania:travel_belt",
+      "target": "botania:sojournors_sash"
+    },
+    {
+      "source": "botania:super_travel_belt",
+      "target": "botania:globetrotters_sash"
+    },
+    {
+      "source": "botania:speed_up_belt",
+      "target": "botania:planestriders_sash"
+    },
+    {
+      "source": "botania:knockback_belt",
+      "target": "botania:tectonic_girdle"
+    },
+    {
+      "source": "botania:ice_pendant",
+      "target": "botania:snowflake_pendant"
+    },
+    {
+      "source": "botania:lava_pendant",
+      "target": "botania:pyroclast_pendant"
+    },
+    {
+      "source": "botania:super_lava_pendant",
+      "target": "botania:crimson_pendant"
+    },
+    {
+      "source": "botania:cloud_pendant",
+      "target": "botania:cirrus_amulet"
+    },
+    {
+      "source": "botania:super_cloud_pendant",
+      "target": "botania:nimbus_amulet"
+    },
+    {
+      "source": "botania:holy_cloak",
+      "target": "botania:cloak_of_virtue"
+    },
+    {
+      "source": "botania:unholy_cloak",
+      "target": "botania:cloak_of_sin"
+    },
+    {
+      "source": "botania:balance_cloak",
+      "target": "botania:cloak_of_balance"
+    },
+    {
+      "source": "botania:monocle",
+      "target": "botania:manaseer_monocle"
+    },
+    {
+      "source": "botania:goddess_charm",
+      "target": "botania:benevolent_goddess_charm"
+    },
+    {
+      "source": "botania:diva_charm",
+      "target": "botania:charm_of_the_diva"
+    },
+    {
+      "source": "botania:itemfinder",
+      "target": "botania:the_spectator"
+    },
+    {
+      "source": "botania:flight_tiara",
+      "target": "botania:fluegel_tiara"
+    },
+    {
+      "source": "botania:mana_cookie",
+      "target": "botania:biscuit_of_totality"
+    },
+    {
+      "source": "botania:mana_bottle",
+      "target": "botania:mana_in_a_bottle"
+    },
+    {
+      "source": "botania:laputa_shard",
+      "target": "botania:shard_of_laputa"
+    },
+    {
+      "source": "botania:virus_necrodermal",
+      "target": "botania:necrodermal_virus"
+    },
+    {
+      "source": "botania:virus_nullodermal",
+      "target": "botania:nullodermal_virus"
+    },
+    {
+      "source": "botania:spark_upgrade_dispersive",
+      "target": "botania:spark_augment_dispersive"
+    },
+    {
+      "source": "botania:spark_upgrade_dominant",
+      "target": "botania:spark_augment_dominant"
+    },
+    {
+      "source": "botania:spark_upgrade_recessive",
+      "target": "botania:spark_augment_recessive"
+    },
+    {
+      "source": "botania:spark_upgrade_isolated",
+      "target": "botania:spark_augment_isolated"
+    },
+    {
+      "source": "botania:corporea_spark_master",
+      "target": "botania:master_corporea_spark"
+    },
+    {
+      "source": "botania:corporea_spark_creative",
+      "target": "botania:creative_corporea_spark"
+    },
+    {
+      "source": "botania:keep_ivy",
+      "target": "botania:resolute_ivy"
+    },
+    {
+      "source": "botania:placeholder",
+      "target": "botania:crafting_placeholder"
+    },
+    {
+      "source": "botania:pattern_1_1",
+      "target": "botania:crafting_pattern_1_1"
+    },
+    {
+      "source": "botania:pattern_2_2",
+      "target": "botania:crafting_pattern_2_2"
+    },
+    {
+      "source": "botania:pattern_1_2",
+      "target": "botania:crafting_pattern_1_2"
+    },
+    {
+      "source": "botania:pattern_2_1",
+      "target": "botania:crafting_pattern_2_1"
+    },
+    {
+      "source": "botania:pattern_1_3",
+      "target": "botania:crafting_pattern_1_3"
+    },
+    {
+      "source": "botania:pattern_3_1",
+      "target": "botania:crafting_pattern_3_1"
+    },
+    {
+      "source": "botania:pattern_2_3",
+      "target": "botania:crafting_pattern_2_3"
+    },
+    {
+      "source": "botania:pattern_3_2",
+      "target": "botania:crafting_pattern_3_2"
+    },
+    {
+      "source": "botania:pattern_donut",
+      "target": "botania:crafting_pattern_donut"
+    },
+    {
+      "source": "botania:dice",
+      "target": "botania:dice_of_fate"
+    },
+    {
+      "source": "botania:infinite_fruit",
+      "target": "botania:the_fruit_of_grisaia"
+    },
+    {
+      "source": "botania:king_key",
+      "target": "botania:key_of_the_kings_law"
+    },
+    {
+      "source": "botania:flugel_eye",
+      "target": "botania:eye_of_the_fluegel"
+    },
+    {
+      "source": "botania:thor_ring",
+      "target": "botania:ring_of_thor"
+    },
+    {
+      "source": "botania:odin_ring",
+      "target": "botania:ring_of_odin"
+    },
+    {
+      "source": "botania:loki_ring",
+      "target": "botania:ring_of_loki"
+    },
+    {
+      "source": "botania:record_gaia_1",
+      "target": "botania:scathed_music_disc_1"
+    },
+    {
+      "source": "botania:record_gaia_2",
+      "target": "botania:scathed_music_disc_2"
+    },
+    {
+      "source": "botania:ancient_will_ahrim",
+      "target": "botania:will_of_ahrim"
+    },
+    {
+      "source": "botania:ancient_will_dharok",
+      "target": "botania:will_of_dharok"
+    },
+    {
+      "source": "botania:ancient_will_guthan",
+      "target": "botania:will_of_guthan"
+    },
+    {
+      "source": "botania:ancient_will_torag",
+      "target": "botania:will_of_torag"
+    },
+    {
+      "source": "botania:ancient_will_verac",
+      "target": "botania:will_of_verac"
+    },
+    {
+      "source": "botania:ancient_will_karil",
+      "target": "botania:will_of_karil"
+    },
+    {
+      "source": "botania:pinkinator",
+      "target": "botania:the_pinkinator"
+    },
+    {
+      "source": "botania:vial",
+      "target": "botania:managlass_vial"
+    },
+    {
+      "source": "botania:flask",
+      "target": "botania:alfglass_flask"
+    },
+    {
+      "source": "botania:blood_pendant",
+      "target": "botania:tainted_blood_pendant"
+    }
+  ]
+}
