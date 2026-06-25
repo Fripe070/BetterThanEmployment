@@ -33,6 +33,10 @@ file = "config/almostunified/unification/materials.json"
 hash = "4ea1c3dfd7f509f2c9c1c36cc84a5f3d4e04b1ebf4bcb9d961771d740e7175c6"
 
 [[files]]
+file = "config/amendments-common.toml"
+hash = "18b3743aa4a6f5cab00c0efb3e32d7263f48c0c54c7c1ca2cfef107579d4e0c5"
+
+[[files]]
 file = "config/create-server.toml"
 hash = "faa746dfdcf60742ada52f92d5baae596a6cbb4fa5e2668ab96ba8a0ec6d8903"
 
