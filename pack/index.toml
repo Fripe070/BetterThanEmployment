@@ -126,7 +126,7 @@ hash = "69909f181405a8f73e6f1ee5d2e44c90983a1eb864989bcdd3b2907285af888e"
 
 [[files]]
 file = "config/remapids/remaps/botania_renames_97bbe22.json"
-hash = "0e6bbef4aeb3bf18fe2a16b287ca3afd79542d6a091a3865588b2aea4227c4dc"
+hash = "07df9a0d4a5eed574d859d494b43fd7e15fa6898fae35b1f2d1d3062012881bc"
 
 [[files]]
 file = "config/silentgear-common.toml"
@@ -1238,7 +1238,7 @@ hash = "76baa3d2717a253e959bff6e1468592ebd9ec417e44e7f46846e57a4ca636c79"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
-hash = "92f145e50c91269cf982e58d133d24fe254757db01c30c54c3deabb40011e8e1"
+hash = "7ddab82c4e4ec34dafccc934c23878829342321f42723c29aa677a96a67a165a"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism_compat.js"
@@ -1352,7 +1352,7 @@ metafile = true
 
 [[files]]
 file = "mods/botania-neoforge-1.21.1-454-SNAPSHOT.jar"
-hash = "d5feea10cf32e5e9b5694736e1d35bb805b6366338b1abfba9b1b9b624b309a7"
+hash = "93869ea4f61b00bb4ab9c3505396735d53c58179dcab344fdf57afb7a8ffd475"
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
