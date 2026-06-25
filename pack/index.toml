@@ -34,7 +34,7 @@ hash = "4ea1c3dfd7f509f2c9c1c36cc84a5f3d4e04b1ebf4bcb9d961771d740e7175c6"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "342415d7f6f7e4a6fec572a2fe1ade187c94df266f38ab055506ba087455b4b4"
+hash = "faa746dfdcf60742ada52f92d5baae596a6cbb4fa5e2668ab96ba8a0ec6d8903"
 
 [[files]]
 file = "config/create_dragons_plus-common.toml"
