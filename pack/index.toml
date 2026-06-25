@@ -1351,10 +1351,6 @@ file = "mods/botania-neoforge-1.21.1-454-SNAPSHOT.jar"
 hash = "7669861a2d6b038d9ec36f2a0c07bdb8fd5d6318ba39006c182b78f28e097dcb"
 
 [[files]]
-file = "mods/bte_tweaks-1.0.jar"
-hash = "7eb90ab6b7e5f1558458633cd616695b931af7e7d3ffb0e5fc7a7bacf1ace646"
-
-[[files]]
 file = "mods/c2me-neoforge.pw.toml"
 hash = "c7d3f229dcfbbfcd2dbd15b2c2ff7dc0710c4a66a36d9bfd7dc4878d0b2bee8a"
 metafile = true
