@@ -351,7 +351,7 @@ ServerEvents.recipes((event) => {
     event.replaceInput(
         { output: "mechtrowel:wand_capacity_template" },
         "minecraft:netherite_ingot",
-        "botania:astrolabe",
+        "botania:worldshapers_astrolabe",
     );
 
     event.remove({ mod: "silentgear", output: /.*flax.*/ });
