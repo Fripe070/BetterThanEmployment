@@ -125,10 +125,6 @@ file = "config/lmft.json"
 hash = "69909f181405a8f73e6f1ee5d2e44c90983a1eb864989bcdd3b2907285af888e"
 
 [[files]]
-file = "config/remapids/remaps/botania_renames_97bbe22.json"
-hash = "07df9a0d4a5eed574d859d494b43fd7e15fa6898fae35b1f2d1d3062012881bc"
-
-[[files]]
 file = "config/silentgear-common.toml"
 hash = "57de68c611717a9d80a8483af5dfc8248c77a21a712929fa02d79b903933a848"
 
@@ -1352,7 +1348,7 @@ metafile = true
 
 [[files]]
 file = "mods/botania-neoforge-1.21.1-454-SNAPSHOT.jar"
-hash = "01099d4b90a00927faeda32533ebfe4c3a126d3e8edff139620559e58b105456"
+hash = "7669861a2d6b038d9ec36f2a0c07bdb8fd5d6318ba39006c182b78f28e097dcb"
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
@@ -1852,11 +1848,6 @@ metafile = true
 [[files]]
 file = "mods/productive-metalworks.pw.toml"
 hash = "1fcd00f25cf8c762e9c232f0690d4cee9cbf300f99a8438f26ebdfdab0a1db41"
-metafile = true
-
-[[files]]
-file = "mods/remap-ids.pw.toml"
-hash = "c28d15a0ba661a775fb45ca7a65840cf3d81a73299fd613faad532c51dd71722"
 metafile = true
 
 [[files]]
