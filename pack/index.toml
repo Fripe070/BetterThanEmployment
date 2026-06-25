@@ -126,7 +126,7 @@ hash = "69909f181405a8f73e6f1ee5d2e44c90983a1eb864989bcdd3b2907285af888e"
 
 [[files]]
 file = "config/remapids/remaps/botania_renames_97bbe22.json"
-hash = "0e6bbef4aeb3bf18fe2a16b287ca3afd79542d6a091a3865588b2aea4227c4dc"
+hash = "bf68a9f23fb8e9cf25cdf9a57ed06b3a9ce3cb11882244499edf710f5c8e87f0"
 
 [[files]]
 file = "config/silentgear-common.toml"

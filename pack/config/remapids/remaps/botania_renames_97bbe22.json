@@ -3,1177 +3,1177 @@
         {
             "source": "botania:livingrock_bricks_stairs",
             "target": "botania:livingrock_brick_stairs",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:livingrock_bricks_slab",
             "target": "botania:livingrock_brick_slab",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:livingrock_bricks_wall",
             "target": "botania:livingrock_brick_wall",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:mossy_livingrock_bricks_stairs",
             "target": "botania:mossy_livingrock_brick_stairs",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:mossy_livingrock_bricks_slab",
             "target": "botania:mossy_livingrock_brick_slab",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:mossy_livingrock_bricks_wall",
             "target": "botania:mossy_livingrock_brick_wall",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:livingwood_planks_stairs",
             "target": "botania:livingwood_plank_stairs",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:livingwood_planks_slab",
             "target": "botania:livingwood_plank_slab",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:dreamwood_planks_stairs",
             "target": "botania:dreamwood_plank_stairs",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:dreamwood_planks_slab",
             "target": "botania:dreamwood_plank_slab",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:avatar",
             "target": "botania:livingwood_avatar",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:blaze_block",
             "target": "botania:blaze_mesh",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:shimmerwood_planks_stairs",
             "target": "botania:shimmerwood_plank_stairs",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:shimmerwood_planks_slab",
             "target": "botania:shimmerwood_plank_slab",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:dark_quartz",
             "target": "botania:smokey_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:dark_quartz_stairs",
             "target": "botania:smokey_quartz_stairs",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:dark_quartz_slab",
             "target": "botania:smokey_quartz_slab",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:chiseled_dark_quartz",
             "target": "botania:chiseled_smokey_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:dark_quartz_bricks",
             "target": "botania:smokey_quartz_bricks",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:dark_quartz_pillar",
             "target": "botania:smokey_quartz_pillar",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:smooth_dark_quartz",
             "target": "botania:smooth_smokey_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:smooth_dark_quartz_stairs",
             "target": "botania:smooth_smokey_quartz_stairs",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:smooth_dark_quartz_slab",
             "target": "botania:smooth_smokey_quartz_slab",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:mana_quartz",
             "target": "botania:mana_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:chiseled_mana_quartz",
             "target": "botania:chiseled_mana_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:smooth_mana_quartz",
             "target": "botania:smooth_mana_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:blaze_quartz",
             "target": "botania:blaze_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:chiseled_blaze_quartz",
             "target": "botania:chiseled_blaze_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:smooth_blaze_quartz",
             "target": "botania:smooth_blaze_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lavender_quartz",
             "target": "botania:lavender_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:chiseled_lavender_quartz",
             "target": "botania:chiseled_lavender_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:smooth_lavender_quartz",
             "target": "botania:smooth_lavender_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:red_quartz",
             "target": "botania:red_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:chiseled_red_quartz",
             "target": "botania:chiseled_red_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:smooth_red_quartz",
             "target": "botania:smooth_red_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:elf_quartz",
             "target": "botania:elven_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:elf_quartz_stairs",
             "target": "botania:elven_quartz_stairs",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:elf_quartz_slab",
             "target": "botania:elven_quartz_slab",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:chiseled_elf_quartz",
             "target": "botania:chiseled_elven_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:elf_quartz_bricks",
             "target": "botania:elven_quartz_bricks",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:elf_quartz_pillar",
             "target": "botania:elven_quartz_pillar",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:smooth_elf_quartz",
             "target": "botania:smooth_elven_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:smooth_elf_quartz_stairs",
             "target": "botania:smooth_elven_quartz_stairs",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:smooth_elf_quartz_slab",
             "target": "botania:smooth_elven_quartz_slab",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:sunny_quartz",
             "target": "botania:sunny_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:chiseled_sunny_quartz",
             "target": "botania:chiseled_sunny_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:smooth_sunny_quartz",
             "target": "botania:smooth_sunny_quartz_block",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lexicon",
             "target": "botania:lexica_botania",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:twig_wand",
             "target": "botania:wand_of_the_forest",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:dreamwood_wand",
             "target": "botania:wand_of_the_elven_forest",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:obedience_stick",
             "target": "botania:floral_obedience_stick",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:fertilizer",
             "target": "botania:floral_fertilizer",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:white_petal",
             "target": "botania:white_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:light_gray_petal",
             "target": "botania:light_gray_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:gray_petal",
             "target": "botania:gray_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:black_petal",
             "target": "botania:black_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:brown_petal",
             "target": "botania:brown_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:red_petal",
             "target": "botania:red_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:orange_petal",
             "target": "botania:orange_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:yellow_petal",
             "target": "botania:yellow_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lime_petal",
             "target": "botania:lime_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:green_petal",
             "target": "botania:green_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:cyan_petal",
             "target": "botania:cyan_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:light_blue_petal",
             "target": "botania:light_blue_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:blue_petal",
             "target": "botania:blue_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:purple_petal",
             "target": "botania:purple_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:magenta_petal",
             "target": "botania:magenta_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:pink_petal",
             "target": "botania:pink_mystical_petal",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:life_essence",
             "target": "botania:gaia_spirit",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:quartz_dark",
             "target": "botania:smokey_quartz",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:quartz_mana",
             "target": "botania:mana_quartz",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:quartz_blaze",
             "target": "botania:blaze_quartz",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:quartz_lavender",
             "target": "botania:lavender_quartz",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:quartz_red",
             "target": "botania:red_quartz",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:quartz_elven",
             "target": "botania:elven_quartz",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:quartz_sunny",
             "target": "botania:sunny_quartz",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_normal",
             "target": "botania:mana_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_speed",
             "target": "botania:velocity_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_power",
             "target": "botania:potency_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_time",
             "target": "botania:resistance_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_efficiency",
             "target": "botania:efficiency_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_bounce",
             "target": "botania:bounce_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_gravity",
             "target": "botania:gravity_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_mine",
             "target": "botania:bore_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_damage",
             "target": "botania:damaging_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_phantom",
             "target": "botania:phantom_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_magnet",
             "target": "botania:magnetizing_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_explosive",
             "target": "botania:entropic_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_influence",
             "target": "botania:influence_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_weight",
             "target": "botania:weight_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_paint",
             "target": "botania:paintslinger_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_fire",
             "target": "botania:kindle_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_piston",
             "target": "botania:force_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_light",
             "target": "botania:flash_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_warp",
             "target": "botania:warp_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_redirect",
             "target": "botania:redirective_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_firework",
             "target": "botania:celebratory_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_flare",
             "target": "botania:flare_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_messenger",
             "target": "botania:messenger_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_tripwire",
             "target": "botania:tripwire_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lens_storm",
             "target": "botania:storm_lens",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_water",
             "target": "botania:rune_of_water",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_fire",
             "target": "botania:rune_of_fire",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_earth",
             "target": "botania:rune_of_earth",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_air",
             "target": "botania:rune_of_air",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_spring",
             "target": "botania:rune_of_spring",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_summer",
             "target": "botania:rune_of_summer",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_autumn",
             "target": "botania:rune_of_autumn",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_winter",
             "target": "botania:rune_of_winter",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_mana",
             "target": "botania:rune_of_mana",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_lust",
             "target": "botania:rune_of_lust",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_gluttony",
             "target": "botania:rune_of_gluttony",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_greed",
             "target": "botania:rune_of_greed",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_sloth",
             "target": "botania:rune_of_sloth",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_wrath",
             "target": "botania:rune_of_wrath",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_envy",
             "target": "botania:rune_of_envy",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rune_pride",
             "target": "botania:rune_of_pride",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:grass_seeds",
             "target": "botania:pasture_seeds",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:podzol_seeds",
             "target": "botania:boreal_seeds",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:mycelium_seeds",
             "target": "botania:infestation_spores",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:dry_seeds",
             "target": "botania:dry_pasture_seeds",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:golden_seeds",
             "target": "botania:golden_pasture_seeds",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:vivid_seeds",
             "target": "botania:vivid_pasture_seeds",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:scorched_seeds",
             "target": "botania:scorched_pasture_seeds",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:infused_seeds",
             "target": "botania:infused_pasture_seeds",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:mutated_seeds",
             "target": "botania:mutated_pasture_seeds",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:dirt_rod",
             "target": "botania:rod_of_the_lands",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:skydirt_rod",
             "target": "botania:rod_of_the_highlands",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:terraform_rod",
             "target": "botania:rod_of_the_terra_firma",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:cobble_rod",
             "target": "botania:rod_of_the_depths",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:water_rod",
             "target": "botania:rod_of_the_seas",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:tornado_rod",
             "target": "botania:rod_of_the_skies",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:fire_rod",
             "target": "botania:rod_of_the_hells",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:divining_rod",
             "target": "botania:rod_of_the_plentiful_mantle",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:smelt_rod",
             "target": "botania:rod_of_the_molten_core",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:exchange_rod",
             "target": "botania:rod_of_the_shifting_crust",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:rainbow_rod",
             "target": "botania:rod_of_the_bifrost",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:gravity_rod",
             "target": "botania:rod_of_the_shaded_mesa",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:missile_rod",
             "target": "botania:rod_of_the_unstable_reservior",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:manasteel_pick",
             "target": "botania:manasteel_pickaxe",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:terra_pick",
             "target": "botania:terra_shatterer",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:terra_axe",
             "target": "botania:terra_truncator",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:terra_sword",
             "target": "botania:terra_blade",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:star_sword",
             "target": "botania:starcaller",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:thunder_sword",
             "target": "botania:thundercaller",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:ender_dagger",
             "target": "botania:soulscribe",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:glass_pickaxe",
             "target": "botania:vitreous_pickaxe",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:mana_gun",
             "target": "botania:mana_blaster",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:clip",
             "target": "botania:lens_clip",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:horn_grass",
             "target": "botania:horn_of_the_wild",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:horn_leaves",
             "target": "botania:horn_of_the_canopy",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:horn_snow",
             "target": "botania:horn_of_the_covering",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:slingshot",
             "target": "botania:livingwood_slingshot",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:open_bucket",
             "target": "botania:extrapolated_bucket",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:spawner_mover",
             "target": "botania:life_aggregator",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:ender_hand",
             "target": "botania:hand_of_ender",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:crafting_halo",
             "target": "botania:assembly_halo",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:auto_crafting_halo",
             "target": "botania:manufactory_halo",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:spell_cloth",
             "target": "botania:spellbinding_cloth",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:flower_bag",
             "target": "botania:flower_pouch",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:temperance_stone",
             "target": "botania:stone_of_temperance",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:slime_bottle",
             "target": "botania:slime_in_a_bottle",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:sextant",
             "target": "botania:worldshapers_sextant",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:astrolabe",
             "target": "botania:worldshapers_astrolabe",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:bauble_box",
             "target": "botania:trinket_case",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:mana_ring",
             "target": "botania:band_of_mana",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:mana_ring_greater",
             "target": "botania:greater_band_of_mana",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:aura_ring",
             "target": "botania:band_of_aura",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:aura_ring_greater",
             "target": "botania:greater_band_of_aura",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:magnet_ring",
             "target": "botania:ring_of_magnetization",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:magnet_ring_greater",
             "target": "botania:greater_ring_of_magnetization",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:water_ring",
             "target": "botania:ring_of_chordata",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:swap_ring",
             "target": "botania:ring_of_correction",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:dodge_ring",
             "target": "botania:ring_of_dexterous_motion",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:mining_ring",
             "target": "botania:ring_of_the_mantle",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:pixie_ring",
             "target": "botania:great_fairy_ring",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:reach_ring",
             "target": "botania:ring_of_far_reach",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:travel_belt",
             "target": "botania:sojournors_sash",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:super_travel_belt",
             "target": "botania:globetrotters_sash",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:speed_up_belt",
             "target": "botania:planestriders_sash",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:knockback_belt",
             "target": "botania:tectonic_girdle",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:ice_pendant",
             "target": "botania:snowflake_pendant",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:lava_pendant",
             "target": "botania:pyroclast_pendant",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:super_lava_pendant",
             "target": "botania:crimson_pendant",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:cloud_pendant",
             "target": "botania:cirrus_amulet",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:super_cloud_pendant",
             "target": "botania:nimbus_amulet",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:holy_cloak",
             "target": "botania:cloak_of_virtue",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:unholy_cloak",
             "target": "botania:cloak_of_sin",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:balance_cloak",
             "target": "botania:cloak_of_balance",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:monocle",
             "target": "botania:manaseer_monocle",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:goddess_charm",
             "target": "botania:benevolent_goddess_charm",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:diva_charm",
             "target": "botania:charm_of_the_diva",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:itemfinder",
             "target": "botania:the_spectator",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:flight_tiara",
             "target": "botania:fluegel_tiara",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:mana_cookie",
             "target": "botania:biscuit_of_totality",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:mana_bottle",
             "target": "botania:mana_in_a_bottle",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:laputa_shard",
             "target": "botania:shard_of_laputa",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:virus_necrodermal",
             "target": "botania:necrodermal_virus",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:virus_nullodermal",
             "target": "botania:nullodermal_virus",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:spark_upgrade_dispersive",
             "target": "botania:spark_augment_dispersive",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:spark_upgrade_dominant",
             "target": "botania:spark_augment_dominant",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:spark_upgrade_recessive",
             "target": "botania:spark_augment_recessive",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:spark_upgrade_isolated",
             "target": "botania:spark_augment_isolated",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:corporea_spark_master",
             "target": "botania:master_corporea_spark",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:corporea_spark_creative",
             "target": "botania:creative_corporea_spark",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:keep_ivy",
             "target": "botania:resolute_ivy",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:placeholder",
             "target": "botania:crafting_placeholder",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:pattern_1_1",
             "target": "botania:crafting_pattern_1_1",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:pattern_2_2",
             "target": "botania:crafting_pattern_2_2",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:pattern_1_2",
             "target": "botania:crafting_pattern_1_2",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:pattern_2_1",
             "target": "botania:crafting_pattern_2_1",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:pattern_1_3",
             "target": "botania:crafting_pattern_1_3",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:pattern_3_1",
             "target": "botania:crafting_pattern_3_1",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:pattern_2_3",
             "target": "botania:crafting_pattern_2_3",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:pattern_3_2",
             "target": "botania:crafting_pattern_3_2",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:pattern_donut",
             "target": "botania:crafting_pattern_donut",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:dice",
             "target": "botania:dice_of_fate",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:infinite_fruit",
             "target": "botania:the_fruit_of_grisaia",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:king_key",
             "target": "botania:key_of_the_kings_law",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:flugel_eye",
             "target": "botania:eye_of_the_fluegel",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:thor_ring",
             "target": "botania:ring_of_thor",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:odin_ring",
             "target": "botania:ring_of_odin",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:loki_ring",
             "target": "botania:ring_of_loki",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:record_gaia_1",
             "target": "botania:scathed_music_disc_1",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:record_gaia_2",
             "target": "botania:scathed_music_disc_2",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:ancient_will_ahrim",
             "target": "botania:will_of_ahrim",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:ancient_will_dharok",
             "target": "botania:will_of_dharok",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:ancient_will_guthan",
             "target": "botania:will_of_guthan",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:ancient_will_torag",
             "target": "botania:will_of_torag",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:ancient_will_verac",
             "target": "botania:will_of_verac",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:ancient_will_karil",
             "target": "botania:will_of_karil",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:pinkinator",
             "target": "botania:the_pinkinator",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:vial",
             "target": "botania:managlass_vial",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:flask",
             "target": "botania:alfglass_flask",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         },
         {
             "source": "botania:blood_pendant",
             "target": "botania:tainted_blood_pendant",
-            "types": ["item", "block"]
+            "types": ["item", "block", "tag"]
         }
     ]
 }
