@@ -125,8 +125,12 @@ file = "config/lmft.json"
 hash = "69909f181405a8f73e6f1ee5d2e44c90983a1eb864989bcdd3b2907285af888e"
 
 [[files]]
-file = "config/remapids/remaps/botania_renames_97bbe22.json"
-hash = "bf68a9f23fb8e9cf25cdf9a57ed06b3a9ce3cb11882244499edf710f5c8e87f0"
+file = "config/remapids/remaps/botania_blocks_remap_97bbe22.json"
+hash = "508730526a7235ccaf790b20fb41e18c325e8d4e0e8e26a60f167394cfcbc7db"
+
+[[files]]
+file = "config/remapids/remaps/botania_items_remap_97bbe22.json"
+hash = "8531f0d8824807acd1c760a6b6bb5716cc816bb325ba9435d7ae9dccfd820ce9"
 
 [[files]]
 file = "config/silentgear-common.toml"
