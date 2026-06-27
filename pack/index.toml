@@ -130,7 +130,7 @@ hash = "57de68c611717a9d80a8483af5dfc8248c77a21a712929fa02d79b903933a848"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "4057b6ae7c2240892ec940348453bc69973c4bb409ba15a4d26e3736a6076327"
+hash = "b7ec309997dab6364217d960fbb285e9ea8736f8b9dc84feb445761410342a9b"
 
 [[files]]
 file = "config/survivalisland.json"
@@ -1349,6 +1349,10 @@ metafile = true
 [[files]]
 file = "mods/botania-neoforge-1.21.1-454-SNAPSHOT.jar"
 hash = "7669861a2d6b038d9ec36f2a0c07bdb8fd5d6318ba39006c182b78f28e097dcb"
+
+[[files]]
+file = "mods/bte_tweaks-1.1.jar"
+hash = "978749a9bbfa40bc19d1879433c00888daca01f2cd06acb19f3a13e48d264e45"
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
