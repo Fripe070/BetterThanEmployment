@@ -1,6 +1,6 @@
 name = "Better Than Employment"
 author = "Fripe"
-version = "1.0.5"
+version = "1.0.12"
 pack-format = "packwiz:1.1.0"
 
 [index]
